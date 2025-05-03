@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Subclasses</name>
+		<update version="1.0.0">
+			<file name="subclasses.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/subclasses.index" />
+		</update>
+	</info>
+	<files>
+    <file name="barbarian.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian.index" />
+    <file name="fighter.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter.index" />
+    <file name="cleric.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/cleric.index" />
+    <file name="ranger.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/ranger.index" />
+	</files>
+</index>
