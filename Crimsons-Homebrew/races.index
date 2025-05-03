@@ -3,7 +3,7 @@
 	<info>
 		<name>Races</name>
 		<update version="1.0.0">
-			<file name="races.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/races.index" />
+			<file name="races.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/races.index" />
 		</update>
 	</info>
 	<files>

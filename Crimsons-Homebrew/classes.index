@@ -2,11 +2,12 @@
 <index>
 	<info>
 		<name>Classes</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="classes.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes.index" />
 		</update>
 	</info>
 	<files>
     <file name="class-wyldheart.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes/class-wyldheart.xml" />
+	<file name="class-deathknight.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes/class-deathknight.xml" />
   </files>
 </index>

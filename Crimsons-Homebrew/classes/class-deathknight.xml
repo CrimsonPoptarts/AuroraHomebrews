@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>Death Knight</name>
+		<description>A homebrew class for those who channel the untamed forces of nature and the elements, embodying the primal magic of the wild.</description>
+		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+		<update version="0.0.1">
+			<file name="class-deathknight.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes/class-deathknight.xml" />
+		</update>
+	</info>
     <element name="Death Knight" type="Class" source="Homebrew" id="ID_CUSTOM_CLASS_DEATH_KNIGHT" class="class" subclass="false" level="1" proficiency="2" proficiencyBonus="2" hitDie="1d10" spellcastingAbility="intelligence" spellcastingLevel="1" spellSaveDC="8 + proficiencyBonus + intelligenceModifier" spellAttackBonus="proficiencyBonus + intelligenceModifier">
         <description>
             <p>A towering figure clad in dark plate armor strides into battle, wielding a massive runeblade that glows with unholy energy. A ghoul shambles behind them, ready to strike at their command. The air around them grows cold as frost and necrotic energy swirl in their wake.</p>
