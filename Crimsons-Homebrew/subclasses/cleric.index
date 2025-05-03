@@ -3,7 +3,7 @@
 	<info>
 		<name>Cleric</name>
 		<update version="1.0.0">
-			<file name="cleric.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/cleric.index" />
+			<file name="cleric.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/cleric.index" />
 		</update>
 	</info>
 	<files>
