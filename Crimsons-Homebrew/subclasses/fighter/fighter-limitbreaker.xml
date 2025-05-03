@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="fighter-limitbreaker.xml"
                 url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-limitbreaker.xml" />
         </update>
