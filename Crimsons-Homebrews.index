@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Crimson's Homebrews</name>
-		<update version="1.0.6">
+		<update version="1.0.7">
 			<file name="Crimsons-Homebrews.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrews.index" />
 		</update>
 	</info>
@@ -11,5 +11,6 @@
 	    <file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/spells.xml" />
 	    <file name="classes.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes.index" />
 	    <file name="subclasses.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses.index" />
+		<file name="races.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/races.index" />
 	</files>
 </index>

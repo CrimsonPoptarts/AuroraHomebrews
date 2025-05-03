@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Ashen Rakshasa</name>
+    <description>A homebrew race of fiendish origin, the Ashen Rakshasa are cursed beings seeking redemption, marked by their ashen skin, burning eyes, and infernal power.</description>
+		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+		<update version="0.0.1">
+			<file name="race-ashen-rakshasa.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/races/race-ashen-rakshasa.xml" />
+		</update>
+	</info>
+  <element name="Ashen Rakshasa" type="Race" source="Custom Homebrew" id="ID_CUSTOM_RACE_ASHEN_RAKSHASA">
+    <description>
+      <p>The Ashen Rakshasa are fiends reborn in mortal forms, their ashen skin and burning eyes marking them as cursed beings of power. Their voices carry a supernatural weight, and their every step leaves behind embers of their infernal past.Given a second chance, most tend to take up lives of repentence, mastering some form of trade.</p>
+      <h4>ASHEN RAKSHASA TRAITS</h4>
+      <p>Your character shares the following traits with other Ashen Rakshasa.</p>
+      <p class="indent"><b><i>Ability Score Increase. </i></b>Your Dexterity score increases by 2, and your Charisma score increases by 1.</p>
+      <p class="indent"><b><i>Age. </i></b>Ashen Rakshasa mature at the same rate as humans but can live up to 300 years.</p>
+      <p class="indent"><b><i>Size. </i></b>Ashen Rakshasa are typically between 5 and 7 feet tall. Your size is Medium.</p>
+      <p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
+      <p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Infernal.</p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d10">5'5"</set>
+      <set name="weight" modifier="2d12">140 lb.</set>
+    </setters>
+    <rules>
+		<stat name="charisma" value="1"/>
+		<stat name="dexterity" value="2"/>
+		<stat name="innate speed" value="30" bonus="base"/>
+		<grant type="Vision" id="ID_VISION_DARKVISION" />
+		<grant type="Size" id="ID_SIZE_MEDIUM"/>
+		<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+		<grant type="Language" id="ID_LANGUAGE_INFERNAL"/>
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE" />
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASHEN_SORCERY"/>
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CURSED_VISAGE"/>
+		<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASHBORN_RESURRECTION"/>
+    </rules>
+  </element>
+	<element name="Hellish Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE">
+		<description>
+			<p>You have resistance to fire damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to fire damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+  <element name="Ashen Sorcery" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_ASHEN_SORCERY">
+    <description>
+      <p>You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast Hellish Rebuke at 2nd level once per long rest. When you reach 5th level, you can cast Suggestion once per long rest. Charisma is your spellcasting ability for these spells.</p>
+    </description>
+	<sheet>
+		<description>You know the thaumaturgy cantrip. (Charisma)</description>
+		<description level="3">You know the thaumaturgy cantrip. You can cast the hellish rebuke spell as a 1st-level spell (1/long rest). (Charisma)</description>
+		<description level="5">You know the thaumaturgy cantrip. You can cast the hellish rebuke spell as a 1st-level spell and the suggestion spell (1/long rest). (Charisma)</description>
+	</sheet>
+	<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+		<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="3"/>
+		<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="5"/>
+	</rules>
+  </element>
+	<element name="Cursed Visage" type="Racial Trait" source="Custom Homebrew" id="ID_RACIAL_TRAIT_CURSED_VISAGE">
+	<description>
+	  <p>You have proficiency in the Intimidation skill. Additionally, as a bonus action, you can use this trait to force one creature within 30 feet to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). On a failure, the creature is frightened of you until the end of your next turn. You can use this trait a number of times equal to your proficiency bonus per long rest.</p>
+	</description>
+	<sheet>
+	  <p>You have proficiency in the Intimidation skill. Additionally, as a bonus action, you can use this trait to force one creature within 30 feet to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). On a failure, the creature is frightened of you until the end of your next turn. You can use this trait a number of times equal to your proficiency bonus per long rest.</p>
+	</sheet>
+  </element>
+  <element name="Smoldering Step" type="Racial Trait" source="Custom Homebrew" id="ID_RACIAL_TRAIT_SMOLDERING_STEP">
+    <description>
+      <p>Once per short rest, you can teleport up to 30 feet as a bonus action. When you teleport, you leave behind a cloud of embers. Any creature within 5 feet of your original location must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or take fire damage equal to your level.</p>
+    </description>
+	<sheet>
+      <p>Once per short rest, you can teleport up to 30 feet as a bonus action. When you teleport, you leave behind a cloud of embers. Any creature within 5 feet of your original location must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or take fire damage equal to your level.</p>
+    </sheet>
+  </element>
+  <element name="Reverse Fate" type="Racial Trait" source="Custom Homebrew" id="ID_RACIAL_TRAIT_REVERSE_FATE">
+    <description>
+      <p>Once per long rest, when an enemy attacks you, you can force reality to shift. The attacker must make a Charisma saving throw (DC 8 + proficiency bonus + Charisma modifier). On a failure, the attack is negated, and the attacker suffers half the damage they would have dealt to you.</p>
+    </description>
+	<sheet>
+      <p>Once per long rest, when an enemy attacks you, you can force reality to shift. The attacker must make a Charisma saving throw (DC 8 + proficiency bonus + Charisma modifier). On a failure, the attack is negated, and the attacker suffers half the damage they would have dealt to you.</p>
+    </sheet>
+  </element>
+  <element name="Ashborn Resurrection" type="Racial Trait" source="Custom Homebrew" id="ID_RACIAL_TRAIT_ASHBORN_RESURRECTION">
+    <description>
+      <p>Once per long rest, if you are reduced to 0 HP, you explode in a fiery burst. All creatures within 10 feet take fire and necrotic damage equal to twice your level. You return to life with half your max HP. However, when resting nightmares of your past life keep you up. You only restore half you MAX HP from long rests.</p>
+    </description>
+	<sheet>
+      <p>Once per long rest, if you are reduced to 0 HP, you explode in a fiery burst. All creatures within 10 feet take fire and necrotic damage equal to twice your level. You return to life with half your max HP. However, when resting nightmares of your past life keep you up. You only restore half you MAX HP from long rests.</p>
+    </sheet>
+  </element>
+</elements>

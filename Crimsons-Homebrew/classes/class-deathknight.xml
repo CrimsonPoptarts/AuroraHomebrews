@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Death Knight" type="Class" source="Homebrew" id="ID_CUSTOM_CLASS_DEATH_KNIGHT" class="class" subclass="false" level="1" proficiency="2" proficiencyBonus="2" hitDie="1d10" spellcastingAbility="intelligence" spellcastingLevel="1" spellSaveDC="8 + proficiencyBonus + intelligenceModifier" spellAttackBonus="proficiencyBonus + intelligenceModifier">
+        <description>
+            <p>A towering figure clad in dark plate armor strides into battle, wielding a massive runeblade that glows with unholy energy. A ghoul shambles behind them, ready to strike at their command. The air around them grows cold as frost and necrotic energy swirl in their wake.</p>
+            <p class="indent">A Death Knight is a master of death and decay, wielding the power of runes and necrotic energy to devastate their enemies and protect their allies. They are relentless warriors, capable of summoning undead minions, spreading plagues, and unleashing devastating attacks fueled by their unique Rune System.</p>
+            <p class="indent">Whether as a tanky Blood Death Knight, a frost-wielding melee damage dealer, or a necrotic summoner of the Unholy path, Death Knights are versatile and powerful combatants who thrive in the chaos of battle.</p>
+            <h4>THE RUNE SYSTEM</h4>
+            <p>Death Knights utilize a unique resource system called the Rune System, which consists of Blood, Frost, and Unholy Runes, as well as Runic Power. These resources fuel their abilities and grow stronger as the Death Knight levels up.</p>
+            <h4>CREATING A DEATH KNIGHT</h4>
+            <p>As you build your Death Knight, consider the source of your unholy power. Were you raised by a dark master, or did you willingly embrace the path of undeath? What drives you to wield such power—revenge, duty, or a thirst for destruction?</p>
+            <p class="indent">Your choice of subclass—Blood, Frost, or Unholy—will shape your playstyle. Blood Death Knights excel at tanking and self-healing, Frost Death Knights focus on critical strikes and melee damage, and Unholy Death Knights summon undead minions and spread plagues.</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make a Death Knight quickly by following these suggestions. First, make Charisma your highest ability score, followed by Constitution. Second, choose the soldier or acolyte background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As a Death Knight, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d12 per Death Knight level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d12 (or 6) + your Constitution modifier per Death Knight level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, Medium Armor, Heavy armor</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Constitution, Charisma</li>
+                <li><strong>Skills:</strong> Choose two skills from Arcana, Athletics, Intimidation, Perception, and Survival</li>
+            </ul>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li><i>(a)</i> chain mail or <i>(b)</i> leather armor, longbow, and 20 arrows</li>
+                <li><i>(a)</i> a martial weapon or <i>(b)</i> two simple weapons</li>
+                <li><i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> two handaxes</li>
+                <li><i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
+            </ul>
+            <h5 class="caption">THE DEATH KNIGHT</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Rune System, Death Coil, Death Grip, Control Undead, Speak with the Dead</td></tr>
+				<tr><td> 2nd</td><td class="left">Fighting Style, Death and Decay, Horn of Winter</td></tr>
+				<tr><td> 3rd</td><td class="left">Harbinger of the Scourge</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement, Raise Dead, Chains of Ice, Death Pact</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td></tr>
+				<tr><td> 6th</td><td class="left">Anti-Magic Shell, Mind Freeze, Rune Tap</td></tr>
+				<tr><td> 7th</td><td class="left">Runic Power Mastery I</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 9th</td><td class="left">Raise Ally, Death Advance</td></tr>
+				<tr><td>10th</td><td class="left">Rune Expansion</td></tr>
+				<tr><td>11th</td><td class="left">Defile</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement, Runic Power Mastery II</td></tr>
+				<tr><td>13th</td><td class="left">Deathly Focus</td></tr>
+				<tr><td>14th</td><td class="left">Empowered Horn of Winter</td></tr>
+				<tr><td>15th</td><td class="left">Master of the Damned</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td class="left">Unholy Command, Deathly Soverign</td></tr>
+				<tr><td>18th</td><td class="left">Runic Power Mastery III</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td class="left">Avatar of Death</td></tr>
+			</table>
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNE_SYSTEM" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_COIL" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_GRIP" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_CONTROL_UNDEAD" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_SPEAK_WITH_THE_DEAD" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_AND_DECAY" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_HORN_OF_WINTER" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_HARBINGER_OF_THE_SCOURGE" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_ABILITY_SCORE_IMPROVEMENT" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RAISE_DEAD" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_CHAINS_OF_ICE" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_PACT" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_ANTI_MAGIC_SHELL" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_MIND_FREEZE" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNE_TAP" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNIC_POWER_MASTERY" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RAISE_ALLY" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_ADVANCE" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNE_EXPANSION" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEFILE" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_MASTER_OF_THE_DAMNED" />
+            <div element="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_AVATAR_OF_DEATH" />
+        </description>
+        <sheet display="false">
+			<description>A master of necrotic power and martial combat, wielding runes and unholy energy to devastate foes and command the undead.</description>
+		</sheet>
+		<setters>
+			<set name="short">A master of necrotic power and martial combat, wielding runes and unholy energy to devastate foes and command the undead..</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <select type="Proficiency" name="Skill Proficiency (Death Knight)" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_CUSTOM_MULTICLASS_DEATH_KNIGHT"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNE_SYSTEM" level="1"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_COIL" level="1"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_GRIP" level="1"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_CONTROL_UNDEAD" level="1"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_SPEAK_WITH_THE_DEAD" level="1"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE" level="2"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_AND_DECAY" level="2"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_HORN_OF_WINTER" level="2"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_HARBINGER_OF_THE_SCOURGE" level="3"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_ABILITY_SCORE_IMPROVEMENT" level="4"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RAISE_DEAD" level="4"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_CHAINS_OF_ICE" level="4"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_PACT" level="4"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK" level="5"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_ANTI_MAGIC_SHELL" level="6"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_MIND_FREEZE" level="6"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNE_TAP" level="6"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNIC_POWER_MASTERY" level="7"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RAISE_ALLY" level="9"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_ADVANCE" level="9"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNE_EXPANSION" level="10"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEFILE" level="11"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_MASTER_OF_THE_DAMNED" level="15"/>
+            <grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_AVATAR_OF_DEATH" level="20"/>
+        </rules>
+        <multiclass id="ID_CUSTOM_MULTICLASS_DEATH_KNIGHT">
+            <prerequisite>Strength 13 and Constitution 13</prerequisite>
+            <requirements>([str:13]||[con:13])</requirements>
+            <setters>
+                <set name="multiclass proficiencies">Light armor, medium armor, heavy armor, shields, simple weapons, martial weapons</set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+            </rules>
+        </multiclass>
+        <element name="Rune System" type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RUNE_SYSTEM">
+            <description>
+            <p>The Rune System grants you access to Blood, Frost, and Unholy Runes, which fuel your abilities. You also gain Runic Power, which is generated by using certain abilities and can be spent to empower others.</p>
+            <p class="indent">At 1st level, you gain 1 Blood Rune, 1 Frost Rune, and 1 Unholy Rune. You also have a maximum of 100 Runic Power, which increases as you level up. Weapon attacks have a 15% chance to generate 20 Runic Power.</p>
+            </description>
+            <sheet>
+            <description level="1">Grants access to Blood, Frost, and Unholy Runes, as well as Runic Power to fuel abilities. Weapon attacks have a 15% chance to generate 20 Runic Power.</description>
+            </sheet>
+        </element>
+        <element name="Death Coil" type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_COIL">
+            <description>
+            <p>You can hurl a bolt of necrotic energy at a creature within 60 feet. The target must make a Constitution saving throw, taking necrotic damage on a failed save or half as much on a success. Alternatively, you can restore hit points to a friendly undead.</p>
+            <p class="indent">Damage starts at 1d10 necrotic damage at 1st level, scaling to 2d10 at 5th, 3d10 at 9th, 4d10 at 13th, and 5d10 at 17th, plus your Charisma modifier. Healing follows the same dice progression.</p>
+            <p class="indent">Special (Unholy): 30% chance to generate 1 Unholy Rune upon cast.</p>
+            </description>
+            <sheet action="Action">
+            <description level="1">Hurl a bolt of necrotic energy at a creature within 60 feet or heal a friendly undead. Damage/healing scales with level. Costs 30 Runic Power.</description>
+            </sheet>
+        </element>
+        <element name="Death Grip" type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_GRIP">
+            <description>
+            <p>You can use your bonus action to pull a creature within 30 feet toward you. The target must succeed on a Strength saving throw or be pulled to an unoccupied space within 5 feet of you. The target is stunned until the start of your next turn.</p>
+            <p class="indent">You can use this ability once per combat, twice at 11th level, and an unlimited number of times at 17th level.</p>
+            </description>
+            <sheet action="Bonus Action">
+            <description level="1">Pull a creature within 30 feet toward you and stun it until the start of your next turn. Usable once per combat, scaling with level.</description>
+            </sheet>
+        </element>
+        <element name="Harbinger of the Scourge" type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_HARBINGER_OF_THE_SCOURGE">
+            <description>
+            <p>You are immune to all diseases.</p>
+            </description>
+            <sheet>
+            <description level="3">You are immune to all diseases.</description>
+            </sheet>
+        </element>
+        <element name="Raise Dead" type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RAISE_DEAD">
+            <description>
+            <p>You can use your action to summon a Ghoul that acts on your initiative. The Ghoul's AC and HP scale with your proficiency bonus and level. The Ghoul remains for 6 turns, increasing to 10 turns at 13th level.</p>
+            <p class="indent">Special (Unholy): The Ghoul becomes permanent and can be resummoned with a short rest.</p>
+            </description>
+            <sheet action="Action">
+            <description level="4">Summon a Ghoul for 6 turns (10 at 13th level). Costs 1 Unholy Rune. Special (Unholy): Ghoul becomes permanent.</description>
+            </sheet>
+        </element>
+        <element name="Chains of Ice" type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_CHAINS_OF_ICE">
+            <description>
+            <p>You can use your action to reduce a target's movement speed by 100% and apply the Chilled condition for 2 turns. At 11th level, you can affect up to 2 targets; at 17th level, you can affect all creatures in a 15-foot radius.</p>
+            </description>
+            <sheet action="Action">
+            <description level="4">Reduce a target's movement speed by 100% and apply Chilled for 2 turns. Costs 1 Frost Rune. Affects multiple targets at higher levels.</description>
+            </sheet>
+        </element>
+        <element name="Death Pact" type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_PACT">
+            <description>
+            <p>You can use your bonus action to sacrifice a friendly undead within 30 feet to heal yourself for 50% of your maximum HP. At 15th level, this increases to 75% of your maximum HP.</p>
+            </description>
+            <sheet action="Bonus Action">
+            <description level="4">Sacrifice a friendly undead to heal yourself for 50% of your max HP (75% at 15th level). Costs 1 Blood Rune.</description>
+            </sheet>
+        </element>
+    </element>
+</elements>

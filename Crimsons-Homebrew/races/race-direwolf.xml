@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Dire Wolf</name>
+    <description>Dire Wolves are large, powerful beasts with keen senses and a natural affinity for
+      teamwork. They are swift, strong, and deadly hunters.</description>
+      <update version="0.0.1">
+        <file name="race-direwolf.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/races/race-direwolf.xml" />
+      </update>
+    </info>
+  <element name="Dire Wolf" type="Race" source="Custom Homebrew" id="ID_CUSTOM_RACE_DIRE_WOLF">
+    <description>
+      <p>Dire Wolves are large, intelligent wolves with heightened senses and a natural ability to
+        work in packs. They are formidable creatures, capable of taking down prey much larger than
+        themselves.</p>
+      <h4>DIRE WOLF TRAITS</h4>
+      <p>Your character shares the following traits with other Dire Wolves.</p>
+      <p class="indent"><b>
+          <i>Ability Score Increase. </i>
+        </b>Your Strength score increases by 2, and your
+        Dexterity score increases by 1.</p>
+      <p class="indent"><b>
+          <i>Age. </i>
+        </b>Dire Wolves mature quickly, reaching adulthood by 2 years of age,
+        and can live up to 25 years.</p>
+      <p class="indent"><b>
+          <i>Size. </i>
+        </b>Dire Wolves are large creatures. Your size is Large.</p>
+      <p class="indent"><b>
+          <i>Speed. </i>
+        </b>Your base walking speed is 50 feet.</p>
+      <p class="indent"><b>
+          <i>Keen Hearing and Smell. </i>
+        </b>You have advantage on Wisdom (Perception)
+        checks that rely on hearing or smell.</p>
+      <p class="indent"><b>
+          <i>Pack Tactics. </i>
+        </b>You have advantage on an attack roll against a creature
+        if at least one of your allies is within 5 feet of the creature and the ally isn't
+        incapacitated.</p>
+      <p class="indent"><b>
+          <i>Languages. </i>
+        </b>You can understand Common and Sylvan, but you cannot speak.</p>
+      <p class="indent"><b>
+          <i>Natural Hunter. </i>
+        </b>You gain proficiency in the Stealth skill.</p>
+      <p class="indent"><b>
+          <i>Powerful Build. </i>
+        </b>You count as one size larger when determining your
+        carrying capacity and the weight you can push, drag, or lift.</p>
+      <p class="indent"><b>
+          <i>Night Vision. </i>
+        </b>You have darkvision with a range of 60 feet.</p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="height" modifier="2d8">5'6"</set>
+      <set name="weight" modifier="2d10">250 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="2" />
+      <stat name="dexterity" value="1" />
+      <stat name="innate speed" value="50" bonus="base" />
+      <grant type="Size" id="ID_SIZE_LARGE" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_HEARING_AND_SMELL" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_PACK_TACTICS" />
+    </rules>
+  </element>
+  <element name="Keen Hearing and Smell" type="Racial Trait" source="Custom Homebrew"
+    id="ID_RACIAL_TRAIT_KEEN_HEARING_AND_SMELL">
+    <description>
+      <p>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+    </sheet>
+  </element>
+  <element name="Pack Tactics" type="Racial Trait" source="Custom Homebrew"
+    id="ID_RACIAL_TRAIT_PACK_TACTICS">
+    <description>
+      <p>You have advantage on an attack roll against a creature if at least one of your allies is
+        within 5 feet of the creature and the ally isn't incapacitated.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on an attack roll against a creature if at least one of your
+        allies is within 5 feet of the creature and the ally isn't incapacitated.</description>
+    </sheet>
+  </element>
+  <element name="Natural Hunter" type="Racial Trait" source="Custom Homebrew"
+    id="ID_RACIAL_TRAIT_NATURAL_HUNTER">
+    <description>
+      <p>You gain proficiency in the Stealth skill.</p>
+    </description>
+    <sheet>
+      <description>You gain proficiency in the Stealth skill.</description>
+    </sheet>
+  </element>
+  <element name="Powerful Build" type="Racial Trait" source="Custom Homebrew"
+    id="ID_RACIAL_TRAIT_POWERFUL_BUILD">
+    <description>
+      <p>You count as one size larger when determining your carrying capacity and the weight you can
+        push, drag, or lift.</p>
+    </description>
+    <sheet>
+      <description>You count as one size larger when determining your carrying capacity and the
+        weight you can push, drag, or lift.</description>
+    </sheet>
+  </element>
+  <element name="Night Vision" type="Racial Trait" source="Custom Homebrew"
+    id="ID_RACIAL_TRAIT_NIGHT_VISION">
+    <description>
+      <p>You have darkvision with a range of 60 feet.</p>
+    </description>
+    <sheet>
+      <description>You have darkvision with a range of 60 feet.</description>
+    </sheet>
+  </element>
+</elements>
