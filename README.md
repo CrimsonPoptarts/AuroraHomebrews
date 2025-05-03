@@ -1,7 +1,7 @@
 # AuroraHomebrews
 Additional content to extend [Aurora](https://aurorabuilder.com/), by Crimson
 
-Index url: https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/user-CrimsonPoptarts.index
+Index url: https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimson's-Homebrews.index
 
 ---
 
