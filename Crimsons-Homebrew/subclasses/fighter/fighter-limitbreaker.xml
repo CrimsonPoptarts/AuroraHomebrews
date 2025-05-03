@@ -103,18 +103,18 @@
                 limited uses.</description>
         </sheet>
         <rules>
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRE" requirements="!ID_HOMEBREW_SPELL_FIRA,!ID_HOMEBREW_SPELL_FIRAGA,!ID_HOMEBREW_SPELL_ZETAFLARE" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARD" requirements="!ID_HOMEBREW_SPELL_BLIZZARA,!ID_HOMEBREW_SPELL_BLIZZAGA,!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDER" requirements="!ID_HOMEBREW_SPELL_THUNDARA,!ID_HOMEBREW_SPELL_THUNDAGA,!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURE" requirements="!ID_HOMEBREW_SPELL_CURA,!ID_HOMEBREW_SPELL_CURAGA,!ID_HOMEBREW_SPELL_FULL_HEAL" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRA" level="7" requirements="!ID_HOMEBREW_SPELL_FIRAGA,!ID_HOMEBREW_SPELL_ZETAFLARE" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARA" level="7" requirements="!ID_HOMEBREW_SPELL_BLIZZAGA,!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDARA" level="7" requirements="!ID_HOMEBREW_SPELL_THUNDAGA,!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURA" level="7" requirements="!ID_HOMEBREW_SPELL_CURAGA,!ID_HOMEBREW_SPELL_FULL_HEAL" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRAGA" level="15" requirements="!ID_HOMEBREW_SPELL_ZETAFLARE" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZAGA" level="15" requirements="!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDAGA" level="15" requirements="!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURAGA" level="15" requirements="!ID_HOMEBREW_SPELL_FULL_HEAL" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRE" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARD" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDER" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURE" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRA" level="7" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARA" level="7" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDARA" level="7" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURA" level="7" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRAGA" level="15" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZAGA" level="15" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDAGA" level="15" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURAGA" level="15" />
             <grant type="Spell" id="ID_HOMEBREW_SPELL_ZETAFLARE" level="18" />
             <grant type="Spell" id="ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" level="18" />
             <grant type="Spell" id="ID_HOMEBREW_SPELL_JUDGMENT_BOLT" level="18" />

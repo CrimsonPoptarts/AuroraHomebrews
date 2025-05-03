@@ -166,7 +166,6 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
 	<element name="Summon Giant Eagle" type="Spell" source="Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_GIANT_EAGLE">
 		<supports></supports>
@@ -1357,6 +1356,7 @@
 	</element>
 	<element name="Fire" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_FIRE">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_FIRA</requirements>
 		<description>
 			<p>You hurl a bolt of flame at a creature within range. Make a ranged spell attack
 				against the target. On a hit, the target takes 2d8 fire damage.</p>
@@ -1380,6 +1380,7 @@
 	<!-- Blizzard -->
 	<element name="Blizzard" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_BLIZZARD">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_BLIZZARA</requirements>
 		<description>
 			<p>A shard of ice streaks toward a target. Make a ranged spell attack. On a hit, the
 				target takes 2d8 cold damage and must succeed a Constitution saving throw or have
@@ -1403,6 +1404,7 @@
 	<!-- Thunder -->
 	<element name="Thunder" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_THUNDER">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_THUNDARA</requirements>
 		<description>
 			<p>A burst of thunderous force erupts from a point you choose within range. Each
 				creature in a 10-foot-radius sphere must make a Constitution saving throw, taking
@@ -1427,6 +1429,7 @@
 	<!-- Cure -->
 	<element name="Cure" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_CURE">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_CURA</requirements>
 		<description>
 			<p>A surge of revitalizing energy restores hit points to a creature you can see within
 				range. The target regains hit points equal to 1d8 + your Constitution modifier.</p>
@@ -1448,6 +1451,7 @@
 	</element>
 	<element name="Fira" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_FIRA">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_FIRAGA</requirements>
 		<description>
 			<p>You conjure a more powerful bolt of flame. Make a ranged spell attack. On a hit, the
 				target takes 4d8 fire damage.</p>
@@ -1470,6 +1474,7 @@
 	<!-- Blizzara -->
 	<element name="Blizzara" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_BLIZZARA">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_BLIZZAGA</requirements>
 		<description>
 			<p>A wave of chilling ice strikes a target. Make a ranged spell attack. On a hit, the
 				target takes 4d8 cold damage and must make a Constitution saving throw or be slowed
@@ -1493,6 +1498,7 @@
 	<!-- Thundara -->
 	<element name="Thundara" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_THUNDARA">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_THUNDAGA</requirements>
 		<description>
 			<p>A crackling bolt of lightning strikes a creature you choose within range. The target
 				must make a Dexterity saving throw, taking 4d8 lightning damage on a failed save, or
@@ -1516,6 +1522,7 @@
 	<!-- Cura -->
 	<element name="Cura" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_CURA">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_CURAGA</requirements>
 		<description>
 			<p>A potent wave of healing restores vitality to a creature within range. The target
 				regains hit points equal to 3d8 + your Constitution modifier.</p>
@@ -1537,6 +1544,7 @@
 
 	<element name="Firaga" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_FIRAGA">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_ZETAFLARE</requirements>
 		<description>
 			<p>A massive burst of flame engulfs a target. Make a ranged spell attack. On a hit, the
 				target takes 6d8 fire damage.</p>
@@ -1559,6 +1567,7 @@
 	<!-- Blizzaga -->
 	<element name="Blizzaga" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_BLIZZAGA">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO</requirements>
 		<description>
 			<p>An intense wave of frost lashes out. Make a ranged spell attack. On a hit, the target
 				takes 6d8 cold damage and must succeed a Constitution saving throw or be restrained
@@ -1582,6 +1591,7 @@
 	<!-- Thundaga -->
 	<element name="Thundaga" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_THUNDAGA">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_JUDGMENT_BOLT</requirements>
 		<description>
 			<p>A roaring crash of lightning strikes a creature you can see within range. The target
 				must make a Dexterity saving throw, taking 6d8 lightning damage on a failed save, or
@@ -1605,6 +1615,7 @@
 	<!-- Curaga -->
 	<element name="Curaga" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_CURAGA">
 		<supports>Fighter, Limitbreaker</supports>
+		<requirements>!ID_HOMEBREW_SPELL_FULL_HEAL</requirements>
 		<description>
 			<p>A surge of powerful healing mends grievous wounds. The target regains hit points
 				equal to 5d8 + your Constitution modifier.</p>
