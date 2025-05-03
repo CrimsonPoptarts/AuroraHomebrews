@@ -3,7 +3,7 @@
 	<info>
 		<name>Ranger</name>
 		<update version="1.0.0">
-			<file name="ranger.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/ranger.index" />
+			<file name="ranger.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/ranger.index" />
 		</update>
 	</info>
 	<files>
