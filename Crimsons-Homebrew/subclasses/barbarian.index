@@ -3,7 +3,7 @@
 	<info>
 		<name>Barbarian</name>
 		<update version="1.0.0">
-			<file name="barbarian.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/barbarian.index" />
+			<file name="barbarian.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian.index" />
 		</update>
 	</info>
 	<files>
