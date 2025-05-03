@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+        <update version="0.0.1">
+            <file name="items.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/items.xml" />
+        </update>
+    </info>
     <element name="Dawnblade" type="Magic Item" source="Quests from the Infinite Staircase" id="ID_WOTC_QIS_MAGIC_ITEM_DAWNBLADE">
         <description>
             <p>The holy weapon Dawnblade shines with the brilliance of the morning sun, a beacon of hope against darkness. Wielded by champions of light, its power safeguards against fear and corruption.</p>

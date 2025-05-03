@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
+	<info>
+		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+		<update version="0.0.1">
+			<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/spells.xml" />
+		</update>
+	</info>
 	<element name="Summon Wisp" type="Spell" source="Homebrew" id="ID_CUSTOM_SPELL_SUMMON_WISP">
 		<supports></supports>
 		<description>
