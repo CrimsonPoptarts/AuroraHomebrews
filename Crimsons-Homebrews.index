@@ -3,11 +3,24 @@
 	<info>
 		<name>Crimson's Homebrews</name>
 		<update version="1.0.0">
-			<file name="user-yourname.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/ArouraHomebrews/master/Crimsons-Homebrews.index" />
+			<file name="Crimsons-Homebrews.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/ArouraHomebrews/master/Crimsons-Homebrews.index" />
 		</update>
 	</info>
 	<files>
-		<file name="file1.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file1.xml" />
-		<file name="file2.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file2.xml" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/items.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/spells.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes/class-wyldheart.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-greenspeaker.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-kaoswarden.xmll" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-masterofhounds.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-primallord.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-ravensong.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-blackblood.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-lycanthrope" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-virtuoso" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/cleric/cleric-blood.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-flowmotion.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-limitbreaker.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/ranger/ranger-death-whistler.xml" />
 	</files>
 </index>
