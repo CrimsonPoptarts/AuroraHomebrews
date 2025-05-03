@@ -3,7 +3,7 @@
 	<info>
 		<name>Classes</name>
 		<update version="1.0.0">
-			<file name="classes.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/classes.index" />
+			<file name="classes.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes.index" />
 		</update>
 	</info>
 	<files>
