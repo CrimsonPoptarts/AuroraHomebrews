@@ -1360,8 +1360,6 @@
 		<description>
 			<p>You hurl a bolt of flame at a creature within range. Make a ranged spell attack
 				against the target. On a hit, the target takes 2d8 fire damage.</p>
-			<p class="indent">The spell’s damage increases by 1d8 when you reach 5th level (3d8),
-				11th level (4d8), and 17th level (5d8).</p>
 			<p class="indent">You can expend any number of Limit Dice when casting this spell,
 				adding the total rolled to the damage dealt.</p>
 		</description>
@@ -1386,8 +1384,6 @@
 			<p>A shard of ice streaks toward a target. Make a ranged spell attack. On a hit, the
 				target takes 2d8 cold damage and must succeed a Constitution saving throw or have
 				its speed reduced by 10 feet until the start of your next turn.</p>
-			<p class="indent">Damage increases by 1d8 at 5th (3d8), 11th (4d8), and 17th (5d8)
-				level.</p>
 			<p class="indent">Add any expended Limit Dice to the damage total.</p>
 		</description>
 		<setters>
@@ -1411,8 +1407,6 @@
 			<p>A burst of thunderous force erupts from a point you choose within range. Each
 				creature in a 10-foot-radius sphere must make a Constitution saving throw, taking
 				2d8 thunder damage on a failed save, or half on a success.</p>
-			<p class="indent">Damage increases by 1d8 at 5th (3d8), 11th (4d8), and 17th (5d8)
-				level.</p>
 			<p class="indent">You can add expended Limit Dice to the total damage dealt to each
 				creature.</p>
 		</description>
@@ -1436,8 +1430,6 @@
 		<description>
 			<p>A surge of revitalizing energy restores hit points to a creature you can see within
 				range. The target regains hit points equal to 1d8 + your Constitution modifier.</p>
-			<p class="indent">Healing increases by 1d8 at 5th (2d8), 11th (3d8), and 17th (4d8)
-				level.</p>
 			<p class="indent">You can expend any number of Limit Dice when casting this spell,
 				adding the total rolled to the healing amount.</p>
 		</description>
@@ -1459,7 +1451,6 @@
 		<description>
 			<p>You conjure a more powerful bolt of flame. Make a ranged spell attack. On a hit, the
 				target takes 4d8 fire damage.</p>
-			<p class="indent">Increases to 5d8 at 11th level and 6d8 at 17th.</p>
 			<p class="indent">You may expend Limit Dice to add the total rolled to the damage.</p>
 		</description>
 		<setters>
@@ -1483,7 +1474,6 @@
 			<p>A wave of chilling ice strikes a target. Make a ranged spell attack. On a hit, the
 				target takes 4d8 cold damage and must make a Constitution saving throw or be slowed
 				by 15 feet until your next turn.</p>
-			<p class="indent">Damage increases to 5d8 at 11th level and 6d8 at 17th.</p>
 			<p class="indent">You may expend Limit Dice to add the total rolled to the damage.</p>
 		</description>
 		<setters>
@@ -1507,7 +1497,6 @@
 			<p>A crackling bolt of lightning strikes a creature you choose within range. The target
 				must make a Dexterity saving throw, taking 4d8 lightning damage on a failed save, or
 				half as much on a success.</p>
-			<p class="indent">Damage increases to 5d8 at 11th level and 6d8 at 17th.</p>
 			<p class="indent">You may expend Limit Dice to add the total rolled to the damage.</p>
 		</description>
 		<setters>
@@ -1530,7 +1519,6 @@
 		<description>
 			<p>A potent wave of healing restores vitality to a creature within range. The target
 				regains hit points equal to 3d8 + your Constitution modifier.</p>
-			<p class="indent">Healing increases to 4d8 at 11th level and 5d8 at 17th.</p>
 			<p class="indent">You may expend Limit Dice to add the total rolled to the healing.</p>
 		</description>
 		<setters>
@@ -1552,7 +1540,6 @@
 		<description>
 			<p>A massive burst of flame engulfs a target. Make a ranged spell attack. On a hit, the
 				target takes 6d8 fire damage.</p>
-			<p class="indent">Damage increases to 7d8 at 17th level.</p>
 			<p class="indent">You may expend Limit Dice to add the total rolled to the damage.</p>
 		</description>
 		<setters>
@@ -1576,7 +1563,6 @@
 			<p>An intense wave of frost lashes out. Make a ranged spell attack. On a hit, the target
 				takes 6d8 cold damage and must succeed a Constitution saving throw or be restrained
 				by ice until the end of their next turn.</p>
-			<p class="indent">Damage increases to 7d8 at 17th level.</p>
 			<p class="indent">Limit Dice can be expended to add their total to the damage.</p>
 		</description>
 		<setters>
@@ -1600,7 +1586,6 @@
 			<p>A roaring crash of lightning strikes a creature you can see within range. The target
 				must make a Dexterity saving throw, taking 6d8 lightning damage on a failed save, or
 				half as much on a success.</p>
-			<p class="indent">Damage increases to 7d8 at 17th level.</p>
 			<p class="indent">Limit Dice can be expended to add their total to the damage.</p>
 		</description>
 		<setters>
@@ -1623,7 +1608,6 @@
 		<description>
 			<p>A surge of powerful healing mends grievous wounds. The target regains hit points
 				equal to 5d8 + your Constitution modifier.</p>
-			<p class="indent">Healing increases to 6d8 at 17th level.</p>
 			<p class="indent">You may expend Limit Dice to add the total rolled to the healing.</p>
 		</description>
 		<setters>

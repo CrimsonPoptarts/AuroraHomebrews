@@ -103,30 +103,18 @@
                 limited uses.</description>
         </sheet>
         <rules>
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRE"
-                requirements="!ID_HOMEBREW_SPELL_FIRA,!ID_HOMEBREW_SPELL_FIRAGA,!ID_HOMEBREW_SPELL_ZETAFLARE" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARD"
-                requirements="!ID_HOMEBREW_SPELL_BLIZZARA,!ID_HOMEBREW_SPELL_BLIZZAGA,!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDER"
-                requirements="!ID_HOMEBREW_SPELL_THUNDARA,!ID_HOMEBREW_SPELL_THUNDAGA,!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURE"
-                requirements="!ID_HOMEBREW_SPELL_CURA,!ID_HOMEBREW_SPELL_CURAGA,!ID_HOMEBREW_SPELL_FULL_HEAL" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRA" level="7"
-                requirements="!ID_HOMEBREW_SPELL_FIRAGA,!ID_HOMEBREW_SPELL_ZETAFLARE" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARA" level="7"
-                requirements="!ID_HOMEBREW_SPELL_BLIZZAGA,!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDARA" level="7"
-                requirements="!ID_HOMEBREW_SPELL_THUNDAGA,!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURA" level="7"
-                requirements="!ID_HOMEBREW_SPELL_CURAGA,!ID_HOMEBREW_SPELL_FULL_HEAL" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRAGA" level="15"
-                requirements="!ID_HOMEBREW_SPELL_ZETAFLARE" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZAGA" level="15"
-                requirements="!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDAGA" level="15"
-                requirements="!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
-            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURAGA" level="15"
-                requirements="!ID_HOMEBREW_SPELL_FULL_HEAL" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRE" requirements="!ID_HOMEBREW_SPELL_FIRA,!ID_HOMEBREW_SPELL_FIRAGA,!ID_HOMEBREW_SPELL_ZETAFLARE" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARD" requirements="!ID_HOMEBREW_SPELL_BLIZZARA,!ID_HOMEBREW_SPELL_BLIZZAGA,!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDER" requirements="!ID_HOMEBREW_SPELL_THUNDARA,!ID_HOMEBREW_SPELL_THUNDAGA,!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURE" requirements="!ID_HOMEBREW_SPELL_CURA,!ID_HOMEBREW_SPELL_CURAGA,!ID_HOMEBREW_SPELL_FULL_HEAL" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRA" level="7" requirements="!ID_HOMEBREW_SPELL_FIRAGA,!ID_HOMEBREW_SPELL_ZETAFLARE" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARA" level="7" requirements="!ID_HOMEBREW_SPELL_BLIZZAGA,!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDARA" level="7" requirements="!ID_HOMEBREW_SPELL_THUNDAGA,!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURA" level="7" requirements="!ID_HOMEBREW_SPELL_CURAGA,!ID_HOMEBREW_SPELL_FULL_HEAL" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRAGA" level="15" requirements="!ID_HOMEBREW_SPELL_ZETAFLARE" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZAGA" level="15" requirements="!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDAGA" level="15" requirements="!ID_HOMEBREW_SPELL_JUDGMENT_BOLT" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURAGA" level="15" requirements="!ID_HOMEBREW_SPELL_FULL_HEAL" />
             <grant type="Spell" id="ID_HOMEBREW_SPELL_ZETAFLARE" level="18" />
             <grant type="Spell" id="ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" level="18" />
             <grant type="Spell" id="ID_HOMEBREW_SPELL_JUDGMENT_BOLT" level="18" />
@@ -189,21 +177,14 @@
 
     <!-- Overdrive -->
     <element name="Overdrive" type="Archetype Feature" source="Homebrew"
-        id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_OVERDRIVE">
+    id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_OVERDRIVE">
         <description>
-            <p>
-                <em>15th-level Path of the Limitbreaker feature</em>
-            </p>
+            <p><em>15th-level Path of the Limitbreaker feature</em></p>
             <p>When you score a critical hit, gain 3 Limit Dice instead of 2.</p>
-            <p class="ident">Additionally, once per short rest, when you drop below half your hit
-                point maximum, immediately fill your Limit Gauge to maximum and gain 1 hit point to
-                prevent being downed. If you choose to empty your Limit Gauge after it has been
-                filled, you can use Warp Break as a reaction.</p>
+            <p class="ident">Additionally, once per short rest, when you drop below half your hit point maximum, immediately fill your Limit Gauge to maximum and gain 1 hit point to prevent being downed. If you choose to empty your Limit Gauge after it has been filled, you can use Warp Break as a reaction.</p>
         </description>
         <sheet>
-            <description>Critical hits give +3 Limit Dice. Once/short rest, dropping below half HP
-                fills Limit Gauge and grants +1 HP. You can empty the Gauge to use Warp Break as a
-                reaction.</description>
+            <description>Critical hits give +3 Limit Dice. Once/short rest, dropping below half HP fills Limit Gauge and grants +1 HP. You can empty the Gauge to use Warp Break as a reaction.</description>
         </sheet>
     </element>
 
