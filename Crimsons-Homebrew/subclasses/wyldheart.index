@@ -1,1 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Wyldheart</name>
+		<update version="1.0.0">
+			<file name="wyldheart.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/wyldheart.index" />
+		</update>
+	</info>
+	<files>
+      <file name="wyldheart-greenspeaker.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-greenspeaker.xml" />
+	    <file name="wyldheart-kaoswarden.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-kaoswarden.xml" />
+	    <file name="wyldheart-masterofhounds.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-masterofhounds.xml" />
+	    <file name="wyldheart-primallord.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-primallord.xml" />
+	    <file name="wyldheart-ravensong.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-ravensong.xml" />
+  </files>
+</index>
