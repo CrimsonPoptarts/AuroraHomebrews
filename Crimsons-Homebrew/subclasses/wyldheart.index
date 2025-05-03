@@ -2,8 +2,8 @@
 <index>
 	<info>
 		<name>Wyldheart</name>
-		<update version="1.0.0">
-			<file name="wyldheart.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/wyldheart.index" />
+		<update version="1.0.1">
+			<file name="wyldheart.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart.index" />
 		</update>
 	</info>
 	<files>

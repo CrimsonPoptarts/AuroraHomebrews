@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/spells.xml" />
 		</update>
 	</info>
