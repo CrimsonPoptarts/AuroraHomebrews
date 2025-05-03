@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <element name="Kaos Warden" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_KAOS_WARDEN">
+    <supports>Blessing of the Wyld</supports>
+    <description>
+      <p><description>Your innate magic stems from your deep bond with nature and the chaotic spirits of the wild, embodied by your mastery over elemental beasts and ancient natural forces.</description></p>
+      <div element="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_COMPANION_SUMMON_I"/>
+      <div element="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_KAOS_BLESSING_OF_THE_WILD"/>
+      <div element="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_WYLD_BOON"/>
+      <div element="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_HEART_RESONANCE_FEATURE"/>
+    </description>
+    <sheet display="false">
+      <description>Your innate magic stems from your deep bond with nature and the primal chaos of the wild, embodied by your mastery over natural spirits and primal instincts.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_COMPANION_SUMMON_I" level="1" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_BLESSING_OF_THE_WILD" level="1" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_WYLD_BOON" level="3" />
+    </rules>
+  </element>
+  <element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_COMPANION_SUMMON_I">
+    <description>Summon a Wyldheart Companion to aid you in battle.</description>
+    <sheet display="false">
+      <description>Summon a Wyldheart Companion to aid you in battle.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_MINOR_FIRE_ELEMENTAL" level="1" />
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_MINOR_WATER_ELEMENTAL" level="1" />
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_MINOR_AIR_ELEMENTAL" level="1" />
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_EMBERKIN" level="6" />
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_RIVERBORN" level="6" />
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_STORMLING" level="6" />
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_INFERNO_SOVEREIGN" level="14" />
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_TIDAL_MONARCH" level="14" />
+      <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_STORM_KING" level="14" />
+    </rules>
+  </element>
+  <element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_BLESSING_OF_THE_WILD">
+    <description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Wisdom modifier</description>
+    <sheet>
+      <description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Wisdom modifier</description>
+    </sheet>
+  </element>
+  <element name="Kaos Warden Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_WYLD_BOON">
+	<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_KAOS_BLESSING_OF_THE_WILD</requirements>
+	<description>
+		<p>At 3rd level, your bond with the primal chaos grants you a savage gift. Choose one of the following blessings shaped by the wild:</p>
+		<h5 class="caption">Wildshield Pulse</h5>
+		<p>Release a pulse of primal energy. Allies within 10 feet gain temporary HP equal to your ((Wisdom modifier + Proficiency bonus) x Kaos Warden level)/3. Enemies must make a Dexterity saving throw (DC = 8 + Proficiency + Wisdom modifier) or be pushed 10 feet and have disadvantage on their next attack roll.</p>
+		<h5 class="caption">Savage Reprisal</h5>
+		<p>Once per turn, when a creature within 10 feet hits you or your Wyld Companion, use your reaction to retaliate. The attacker takes force damage equal to 1d6 + your Wisdom modifier, scaling as follows: 1d6 at Warden level 1–4 / 2d6 at Warden level 5–10 / 3d6 at Warden level 11–16 / 4d6 at Warden level 17+. The attacker must also make a Strength saving throw (DC = 8 + Proficiency + Wisdom modifier) or be knocked prone.</p>
+		<h5 class="caption">Totemic Fracture</h5>
+		<p>Once per long rest, when your Wyld Companion drops to 0 HP, erupt in a 15-foot blast of primal energy. Creatures of your choice must make a Constitution saving throw (DC = 8 + Proficiency + Wisdom modifier). On a failed save, they take force damage equal to 2d6 per 3 Warden levels (rounded up)(Half on a success). For example: 1–2 = 2d6, 3–5 = 4d6, 6–8 = 6d6, etc. Targets are also blinded until the end of their next turn. Allies are unaffected.</p>
+	</description>
+	<sheet display="false"/>
+	<rules>
+		<select type="Class Feature" name="Kaos Warden Wyld Boon" supports="Kaos Warden Wyld Boon" level="3"/>
+	</rules>
+	</element>
+	<element name="Wildshield Pulse" type="Class Feature" source="Homebrew" id="_WYLDHEART_KAOS_COMPANION_SUMMON_I">
+		<supports>Kaos Warden Wyld Boon</supports>
+		<description>
+			<p>Once per short rest, release a pulse of primal energy as a reaction to a melee attack. </p>
+			<p class="indent">Allies within 10 feet gain temporary HP equal to your ((Wisdom modifier + Proficiency bonus) x Kaos Warden level)/3.</p>
+			<p class="indent">Enemies must make a Dexterity saving throw (DC = 8 + Proficiency + Wisdom modifier) or be pushed 10 feet and have disadvantage on their next attack roll.</p>
+		</description>
+		<sheet action = "reaction">
+			<description>Release a pulse of primal energy. Allies within 10 feet gain temporary HP equal to your Wisdom modifier + Proficiency bonus. Enemies must make a Dexterity saving throw (DC = 8 + Proficiency + Wisdom modifier) or be pushed 10 feet and have disadvantage on their next attack roll.</description>
+		</sheet>
+	</element>
+	<element name="Savage Reprisal" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_KAOS_WILD_SAVAGE_REPRISAL">
+		<supports>Kaos Warden Wyld Boon</supports>
+		<description>
+			<p>Once per turn, when a creature within 10 feet hits you or your Wyld Companion, use your reaction to retaliate. </p>
+			<p class="indent">The attacker takes force damage equal to 1d6 + your Wisdom modifier, scaling as follows: 1d6 at Warden level 1–4 / 2d6 at Warden level 5–10 / 3d6 at Warden level 11–16 / 4d6 at Warden level 17+. The attacker must also make a Strength saving throw (DC = 8 + Proficiency + Wisdom modifier) or be knocked prone.</p>
+		</description>
+		<sheet action ="reaction">
+			<description>Once per turn, when a creature within 10 feet hits you or your Wyld Companion, use your reaction to retaliate. The attacker takes force damage equal to 1d6 + your Wisdom modifier, scaling as follows: 1d6 at Warden level 1–4 / 2d6 at Warden level 5–10 / 3d6 at Warden level 11–16 / 4d6 at Warden level 17+. The attacker must also make a Strength saving throw (DC = 8 + Proficiency + Wisdom modifier) or be knocked prone.</description>
+		</sheet>
+	</element>
+	<element name="Totemic Fracture" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_KAOS_WILD_TOTEMIC_FRACTURE">
+		<supports>Kaos Warden Wyld Boon</supports>
+		<description>
+			<p>Once per long rest, when your Wyld Companion drops to 0 HP, erupt in a 15-foot blast of primal energy. </p>
+			<p class="indent">Creatures of your choice must make a Constitution saving throw (DC = 8 + Proficiency + Wisdom modifier). On a failed save, they take force damage equal to 2d6 per 3 Warden levels (rounded up)(Half on a success). For example: 1–2 = 2d6, 3–5 = 4d6, 6–8 = 6d6, etc. Targets are also blinded until the end of their next turn. Allies are unaffected.</p>
+		</description>
+		<sheet>
+			<description>Once per long rest, when your Wyld Companion drops to 0 HP, erupt in a 15-foot blast of primal energy. Creatures of your choice must make a Constitution saving throw (DC = 8 + Proficiency + Wisdom modifier). On a failed save, they take force damage equal to 2d6 per 3 Warden levels (rounded up). For example: 1–2 = 2d6, 3–5 = 4d6, 6–8 = 6d6, etc. Targets are also blinded until the end of their next turn. Allies are unaffected.</description>
+		</sheet>
+	</element>
+	
+</elements>

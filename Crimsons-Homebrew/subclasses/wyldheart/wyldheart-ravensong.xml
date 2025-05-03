@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <element name="Ravensong" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_RAVENSONG">
+		<supports>Blessing of the Wyld</supports>
+		<description>
+			<p><description>Your innate magic stems from your deep bond with nature and the primal instincts of the wild, embodied by your mastery over hounds and other loyal beasts.</description></p>
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_COMPANION_SUMMON_I"/>
+			<div element="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_BLESSING_OF_THE_WILD"/>
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_WYLD_BOON"/>
+			<div element="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_HEART_RESONANCE_FEATURE"/>
+		</description>
+		<sheet display="false">
+			<description>Your innate magic stems from your deep bond with nature and the symphony of the skies, embodied by your mastery over aves.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_COMPANION_SUMMON_I" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_BLESSING_OF_THE_WILD" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_WYLD_BOON" level="3" />
+		</rules>
+	</element>
+	<element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_COMPANION_SUMMON_I">
+		<description>Summon a Wyldheart Companion to aid you in battle.</description>
+		<sheet display="false">
+			<description>Summon a Wyldheart Companion to aid you in battle.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_RAVEN" level="1" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_ASHEN_RAVEN" level="1" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_SHADE_RAVEN" level="1" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_DIRE_RAVEN" level="6" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_WHITE_RAVEN" level="6" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_STORMWING_RAVEN" level="6" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN" level="14" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_HIGHSTORM_RAVEN" level="14" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN" level="14" />
+		</rules>
+	</element>
+	<element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_BLESSING_OF_THE_WILD">
+		<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Intelligence modifier</description>
+		<sheet>
+			<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Intelligence modifier</description>
+		</sheet>
+	</element>
+	<element name="Ravensong Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_WYLD_BOON">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_RAVENSONG_BLESSING_OF_THE_WILD</requirements>
+		<description>
+			<p>At 3rd level, the Wyld's blessing grants you a gift that enhances your bond with the wild beasts. You gain one of the following features of your choice.</p>
+			<h5 class="caption">Mourning Veil</h5>
+			<p>Your presence cloaks both you and your summons in the mourning garb of the spirit world.</p>
+            <p class="indent">When you summon a creature, both you and it become wreathed in ghostly shadows until the end of your next turn. While shrouded, you each have resistance to magical damage, and are invisible to creatures more than 15 feet away.</p>
+            <p class="indent">If a shrouded creature (you or your summon) is reduced to 0 HP, it lets out a haunting wail. Enemies within 10 feet must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier) or be silenced until the end of their next turn (no speech or verbal components).</p>
+			<h5 class="caption">Echo of the Unseen</h5>
+            <p>The whispers of your summons tie fate into knots, binding enemies in threads of foreboding.</p>
+			<p class = "indent">While you have a summoned creature within 60 feet, you have advantage on Dexterity (Stealth) checks.</p>
+            <p class="indent">Once per turn when a summoned creature misses an attack, you may use your reaction to teleport to an unoccupied space within 10 feet of it.</p>
+			<h5 class="caption">Omenbound Pact</h5>
+			<p>The whispers of your summons tie fate into knots, binding enemies in threads of foreboding.</p>
+            <p class = "indent">The first time each summoned creature hits with an attack on its turn, you can force the target to make a Charisma saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier). On a failure, it is cursed with an omen.</p>
+			 <p class="indent">While cursed, the target has disadvantage on their first attack roll or saving throw it makes after being cursed.</p>
+            <p class="indent">Twice per long rest, you may utter a Raven Song as an action. All enemies cursed by an omen within 30 feet take psychic damage equal to your Ravensong Level × your (Intelligence modifier) / 1.25 rounded down, and must roll a d6. On a 1, they are stunned until the start of their next turn.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Class Feature" name="Ravensong Wyld Boon" supports="Ravensong Wyld Boon" level="3"/>
+		</rules>
+	</element>
+    <element name="Mourning Veil" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_MOURNING_VEIL">
+		<supports>Ravensong Wyld Boon</supports>
+		<description>
+			<p>Your presence cloaks both you and your summons in the mourning garb of the spirit world.</p>
+            <p class="indent">When you summon a creature, both you and it become wreathed in ghostly shadows until the end of your next. While shrouded, you each have resistance to magical damage, and are invisible to creatures more than 15 feet away.</p>
+            <p class="indent">If a shrouded creature (you or your summon) is reduced to 0 HP, it lets out a haunting wail. Enemies within 10 feet must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier) or be silenced until the end of their next turn (no speech or verbal components).</p>
+		</description>
+		<sheet>
+			<description>When you summon a creature, both you and it become wreathed in ghostly shadows for 1 minute. While shrouded, you each have resistance to magical damage, and are invisible to creatures more than 10 feet away. If a shrouded creature (you or your summon) is reduced to 0 HP, it lets out a haunting wail. Enemies within 10 feet must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier) or be silenced until the end of their next turn (no speech or verbal components).</description>
+		</sheet>
+	</element>
+	<element name="Echo of the Unseen" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_ECHO_OF_THE_UNSEEN">
+		<supports>Ravensong Wyld Boon</supports>
+		<description>
+			<p>The whispers of your summons tie fate into knots, binding enemies in threads of foreboding.</p>
+			<p class="indent">While you have a summoned creature within 60 feet, you have advantage on Dexterity (Stealth) checks.</p>
+            <p class="indent">Once per turn when a summoned creature misses an attack, you may use your reaction to teleport to an unoccupied space within 10 feet of it.</p>
+		</description>
+		<sheet usage="Reaction">
+			<description>While you have a summoned creature within 60 feet, you have advantage on Dexterity (Stealth) checks. Once per turn when a summoned creature misses an attack, you may use your reaction to teleport to an unoccupied space within 10 feet of it.</description>
+		</sheet>
+	</element>
+	<element name="Omenbound Pact" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_OMENBOUND_PACT">
+		<supports>Ravensong Wyld Boon</supports>
+		<description>
+			<p>The whispers of your summons tie fate into knots, binding enemies in threads of foreboding.</p>
+            <p class = "indent">The first time each summoned creature hits with an attack on its turn, you can force the target to make a Charisma saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier). On a failure, it is cursed with an omen until the end of your next turn.</p>
+            <p class="indent">While cursed, the target has disadvantage on the next attack roll or saving throw it makes.</p>
+            <p class="indent">Twice per long rest, you may utter a Raven Song as an action. All enemies cursed by an omen within 30 feet take psychic damage equal to Ravensong Level × your (Intelligence modifier) / 1.25 rounded down, and must roll a d6. On a 1, they are stunned until the start of their next turn.</p>
+		</description>
+		<sheet usage="Action">
+			<description>The first time each summoned creature hits with an attack on its turn, you can force the target to make a Charisma saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier). On a failure, it is cursed with an omen until the end of your next turn. While cursed, the target has disadvantage on the next attack roll or saving throw it makes. Twice per long rest, you may utter a Raven Song as an action. All enemies cursed by an omen within 30 feet take psychic damage equal to your Ravensong Level × your (Intelligence modifier) / 1.5, and must roll a d6. On a 1, they are stunned until the start of their next turn.</description>
+		</sheet>
+	</element>
+</elements>

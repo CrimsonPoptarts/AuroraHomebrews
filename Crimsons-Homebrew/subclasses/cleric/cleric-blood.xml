@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Blood Domain" type="Archetype" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_BLOODDOMAIN">
+        <supports>Divine Domain</supports>
+        <description>
+            <p>The Blood domain centers around the raw, vital essence that flows through all creatures. Deities of blood are often associated with sacrifice, vitality, rage, and the thin line between life and death. Their clerics manipulate blood to heal, harm, and control others, drawing strength from life's most fundamental force.</p>
+            <h5 class="caption">BLOOD DOMAIN SPELLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Cleric Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td><em>inflict wounds, shield of faith</em></td></tr>
+                <tr><td>3rd</td><td><em>hold person, spiritual weapon</em></td></tr>
+                <tr><td>5th</td><td><em>vampiric touch, bestow curse</em></td></tr>
+                <tr><td>7th</td><td><em>blight, greater invisibility</em></td></tr>
+                <tr><td>9th</td><td><em>cloudkill, dominate person</em></td></tr>
+            </table>
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BONUSPROFICIENCY" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODMAGIC" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_CHANNELDIVINITY_BLOODPRICE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_VAMPIRICRESILIENCE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODSTRIKE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_OVERCAST" />
+        </description>
+        <sheet display="false">
+            <description>The Blood domain centers around the raw, vital essence that flows through all creatures.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" level="1" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SHIELD_OF_FAITH" level="1" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="3" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" level="5" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" level="5" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="7" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_CLOUDKILL" level="9" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9" spellcasting="Cleric" prepared="true" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BONUSPROFICIENCY" level="1" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODMAGIC" level="1" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_CHANNELDIVINITY_BLOODPRICE" level="2" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_VAMPIRICRESILIENCE" level="6" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODSTRIKE" level="8" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_OVERCAST" level="17" />
+        </rules>
+    </element>
+
+    <element name="Bonus Proficiency" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BONUSPROFICIENCY">
+        <description>
+            <p>When you choose this domain at 1st level, you gain proficiency with martial weapons.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+        </rules>
+    </element>
+
+    <element name="Blood Magic" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODMAGIC">
+        <description>
+            <p>Also starting at 1st level, you can expend your own vitality to fuel your spells. You can cast a cleric spell by taking 5 hit points of damage per spell level instead of expending a spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast a cleric spell by taking 5 hp of damage per spell level instead of expending a spell slot.</description>
+        </sheet>
+    </element>
+
+    <element name="Channel Divinity: Blood Price" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_CHANNELDIVINITY_BLOODPRICE">
+        <description>
+            <p>Starting at 2nd level, you can use your Channel Divinity to turn a failed saving throw into a second chance. As a reaction when you fail a saving throw, you can take 10 damage and reroll the saving throw.</p>
+        </description>
+        <sheet alt="Blood Price" action="Reaction" usage="Channel Divinity">
+            <description>As a reaction when you fail a saving throw, you can take 10 damage and reroll the saving throw.</description>
+        </sheet>
+    </element>
+
+    <element name="Vampiric Resilience" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_VAMPIRICRESILIENCE">
+        <description>
+            <p>Beginning at 6th level, whenever you deal necrotic damage, you regain hit points equal to half the necrotic damage dealt.</p>
+        </description>
+        <sheet>
+            <description>Whenever you deal necrotic damage, regain hp equal to half the damage dealt.</description>
+        </sheet>
+    </element>
+
+    <element name="Blood Strike" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODSTRIKE">
+        <description>
+            <p>At 8th level, you can empower your weapon strikes with necrotic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage. When you reach 14th level, the extra damage increases to 2d8.</p>
+        </description>
+        <sheet>
+            <description>Once on each of your turn +1d8 necrotic damage with a weapon attack.</description>
+            <description level="14">Once on each of your turn +2d8 necrotic damage with a weapon attack.</description>
+        </sheet>
+    </element>
+
+    <element name="Overcast (Desperation)" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_OVERCAST">
+        <description>
+            <p>Starting at 17th level, when you are reduced below 20 hit points, you can cast one spell without expending HP or a spell slot. Once you use this feature, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>When reduced below 20 hp, you can cast one spell without expending HP or a spell slot. Once per long rest.</description>
+        </sheet>
+    </element>
+</elements>

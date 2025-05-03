@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Dawnblade" type="Magic Item" source="Quests from the Infinite Staircase" id="ID_WOTC_QIS_MAGIC_ITEM_DAWNBLADE">
+        <description>
+            <p>The holy weapon Dawnblade shines with the brilliance of the morning sun, a beacon of hope against darkness. Wielded by champions of light, its power safeguards against fear and corruption.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>Dawnblade</em> deals 1d8 slashing damage (versatile 1d10).</p>
+            <p class="indent"><strong><em>Radiant Strike.</em></strong> Once per day when you hit a creature with this weapon, you can cause the attack to deal an additional 3d6 radiant damage.</p>
+            <p class="indent"><strong><em>Light of the Dawn.</em></strong> While wielding the sword, you gain advantage on saving throws against fear and resistance to necrotic damage. The sword emits bright light in a 30-foot radius. You and your allies within the light have advantage on saving throws against being blinded.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, radiant, fear, necrotic, resistance, advantage, blinded, light, saving throw</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="longsword">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Longsword</set>
+        </setters>
+    </element>
+
+    <element name="Duskblade" type="Magic Item" source="Quests from the Infinite Staircase" id="ID_WOTC_QIS_MAGIC_ITEM_DUSKBLADE">
+        <description>
+            <p>The sinister Duskblade thrives in shadow and death. Forged in twilight, it empowers its wielder to strike swiftly and unseen, weaving darkness into deadly assaults.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>Duskblade</em> deals 1d8 slashing damage (versatile 1d10).</p>
+            <p class="indent"><strong><em>Shadowstrike.</em></strong> Once per day when you hit a creature with this weapon, you can cause the attack to deal an additional 3d6 necrotic damage.</p>
+            <p class="indent"><strong><em>Embrace the Night.</em></strong> While wielding the sword, you gain advantage on Stealth checks and darkvision out to 60 feet. When you reduce a creature to 0 hit points, you can immediately make one additional melee attack against a different creature within your reach.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, necrotic, stealth, darkvision, advantage, extra attack</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="longsword">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Longsword</set>
+        </setters>
+    </element>
+
+    <element name="Acidic Blood Whip" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_ACIDICBLOODWHIP">
+        <description>
+            <p>This cruel weapon is formed of blood hardened and twisted by dark magic, dripping with a searing acidic essence. It lashes out unnaturally far, tearing flesh and corroding armor alike.</p>
+            <p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon. <em>Acidic Blood Whip</em> deals 2d8 acid damage, and on a hit, the target's AC is reduced by 2 for 2 rounds.</p>
+            <p class="indent"><strong><em>Blood Channel.</em></strong> As a bonus action, you can spend 5 hit points to empower the whip. The next time you hit with it before the end of your turn, the attack deals an additional 1d8 necrotic damage.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, acid, necrotic, AC reduction, bonus action, saving throw</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="whip">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="enhancement">1</set>
+            <set name="weapon">Whip</set>
+        </setters>
+    </element>
+
+    <element name="M19's Dagger" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M19_DAGGER">
+        <description>
+            <p>Forged in the clandestine workshops of rogue artificers, M19's Dagger embodies precision, efficiency, and a touch of sentient engineering. This sleek weapon resonates with the Warforged spirit, complementing their stealth and adaptability.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M19's Dagger</em> deals 1d4 piercing damage (finesse, light, thrown range 20/60).</p>
+            <p class="indent"><strong><em>Shadow Strike.</em></strong> Once per day, when you hit a creature with this dagger while hidden, the attack deals an additional 3d6 necrotic damage, and the target must succeed on a DC 15 Dexterity saving throw or have disadvantage on its next attack roll.</p>
+            <p class="indent"><strong><em>Adaptive Blend.</em></strong> While holding the dagger, you can use a bonus action to enhance your stealth. For 1 minute, you gain advantage on Dexterity (Stealth) checks, and your Warforged plating temporarily shifts to match your surroundings.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, necrotic, stealth, finesse, thrown, disadvantage, saving throw</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="dagger">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Dagger</set>
+        </setters>
+    </element>
+    <element name="M18's Greataxe" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M18_GREAXE">
+        <description>
+            <p>Crafted by a legendary smith who harnessed the primal fury of the wild, M18's Greataxe is an embodiment of raw strength and untamed rage. This massive weapon resonates with a barbarian's battle-hardened soul, amplifying their ferocity in combat.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M18's Greataxe</em> deals 1d12 slashing damage (heavy, two-handed).</p>
+            <p class="indent"><strong><em>Raging Cleave.</em></strong> Once per day, when you hit a creature with this greataxe while raging, the attack deals an additional 4d6 force damage and cleaves through to an adjacent enemy, dealing the same damage to them.</p>
+            <p class="indent"><strong><em>Primal Resilience.</em></strong> While wielding the greataxe, you gain resistance to force damage and advantage on Strength saving throws. The weapon hums with primal energy that bolsters your physical and mental fortitude.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, force, rage, cleave, resistance, strength, saving throw</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="greataxe">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Greataxe</set>
+        </setters>
+    </element>
+    <element name="M17's Spear" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M17_SPEAR">
+        <description>
+            <p>Imbued with the divine essence of life itself, M17's Spear is a sacred weapon entrusted to those who champion healing and restoration. Its radiant energy pulses with the power to mend wounds and smite those who threaten the sanctity of life.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M17's Spear</em> deals 1d6 piercing damage (versatile 1d8).</p>
+            <p class="indent"><strong><em>Healing Pulse.</em></strong> Once per day, you can use an action to channel the spear's energy, releasing a wave of healing light. All creatures of your choice within a 30-foot radius regain 3d8 + your Wisdom modifier hit points.</p>
+            <p class="indent"><strong><em>Radiant Smite.</em></strong> When you hit a creature with this spear, you can choose to deal an additional 2d8 radiant damage. This feature can be used a number of times equal to your Wisdom modifier (minimum of 1), and you regain all expended uses at dawn.</p>
+            <p class="indent"><strong><em>Divine Shield.</em></strong> While holding the spear, you gain resistance to necrotic damage, and creatures you heal have advantage on their next saving throw against disease or poison.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, radiant, healing, necrotic, resistance, saving throw, disease, poison</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="spear">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Spear</set>
+        </setters>
+    </element>
+    <element name="M20's Greatsword" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M20_GREATSWORD">
+        <description>
+            <p>Forged in the fires of unrelenting battle and imbued with the essence of mastery, M20's Greatsword is the ultimate warrior's weapon. Its blade gleams with an unyielding power, bolstering its wielder's might and precision.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M20's Greatsword</em> deals 2d6 slashing damage (heavy, two-handed).</p>
+            <p class="indent"><strong><em>Combat Surge.</em></strong> Once per day, you can unleash a surge of adrenaline while wielding this weapon. As a bonus action, regain one expended use of Action Surge and gain 10 temporary hit points.</p>
+            <p class="indent"><strong><em>Masterful Precision.</em></strong> When you hit a creature with this greatsword, you can add a bonus to the damage roll equal to your proficiency bonus. This feature can be used a number of times equal to your Strength modifier (minimum of 1), and you regain all expended uses at dawn.</p>
+            <p class="indent"><strong><em>Unstoppable Momentum.</em></strong> While wielding the greatsword, you have advantage on saving throws against being restrained or paralyzed, and difficult terrain does not impede your movement.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, surge, precision, strength, restrained, paralyzed, saving throw, temporary hit points</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="greatsword">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Greatsword</set>
+        </setters>
+    </element>
+    <element name="M21's Boomerang" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M21_BOOMERANG">
+        <description>
+            <p>Crafted by ascetic masters in a secluded mountain monastery, M21's Boomerang channels the wearer's inner ki into precise, devastating throws. This weapon returns to its wielder's hand, embodying the harmony of motion and discipline.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M21's Boomerang</em> deals 1d6 bludgeoning damage (finesse, thrown range 30/60). When thrown, the boomerang returns to your hand immediately after the attack, even if it misses.</p>
+            <p class="indent"><strong><em>Ki-infused Strikes.</em></strong> Once per day, when you hit a creature with a ranged attack using this boomerang, you can channel your ki to deal an additional 3d8 force damage and push the target 10 feet away. The target must succeed on a DC 15 Strength saving throw or be knocked prone.</p>
+            <p class="indent"><strong><em>Harmony of Body and Mind.</em></strong> While wielding the boomerang, you gain advantage on Wisdom saving throws. Additionally, as a reaction, you can deflect an incoming projectile by rolling a d10 and reducing the damage by the result plus your Dexterity modifier and monk level. If you reduce the damage to 0, you catch the projectile.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, boomerang, ki, force, saving throw, wisdom, reaction, damage reduction, projectile, deflect</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="boomerang">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Boomerang</set>
+        </setters>
+    </element>
+    <element name="M22's Warhammer" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M22_WARHAMMER">
+        <description>
+            <p>Forged in the celestial forges of a sacred order, M22's Warhammer channels the wrath of the gods against the unholy. This weapon is an extension of the Paladin's oath, resonating with divine power to smite foes and protect the innocent.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M22's Warhammer</em> deals 1d8 bludgeoning damage (versatile 1d10).</p>
+            <p class="indent"><strong><em>Divine Judgment.</em></strong> Once per day, when you hit a fiend or undead creature with this warhammer, you can unleash a burst of radiant energy. The target takes an additional 4d8 radiant damage and must succeed on a DC 16 Constitution saving throw or be stunned until the end of your next turn.</p>
+            <p class="indent"><strong><em>Aegis of Light.</em></strong> While wielding the warhammer, you emanate an aura of protection. Allies within a 10-foot radius gain a +2 bonus to AC and saving throws against spells or effects caused by fiends or undead.</p>
+            <p class="indent"><strong><em>Celestial Resolve.</em></strong> While attuned to the warhammer, you can use a bonus action to end one frightened or charmed condition affecting yourself or an ally within 30 feet.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, radiant, stun, aura, protection, frightened, charmed, saving throw, AC</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="warhammer">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Very Rare</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Warhammer</set>
+        </setters>
+    </element>
+    <element name="Bloodhowl" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_BLOODHOWL">
+        <description>
+            <p>Forged from the molten blood of an infernal beast, Bloodhowl is a cursed greataxe that sings with rage and hunger. Its edge thirsts for the lifeblood of foes, roaring louder with every strike. Only a warrior with true feral might can tame its fury.</p>
+            <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>Bloodhowl</em> deals 1d12 slashing damage (heavy, two-handed).</p>
+            <p class="indent"><strong><em>Infernal Rend.</em></strong> Once per turn, when you hit a creature with this weapon while raging, you deal an additional 2d6 fire damage and 2d6 necrotic damage.</p>
+            <p class="indent"><strong><em>Roar of Blood.</em></strong> Once per short or long rest, when you reduce a creature to 0 hit points with this weapon, you can unleash a feral roar. Each hostile creature within 30 feet must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be frightened of you until the end of your next turn.</p>
+            <p class="indent"><strong><em>Howl in the Darkness.</em></strong> While wielding Bloodhowl, you have darkvision out to 120 feet. If you already have darkvision, its range increases by 60 feet. Magical darkness does not impede your darkvision.</p>
+        </description>
+        <setters>
+            <set name="keywords">attack, damage, fire, necrotic, rage, fear, frightened, darkvision, magic darkness</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="greataxe">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="enhancement">3</set>
+            <set name="weapon">Greataxe</set>
+        </setters>
+    </element>
+    
+    
+        
+    
+
+</elements>

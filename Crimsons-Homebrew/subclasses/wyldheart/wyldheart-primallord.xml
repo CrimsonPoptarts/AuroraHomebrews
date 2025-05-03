@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <element name="Primal Lord" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_PRIMAL_LORD">
+		<supports>Blessing of the Wyld</supports>
+		<description>
+			<p><description>Your innate magic stems from your deep bond with nature and the primal instincts of the wild, embodied by your mastery over hounds and other loyal beasts.</description></p>
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_COMPANION_SUMMON_I"/>
+			<div element="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_BLESSING_OF_THE_WILD"/>
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_WYLD_BOON"/>
+			<div element="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_HEART_RESONANCE_FEATURE"/>
+		</description>
+		<sheet display="false">
+			<description>Your innate magic stems from your deep bond with nature and the symphony of the skies, embodied by your mastery over aves.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_COMPANION_SUMMON_I" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_BLESSING_OF_THE_WILD" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_WYLD_BOON" level="3" />
+		</rules>
+	</element>
+	<element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_COMPANION_SUMMON_I">
+		<description>Summon a Wyldheart Companion to aid you in battle.</description>
+		<sheet display="false">
+			<description>Summon a Wyldheart Companion to aid you in battle.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_JUVENILE_DILO" level="1" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_OWLBEAR_CUB" level="1" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GREMISHKA" level="1" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_DILO" level="6" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GIANT_SPIDER" level="6" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_SABERTOOTH_PANTHER" level="6" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_ANCIENT_OWLBEAR" level="14" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_MATRIARCH_SPIDER" level="14" />
+			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GREATER_DILO" level="14" />
+		</rules>
+	</element>
+	<element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_BLESSING_OF_THE_WILD">
+		<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Strength modifier</description>
+		<sheet>
+			<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Strength modifier</description>
+		</sheet>
+	</element>
+	<element name="Primal Lord Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_WYLD_BOON">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_PRIMAL_LORD_BLESSING_OF_THE_WILD</requirements>
+        <description>
+            <p>At 3rd level, the Wyld's blessing grants you a savage gift of primal might. Choose one of the following features:</p>
+            <h5 class="caption">Predator’s Rush</h5>
+            <p>As a bonus action, surge up to your movement speed. You can move through enemy spaces without provoking opportunity attacks. Each enemy you pass through must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or take 1d10 + your Strength modifier bludgeoning damage and be pushed 5 feet in a direction of your choice.</p>
+            <p class="indent">If you end your movement adjacent to one of your summoned creatures, you and that creature gain a +2 bonus to melee attack damage until the end of your next turn.</p>
+            <p class="indent">Damage increases to 2d10 at 7th level and 3d12 at 15th level. You can use this feature once per short rest at 3rd–6th level, twice per short rest at 7th–14th, and three times per short rest at 15th level and beyond.</p>
+            <h5 class="caption">Primal Rend</h5>
+            <p>When you hit a creature with a melee weapon or natural weapon attack, you can rend the wound open. The target must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or begin bleeding, taking damage equal to your Strength modifier at the start of each of its turns for 1 minute, or until it receives magical healing or uses an action to staunch the wound.</p>
+            <p class="indent">At 11th level, the bleed damage increases to twice your Strength modifier. A creature can repeat the saving throw at the end of each of its turns. You can use this feature once per short rest at 3rd–6th level, twice per short rest at 7th–14th, and three times per short rest at 15th level and beyond.</p>
+            <h5 class="caption">Alpha's Command</h5>
+            <p>As a bonus action, unleash a feral roar. Up to two of your summoned creatures or allies within 30 feet can immediately use their reaction to move up to their speed and make one melee weapon or natural weapon attack.</p>
+            <p class="indent">Enemies within 10 feet of you must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or be frightened until the end of their next turn.</p>
+            <p class="indent">The number of affected allies increases to three at 7th level and four at 15th level. You can use this feature once per short rest at 3rd–6th level, twice per short rest at 7th–14th, and three times per short rest at 15th level and beyond.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <select type="Class Feature" name="Primal Lord Wyld Boon" supports="Primal Lord Wyld Boon" level="3"/>
+        </rules>
+    </element>
+    <element name="Predator’s Rush" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_PREDATORS_RUSH">
+        <supports>Primal Lord Wyld Boon</supports>
+        <description>
+            <p>As a bonus action, surge up to your movement speed, passing through enemies without provoking opportunity attacks. Each enemy you pass through must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or take 1d10 + your Strength modifier bludgeoning damage and be pushed 5 feet in a direction of your choice.</p>
+            <p class="indent">If you end your movement adjacent to one of your summoned creatures, you and that creature gain a +2 bonus to melee attack damage until the end of your next turn.</p>
+            <p class="indent">Damage increases to 2d10 at 7th level and 3d12 at 15th level. Uses: Once per short rest at 3rd–6th, twice per short rest at 7th–14th, three times per short rest at 15th+.</p>
+        </description>
+        <sheet usage="Bonus Action">
+            <description>As a bonus action, surge through enemies without provoking opportunity attacks. Enemies passed through make a Strength save (DC = 8 + proficiency + Strength) or take bludgeoning damage and be pushed. Gain a damage bonus with your summoned creature if ending adjacent.</description>
+        </sheet>
+    </element>
+    <element name="Primal Rend" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_PRIMAL_REND">
+        <supports>Primal Lord Wyld Boon</supports>
+        <description>
+            <p>When you hit a creature with a melee or natural weapon attack, you can rend the wound open. The target must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or begin bleeding, taking damage equal to your Strength modifier at the start of each of its turns for 1 minute, or until it receives magical healing or uses an action to staunch the wound.</p>
+            <p class="indent">At 11th level, the bleed damage increases to twice your Strength modifier. A creature can repeat the saving throw at the end of each of its turns. Uses: Once per short rest at 3rd–6th, twice per short rest at 7th–14th, three times per short rest at 15th+.</p>
+        </description>
+        <sheet usage="Special">
+            <description>When you hit with a melee or natural attack, force a Strength save (DC = 8 + proficiency + Strength) or cause bleed damage each turn. At 11th level, damage doubles. Uses scale with level.</description>
+        </sheet>
+    </element>
+    <element name="Alpha's Command" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_ALPHAS_COMMAND">
+        <supports>Primal Lord Wyld Boon</supports>
+        <description>
+            <p>As a bonus action, unleash a feral roar. Up to two of your summoned creatures or allies within 30 feet can immediately use their reaction to move up to their speed and make one melee weapon or natural weapon attack.</p>
+            <p class="indent">Enemies within 10 feet of you must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or be frightened until the end of their next turn.</p>
+            <p class="indent">Number of affected allies increases to three at 7th level and four at 15th level. Uses: Once per short rest at 3rd–6th, twice per short rest at 7th–14th, three times per short rest at 15th+.</p>
+        </description>
+        <sheet usage="Bonus Action">
+            <description>Bonus action roar: up to two (scales with level) allies or summons move and attack as a reaction. Enemies within 10 ft make a Strength save (DC = 8 + proficiency + Strength) or be frightened. Uses scale with level.</description>
+        </sheet>
+    </element>
+</elements>

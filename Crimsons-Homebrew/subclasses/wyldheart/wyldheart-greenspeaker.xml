@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <element name="Greenspeaker" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_GREENSPEAKER">
+		<supports>Blessing of the Wyld</supports>
+		<description>
+			<p><description>Your innate magic stems from your deep bond with nature and the powerful plants of the wild, embodied by your mastery over forest gaurdian's and fey.</description></p>
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_COMPANION_SUMMON_I"/>
+			<div element="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_GREENSPEAKER_BLESSING_OF_THE_WILD"/>
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_WYLD_BOON"/>
+			<div element="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_HEART_RESONANCE_FEATURE"/>
+		</description>
+		<sheet display="false">
+			<description>Your innate magic stems from your deep bond with nature and the powerful plants of the wild, embodied by your mastery over forest gaurdian's and fey.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_COMPANION_SUMMON_I" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_BLESSING_OF_THE_WILD" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_WYLD_BOON" level="3" />
+		</rules>
+	</element>
+	<element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_COMPANION_SUMMON_I">
+		<description>Summon a Wyldheart Companion to aid you in battle.</description>
+		<sheet display="false">
+			<description>Summon a Wyldheart Companion to aid you in battle.</description>
+		</sheet>
+		<rules>
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_WISP" level="1" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_BLUE_JAY" level="1" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_PIXIE" level="1" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_WOOD_WOAD_SAPLING" level="6" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_WOOD_WOAD" level="6" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_MYCONID" level="6" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GIANT_EAGLE" level="14" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_DRYAD" level="14" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_ELDER_DRYAD" level="14" />
+		</rules>
+	</element>
+	<element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_BLESSING_OF_THE_WILD">
+		<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Constitution modifier</description>
+		<sheet>
+			<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Constitution modifier</description>
+		</sheet>
+	</element>
+	<element name="Greenspeaker Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_WYLD_BOON">
+        <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_GREENSPEAKER_BLESSING_OF_THE_WILD</requirements>
+        <description>
+            <p>At 3rd level, your bond with the arcane wild grants you a primal gift. Choose one of the following blessings shaped by the whispering wilderness:</p>
+            <h5 class="caption">BLOOMCALLER’S GRACE</h5>
+            <p>When you summon a creature, it is wreathed in moss and blossoms. It gains temporary hit points equal to (3 × your (Constitution modifier + Greenspeaker level))/6 rounded down, and +10 feet movement for 1 minute. The first time it would drop to 0 hit points, it instead drops to 1 and releases a pulse of pollen—each ally within 10 feet of it regains hit points equal to (3 × your (Constitution modifier + Greenspeaker level))/6 rounded down.</p>
+            <h5 class="caption">SPIRITWEAVE</h5>
+            <p>While you have a summoned creature within 60 feet, you gain a +(Greenspeaker Level/3) bonus to AC and saving throws. Once per turn when you cast a spell, one of your summoned creatures may move up to 10 feet without provoking opportunity attacks. This benefit ends if you no longer control any summoned creatures.</p>
+            <h5 class="caption">WHISPERBLOOM</h5>
+            <p>The first attack each of your summoned creatures makes on its turn deals additional psychic damage equal to your Greenspeaker level + (proficiency bonus x 2). Once per long rest, your summoned creatures can release a haunting bloom. Enemies within 10 feet of them must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be frightened until the end of their next turn.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <select type="Class Feature" name="Greenspeaker Wyld Boon" supports="Greenspeaker Wyld Boon" level="3"/>
+        </rules>
+    </element>
+    <element name="Bloomcaller's Grace" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_BLOOMCALLERS_GRACE">
+        <supports>Greenspeaker Wyld Boon</supports>
+        <description>
+            <p>Your presence sparks unnatural growth, shielding and healing your allies.</p>
+            <p class="indent">When you summon a creature, it is immediately wreathed in glowing moss and petals.</p>
+            <p class="indent">It gains temporary hit points equal to (3 × your (Constitution modifier + Greenspeaker level))/6 rounded down, and its movement speed increases by 10 feet for 1 minute.</p>
+            <p class="indent">The first time the summoned creature drops to 0 hit points, it instead drops to 1 and explodes in a burst of pollen. All allies within 10 feet regain hit points equal to your Constitution modifier.</p>
+        </description>
+        <sheet>
+            <description>Summoned creatures gain temp HP ((3 × your (Constitution modifier + Greenspeaker level))/6 rounded down) and a 10 feet speed boost. When dropping to 0 HP, they explode, healing allies within 10 ft for your Constitution mod.</description>
+        </sheet>
+    </element>
+    <element name="Spiritweave" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_SPIRITWEAVE">
+        <supports>Greenspeaker Wyld Boon</supports>
+        <description>
+            <p>You subtly stitch your summoned creatures into the weave of your own magic.</p>
+            <p class="indent">While you have at least one summoned creature within 60 feet of you, you gain a +(Greenspeaker Level/3) bonus to AC and saving throws.</p>
+            <p class="indent">Once per turn when you cast a spell, you can cause one summoned creature you control to move up to 10 feet as part of the spell, without provoking opportunity attacks.</p>
+            <p class="indent">This bonus ends if no summoned creature remains under your control.</p>
+        </description>
+        <sheet>
+            <description>Gain +1 AC and saving throws when a summon is within 60 ft. Once per turn, move a summon 10 ft without provoking opportunity attacks during a spell.</description>
+        </sheet>
+    </element>
+    <element name="Whisperbloom" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_WHISPERBLOOM">
+        <supports>Greenspeaker Wyld Boon</supports>
+        <description>
+            <p>Nature marks your summoned creatures as vessels of ancient secrets.</p>
+            <p class="indent">The first attack each summoned creature makes on its turn deals additional psychic damage equal to your Greenspeaker level + (proficiency bonus x 2).</p>
+            <p class="indent">Once per long rest, you can cause all your summoned creatures within 60 feet to release a whispering cry. Enemies of your choice within 10 feet of those summons must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be frightened until the end of their next turn.</p>
+        </description>
+        <sheet>
+            <description>Summoned creatures deal extra psychic damage equal to proficiency bonus on their first attack. Once per long rest, cause a whispering cry to frighten enemies within 10 ft (Wis save). </description>
+        </sheet>
+    </element>
+</elements>

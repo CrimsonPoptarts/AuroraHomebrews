@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Path of the Whistling Death</name>
+        <description>The Path of the Whistling Death — deadly rangers who control a whistling arrow through sound and deadly precision.</description>
+        <update version="0.0.2">
+            <file name="ranger-whistling-death.xml" url="https://homebrew.example/ranger-whistling-death.xml" />
+        </update>
+    </info>
+
+    <element name="Path of the Whistling Death" type="Archetype" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_RANGER_PATH_OF_THE_WHISTLING_DEATH">
+        <supports>Ranger Archetype</supports>
+        <description>
+            <p>Rangers who walk the Path of the Whistling Death master a rare and feared art: commanding a magical arrow with the sound of their whistle. Their Whistler Arrow weaves through the battlefield, an unstoppable storm of death. Few survive once the arrow begins its terrible song.</p>
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_WHISTLER_ARROW" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_PIERCING_SONG" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_STORM_CALL" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_SONG_OF_THE_SLAYER" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_WHIRLWIND_ARROW" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_WHISTLER_ARROW" level="3" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_PIERCING_SONG" level="3" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_STORM_CALL" level="7" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_SONG_OF_THE_SLAYER" level="11" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_WHIRLWIND_ARROW" level="15" />
+        </rules>
+    </element>
+
+    <element name="Whistler Arrow" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_WHISTLER_ARROW">
+        <description>
+            <p><em>3rd-level Path of the Whistling Death feature</em></p>
+            <p>You forge a magical bond with a unique arrow called the Whistler Arrow. As a bonus action, you can command the Whistler Arrow to fly toward a creature you can see within 60 feet and make a ranged spell attack.</p>
+            <p class="indent">You use your Wisdom modifier for the attack and damage rolls. On a hit, the Whistler Arrow deals 2d6 piercing damage.</p>
+            <p class="indent">This damage increases as you gain ranger levels: 3d6 at 7th level, 4d6 at 11th level, and 6d6 at 15th level. Starting at 15th level, the Whistler Arrow also deals an additional 1d8 force damage on each hit.</p>
+            <p class="indent">The Whistler Arrow ignores half and three-quarters cover and curves around obstacles. It automatically returns to you after the attack.</p>
+        </description>
+        <sheet>
+            <description>Bonus Action: Command your Whistler Arrow to attack. (2d6 → 6d6 scaling piercing damage). At 15th level, add +1d8 force damage. Ignores cover and curves around obstacles.</description>
+        </sheet>
+    </element>
+
+    <element name="Piercing Song" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_PIERCING_SONG">
+        <description>
+            <p><em>3rd-level Path of the Whistling Death feature</em></p>
+            <p>Your mastery of the Whistler Arrow allows you to target multiple foes. When you hit a creature with your Whistler Arrow, you can immediately target a second creature within 10 feet of the original target, making a separate attack roll against it.</p>
+            <p class="indent">At 11th level, the distance increases to 20 feet. At 15th level, it increases to 30 feet, and you can chain up to three additional creatures total.</p>
+        </description>
+        <sheet>
+            <description>Whistler Arrow pierces secondary targets within 10 → 30 feet, chaining more attacks as you level up.</description>
+        </sheet>
+    </element>
+
+    <element name="Storm Call" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_STORM_CALL">
+        <description>
+            <p><em>7th-level Path of the Whistling Death feature</em></p>
+            <p>You can unleash a storm of attacks. As an action, you command the Whistler Arrow to attack a number of creatures you can see within 60 feet, up to your Wisdom modifier (minimum of 1 target).</p>
+            <p class="indent">You can use this feature a number of times equal to your proficiency bonus per long rest.</p>
+            <p class="indent">At 15th level, you can use Storm Call as a bonus action instead of an action.</p>
+        </description>
+        <sheet usage="{{proficiency}}/Long Rest">
+            <description>Action: Whistler Arrow attacks up to Wisdom modifier targets. Bonus Action use at 15th level.</description>
+        </sheet>
+    </element>
+
+    <element name="Song of the Slayer" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_SONG_OF_THE_SLAYER">
+        <description>
+            <p><em>11th-level Path of the Whistling Death feature</em></p>
+            <p>When you reduce a creature to 0 hit points with the Whistler Arrow, you can immediately redirect it to attack another creature within 30 feet of the last target. You can chain these redirections a number of times up to your Wisdom modifier per turn.</p>
+            <p class="indent">Each chained attack deals an additional 1d8 force damage, stacking with each new target hit.</p>
+        </description>
+        <sheet>
+            <description>Chain Whistler Arrow attacks on kill (up to Wisdom modifier times). Each chained hit deals +1d8 extra force damage stacking.</description>
+        </sheet>
+    </element>
+
+    <element name="Whirlwind Arrow" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_WHISTLING_DEATH_WHIRLWIND_ARROW">
+        <description>
+            <p><em>15th-level Path of the Whistling Death feature</em></p>
+            <p>Your Whistler Arrow becomes an unstoppable whirlwind. When you use Storm Call or Song of the Slayer, each creature damaged must succeed on a Strength saving throw against your spell save DC or be knocked prone and disarmed (dropping one held item of your choice).</p>
+            <p class="indent">In addition, whenever a creature is hit by your Whistler Arrow, it cannot take reactions until the start of your next turn.</p>
+        </description>
+        <sheet>
+            <description>Whirlwind: Save or prone + disarm on Storm Call and Song of the Slayer. All Whistler Arrow hits suppress reactions until your next turn.</description>
+        </sheet>
+    </element>
+
+</elements>

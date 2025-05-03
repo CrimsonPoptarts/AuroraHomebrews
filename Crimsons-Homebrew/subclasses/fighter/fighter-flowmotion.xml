@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Flowmotion Fighter</name>
+        <description>A master of momentum, chaining leaps, dashes, rebounds, and wall-runs into
+            devastating battlefield dominance.</description>
+        <author url="http://homebrew.example/flowmotion">Homebrew: Flowmotion Fighter</author>
+        <update version="0.0.2">
+            <file name="fighter-flowmotion.xml"
+                url="http://homebrew.example/flowmotion/fighter-flowmotion.xml" />
+        </update>
+    </info>
+    <element name="Flowmotion Fighter" type="Archetype" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FLOWMOTION_FIGHTER">
+        <supports>Martial Archetype</supports>
+        <description>
+            <p>Flowmotion Fighters transform their own movement into a weapon. With a perfect blend
+                of speed and precision, they chain jumps, spins, and attacks in a seamless flow that
+                overwhelms opponents before they can react.</p>
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_MOMENTUM_FLOW" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_KINETIC_SURGE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_AIR_CONTROL" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_WHIRLWIND_ESCAPE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_PHANTOM_STEP" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_LIMITLESS_FLOW" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_MOMENTUM_FLOW" level="3" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_KINETIC_SURGE" level="3" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_AIR_CONTROL" level="7" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_WHIRLWIND_ESCAPE" level="10" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_PHANTOM_STEP" level="15" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_LIMITLESS_FLOW" level="18" />
+        </rules>
+    </element>
+
+    <element name="Momentum Flow" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_MOMENTUM_FLOW">
+        <description>
+            <p>
+                <em>3rd-level Flowmotion feature</em>
+            </p>
+            <p>You master chaining your motion into relentless offense. When you Dash, Jump, or
+                Disengage as a bonus action, you can immediately move 10 feet in any direction as a
+                free action. This movement can be vertical or along surfaces without falling until
+                the end of your turn.</p>
+            <p class="indent">You can use this free movement once per turn at 3rd level, twice at
+                7th level, and three times at 15th level.</p>
+        </description>
+        <sheet>
+            <description>Dash, Jump, or Disengage as a bonus action to gain bonus 10 ft movement
+                without provoking attacks. Chains increase at levels 7 and 15.</description>
+        </sheet>
+    </element>
+
+    <element name="Kinetic Surge" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_KINETIC_SURGE">
+        <description>
+            <p>
+                <em>3rd-level Flowmotion feature</em>
+            </p>
+            <p>When you move 20 feet or more on your turn, you become harder to hit and strike
+                harder. Until the start of your next turn, you gain +2 to AC and your next weapon
+                attack deals additional damage equal to your distance moved/10.</p>
+        </description>
+        <sheet>
+            <description>Move 20+ ft to gain +2 AC and bonus damage equal to your distance moved/10.</description>
+        </sheet>
+    </element>
+
+    <element name="Air Control" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_AIR_CONTROL">
+        <description>
+            <p>
+                <em>7th-level Flowmotion feature</em>
+            </p>
+            <p>You can attack while moving through the air. Whenever you jump, fall, or move
+                vertically at least 10 feet, you can make one melee weapon attack as a bonus action.
+                You can Dash while airborne without falling until the end of your movement.</p>
+            <p class="indent">You are immune to fall damage from distances less than 60 feet.</p>
+        </description>
+        <sheet>
+            <description>Bonus attack when jumping or falling. Dash midair. Immune to fall damage up
+                to 60 ft.</description>
+        </sheet>
+    </element>
+
+    <element name="Whirlwind Escape" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_WHIRLWIND_ESCAPE">
+        <description>
+            <p>
+                <em>10th-level Flowmotion feature</em>
+            </p>
+            <p>Your momentum becomes a blur. When a creature hits you with an attack, you can use
+                your reaction to immediately move up to half your speed without provoking
+                opportunity attacks. If you end adjacent to the attacker, you can make one melee
+                weapon attack as part of the same reaction.</p>
+        </description>
+        <sheet>
+            <description>Reaction: On getting hit, move half speed and attack if ending next to the
+                attacker.</description>
+        </sheet>
+    </element>
+
+    <element name="Phantom Step" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_PHANTOM_STEP">
+        <description>
+            <p>
+                <em>15th-level Flowmotion feature</em>
+            </p>
+            <p>When you move through a creature's space, you can force it to make a Strength saving
+                throw (DC 8 + proficiency bonus + Dexterity modifier) or fall prone. Once per turn
+                when you move through a creature's space, you can teleport to an unoccupied space
+                within 10 feet, treating the movement as if you blurred through them.</p>
+        </description>
+        <sheet>
+            <description>Dash through enemies to knock prone. Once/turn, teleport through an enemy.</description>
+        </sheet>
+    </element>
+
+    <element name="Limitless Flow" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_LIMITLESS_FLOW">
+        <description>
+            <p>
+                <em>18th-level Flowmotion feature</em>
+            </p>
+            <p>You become the embodiment of motion. When you Dash, Jump, or Disengage, you can chain
+                a number of free movement actions equal to your Dexterity modifier (minimum 2). Your
+                speed increases by 20 feet. You ignore effects that would reduce your movement
+                speed, and can move along vertical surfaces and liquids indefinitely without
+                falling.</p>
+        </description>
+        <sheet>
+            <description>Chain Dex mod extra movements. +20 speed. Immune to slow effects. Infinite
+                wall and water running.</description>
+        </sheet>
+    </element>
+</elements>

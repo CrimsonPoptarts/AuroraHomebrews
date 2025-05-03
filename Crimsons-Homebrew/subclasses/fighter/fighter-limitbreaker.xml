@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+    <!-- Path of the Limitbreaker Archetype -->
+    <element name="Limitbreaker" type="Archetype" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_LIMITBREAKER_FIGHTER">
+        <supports>Martial Archetype</supports>
+        <description>
+            <p>Fighters who follow the Path of the Limitbreaker draw upon internal reserves of
+                force, pushing their bodies and spirits beyond mortal limits. Every battle fuels
+                their Limit Gauge, culminating in explosive Limit Break abilities that shake the
+                battlefield.</p>
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_LIMIT_GAUGE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_LIMIT_MAGIC" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_CROSS_SLASH" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMIT_GROWTH" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_WARP_BREAK" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_OVERDRIVE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_FINAL_LIMIT" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_LIMIT_GAUGE" level="3" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_LIMIT_MAGIC" level="3" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_CROSS_SLASH" level="7" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMIT_GROWTH"
+                level="10" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_WARP_BREAK" level="10" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_OVERDRIVE" level="15" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_FINAL_LIMIT" level="18" />
+        </rules>
+    </element>
+
+    <!-- Limit Gauge -->
+    <element name="Limit Gauge" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_LIMIT_GAUGE">
+        <description>
+            <p>
+                <em>3rd-level Path of the Limitbreaker feature</em>
+            </p>
+            <p>You possess a Limit Gauge represented by a pool of Limit Dice. You have {{limit
+                dice:amount}} Limit Dice, which are d{{limit dice:size}}s.</p>
+            <p class="indent">You gain 1 Limit Die when:</p>
+            <p class="indent">- You take damage.</p>
+            <p class="indent">- You deal damage with a weapon attack (once per turn).</p>
+            <p class="indent">- You score a critical hit (2 dice).</p>
+            <p>Limit Dice fuel your Limit Arts and can be expended when casting Limit Magic to add
+                bonus damage equal to the total rolled.</p>
+            <p>Unused Limit Dice vanish after a long rest.</p>
+        </description>
+        <sheet>
+            <description>Gain Limit Dice when dealing/taking damage. Spend to fuel Limit Arts and
+                empower magic. Dice reset on long rest. The number on the sheet is the maximum.</description>
+        </sheet>
+        <rules>
+            <stat name="limit dice:amount" value="2" />
+            <stat name="limit dice:amount" value="1" level="7" />
+            <stat name="limit dice:amount" value="1" level="15" />
+            <stat name="limit dice:size" value="6" bonus="size" />
+            <stat name="limit dice:dc" value="8" />
+            <stat name="limit dice:dc" value="proficiency" />
+            <stat name="limit dice:dc:ability" value="constitution:modifier" bonus="ability" />
+            <stat name="limit dice:dc" value="limit dice:dc:ability" />
+        </rules>
+    </element>
+
+    <!-- Limit Magic -->
+    <element name="Limit Magic" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_LIMIT_MAGIC">
+        <description>
+            <p>
+                <em>3rd-level Path of the Limitbreaker feature</em>
+            </p>
+            <p>You learn elemental Limit Magic spells. Constitution is your spellcasting ability for
+                these spells. When you cast a Limit Magic spell, you must expend 1 or 2 Limit Dice
+                and add the total rolled to the spell's damage or healing.</p>
+            <p>You can cast each spell once per long rest at 3rd level, twice per long rest at 7th,
+                and three times per long rest at 15th. Alternatively, you can expend 3 Limit Die to
+                cast a spell without using one of its limited uses.</p>
+            <p>Spells known at each tier:</p>
+            <p class="indent">3rd level: Fire, Blizzard, Thunder, Cure</p>
+            <p class="indent">7th level: Fira, Blizzara, Thundara, Cura</p>
+            <p class="indent">15th level: Firaga, Blizzaga, Thundaga, Curaga</p>
+            <p class="indent">18th level: ZetaFlare, Absolute Zero, Judgment Bolt, Full Heal</p>
+            <p>The saving throw DC for your Limit Magic spells is calculated as follows:</p>
+            <p class="indent"><strong>Limit Magic save DC</strong> = 8 + your proficiency bonus +
+                your Constitution modifier</p>
+        </description>
+        <sheet>
+            <description>Learn elemental spells. Cast each 1/day at 3rd, 2/day at 7th, 3/day at
+                15th. Add Limit Dice roll to damage or healing. Spend 3 Limit Dice to cast without
+                limited uses.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRE" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARD" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDER" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURE" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRA" level="7" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZARA" level="7" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDARA" level="7" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURA" level="7" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FIRAGA" level="15" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_BLIZZAGA" level="15" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_THUNDAGA" level="15" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_CURAGA" level="15" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_ZETAFLARE" level="18" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_ABSOLUTE_ZERO" level="18" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_JUDGMENT_BOLT" level="18" />
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_FULL_HEAL" level="18" />
+        </rules>
+    </element>
+
+    <!-- Cross Slash -->
+    <element name="Cross Slash" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_CROSS_SLASH">
+        <description>
+            <p>
+                <em>7th-level Path of the Limitbreaker feature</em>
+            </p>
+            <p>As part of the Attack action, you can expend 2 Limit Dice to make two additional
+                weapon attacks against the same target. Roll the Limit Dice and add the total to the
+                damage of each attack. If both additional attacks hit, the target must succeed on a
+                Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution
+                modifier) or be stunned until the end of your next turn.</p>
+        </description>
+        <sheet>
+            <description>Spend 2 Limit Dice: Make two extra attacks. Add Limit Dice to damage. If
+                both hit, target must save or be stunned.</description>
+        </sheet>
+    </element>
+
+    <element name="Limit Growth" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMIT_GROWTH">
+        <description>
+            <p>
+                <em>10th-level Path of the Limitbreaker feature</em>
+            </p>
+            <p>At 10th level, your Limit Dice turn into d8s. At 18th level, they turn into d10s.</p>
+        </description>
+        <sheet display="false">
+            <description>Your Limit Dice turn into d8s.</description>
+            <description level="18">Your Limit Dice turn into d10s.</description>
+        </sheet>
+        <rules>
+            <stat name="limit dice:size" value="8" level="10" bonus="size" />
+            <stat name="limit dice:size" value="10" level="18" bonus="size" />
+        </rules>
+    </element>
+
+    <!-- Warp Break -->
+    <element name="Warp Break" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_WARP_BREAK">
+        <description>
+            <p>
+                <em>10th-level Path of the Limitbreaker feature</em>
+            </p>
+            <p>As a bonus action, you can expend 2 Limit Dice to teleport up to 30 feet to a space
+                you can see. If you teleport adjacent to an enemy, you can make a melee weapon
+                attack with advantage against them.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>Spend 2 Limit Dice: Teleport 30 ft, make a melee attack with advantage.</description>
+        </sheet>
+    </element>
+
+    <!-- Overdrive -->
+    <element name="Overdrive" type="Archetype Feature" source="Homebrew"
+    id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_OVERDRIVE">
+        <description>
+            <p><em>15th-level Path of the Limitbreaker feature</em></p>
+            <p>When you score a critical hit, gain 3 Limit Dice instead of 2.</p>
+            <p class="ident">Additionally, once per short rest, when you drop below half your hit point maximum, immediately fill your Limit Gauge to maximum and gain 1 hit point to prevent being downed. If you choose to empty your Limit Gauge after it has been filled, you can use Warp Break as a reaction.</p>
+        </description>
+        <sheet>
+            <description>Critical hits give +3 Limit Dice. Once/short rest, dropping below half HP fills Limit Gauge and grants +1 HP. You can empty the Gauge to use Warp Break as a reaction.</description>
+        </sheet>
+    </element>
+
+    <!-- Final Limit -->
+    <element name="Final Limit" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_FINAL_LIMIT">
+        <description>
+            <p>
+                <em>18th-level Path of the Limitbreaker feature</em>
+            </p>
+            <p>When you expend Limit Dice to deal damage, treat one of the dice as if it rolled its
+                maximum possible value. Additionally, you unlock the final tier of Limit Magic
+                spells.</p>
+        </description>
+        <sheet>
+            <description>Spend Limit Dice: Max one die per effect. Unlock ultimate spells at 18th
+                level.</description>
+        </sheet>
+    </element>
+
+</elements>

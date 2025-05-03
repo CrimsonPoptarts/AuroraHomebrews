@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Path of the Virtuoso" type="Archetype" source="Homebrew"
+		id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_VIRTUOSO">
+		<supports>Primal Path</supports>
+		<description>
+			<p>Barbarians of the Path of the Virtuoso don’t just fight — they perform. These
+				warriors channel their rage through rhythm, melody, and raw performance, entering a
+				heightened state of combat awareness known as the Flow. Armed with kazoos, bone
+				flutes, warhorns, or anything they can play while wielding great weapons, these
+				combat virtuosos weave a battle symphony of relentless strikes and bold maneuvers.</p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_FLOW_STATE" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_SONIC_ASSAULT" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_RHYTHMIC_ONSLAUGHT" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_ULTIMATE_CADENCE" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_LIVING_LEGEND" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_FLOW_STATE"
+				level="3" />
+			<grant type="Archetype Feature"
+				id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_SONIC_ASSAULT" level="3" />
+			<grant type="Archetype Feature"
+				id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_RHYTHMIC_ONSLAUGHT" level="6" />
+			<grant type="Archetype Feature"
+				id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_ULTIMATE_CADENCE" level="10" />
+			<grant type="Archetype Feature"
+				id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_LIVING_LEGEND" level="14" />
+		</rules>
+	</element>
+
+	<element name="Flow State" type="Archetype Feature" source="Homebrew"
+		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_FLOW_STATE">
+		<description>
+			<p>
+				<em>3rd-level Path of the Virtuoso feature</em>
+			</p>
+			<p>When you choose this path, you master a unique instrument that can be played while
+				keeping your hands free for combat — whether held in your mouth, worn as a pendant,
+				or tied to your wrist. When you rage, you enter a Flow State: a hyper-focused combat
+				trance driven by your music. While in this state:</p>
+			<p class="indent">• When you hit with a melee weapon attack, you can add an additional
+				1d4 thunder damage.</p>
+			<p class="indent">• Once per turn when you reduce a creature to 0 hit points, you can
+				immediately move up to 10 feet and make a melee weapon attack as a reaction.</p>
+		</description>
+		<sheet>
+			<description>When you rage, you enter a Flow State: add +1d4 thunder damage to your
+				melee attacks, and once per turn when you drop a creature to 0 hit points, you can
+				move 10 ft and make a melee attack as a reaction.</description>
+		</sheet>
+	</element>
+
+	<element name="Sonic Assault" type="Archetype Feature" source="Homebrew"
+		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_SONIC_ASSAULT">
+		<description>
+			<p>
+				<em>3rd-level Path of the Virtuoso feature</em>
+			</p>
+			<p>Your rhythm amplifies your strikes. When you enter a rage, choose one of the
+				following performance styles:</p>
+			<p class="indent"><strong>Pulse Beat:</strong> Your critical hit range increases by 1
+				(e.g., crit on 19-20).</p>
+			<p class="indent"><strong>Crash Tempo:</strong> When you hit a creature with a melee
+				weapon attack, you can push it 5 feet away from you, no action required.</p>
+			<p class="indent">The chosen style lasts until your rage ends, and you can change it
+				when you rage again.</p>
+		</description>
+		<sheet>
+			<description>Choose a style each rage: Pulse Beat (crit on 19-20) or Crash Tempo (melee
+				hits push target 5 ft). Changes with each rage.</description>
+		</sheet>
+	</element>
+
+	<element name="Rhythmic Onslaught" type="Archetype Feature" source="Homebrew"
+		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_RHYTHMIC_ONSLAUGHT">
+		<description>
+			<p>
+				<em>6th-level Path of the Virtuoso feature</em>
+			</p>
+			<p>Your relentless assault becomes a rhythmic display. While in a Flow State:</p>
+			<p class="indent">• You can use your bonus action to make an extra melee weapon attack.</p>
+			<p class="indent">• Whenever you score a critical hit, you can unleash a sonic
+				shockwave. All creatures of your choice within 10 feet must succeed on a
+				Constitution saving throw (DC 8 + your proficiency bonus + your Strength modifier)
+				or be deafened until the end of your next turn and take 2d6 thunder damage.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>In Flow State: bonus action for a melee attack, and your crits trigger a
+				10-ft sonic shockwave (Con save DC{{rhythmic onslaught:dc}} or 2d6 thunder damage
+				and deafened).</description>
+		</sheet>
+		<rules>
+			<stat name="rhythmic onslaught:dc" value="8" />
+			<stat name="rhythmic onslaught:dc" value="proficiency" />
+			<stat name="rhythmic onslaught:dc" value="strength:modifier" />
+		</rules>
+	</element>
+
+	<element name="Ultimate Cadence" type="Archetype Feature" source="Homebrew"
+		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_ULTIMATE_CADENCE">
+		<description>
+			<p>
+				<em>10th-level Path of the Virtuoso feature</em>
+			</p>
+			<p>Your tempo sharpens, allowing you to read your enemies’ rhythm. While raging, you
+				have advantage on initiative rolls and your speed increases by 10 feet.</p>
+			<p class="indent">Additionally, when you use your bonus action for a Flow State melee
+				attack (from Rhythmic Onslaught), you can choose to make two attacks instead of one.
+				This can be used a number of times equal to your Strength modifier (minimum once)
+				per long rest.</p>
+		</description>
+		<sheet>
+			<description>While raging: +10 ft speed, advantage on initiative. Bonus action Flow
+				State attack can be 2 attacks (Strength mod per long rest).</description>
+		</sheet>
+	</element>
+
+	<element name="Living Legend" type="Archetype Feature" source="Homebrew"
+		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_LIVING_LEGEND">
+		<description>
+			<p>
+				<em>14th-level Path of the Virtuoso feature</em>
+			</p>
+			<p>Your music-fueled fighting style reaches its apex. While in a Flow State:</p>
+			<p class="indent">• Your melee weapon attacks deal an extra 2d6 thunder damage
+				(replacing the 1d4 from Flow State).</p>
+			<p class="indent">• Your crit range improves by 1 more (cumulative with Sonic Assault),
+				now critting on 18-20 if you chose Pulse Beat.</p>
+			<p class="indent">• When you score a critical hit, you can immediately move up to your
+				speed and make a melee weapon attack without using your reaction.</p>
+		</description>
+		<sheet>
+			<description>In Flow State: +2d6 thunder damage to melee hits, improved crit range, and
+				crits let you move and make a melee attack for free.</description>
+		</sheet>
+	</element>
+</elements>
