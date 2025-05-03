@@ -2,11 +2,11 @@
 <elements>
 	<info>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/spells.xml" />
 		</update>
 	</info>
-	<element name="Summon Wisp" type="Spell" source="Homebrew" id="ID_CUSTOM_SPELL_SUMMON_WISP">
+	<element name="Summon Wisp" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_WISP">
 		<supports></supports>
 		<description>
 			<p>Summon a Greenspeaker Companion.</p>
@@ -33,7 +33,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Blue Jay" type="Spell" source="Homebrew"
+	<element name="Summon Blue Jay" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_BLUE_JAY">
 		<supports></supports>
 		<description>
@@ -59,7 +59,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Pixie" type="Spell" source="Homebrew" id="ID_CUSTOM_SPELL_SUMMON_PIXIE">
+	<element name="Summon Pixie" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_PIXIE">
 		<supports></supports>
 		<description>
 			<p>Summon a Greenspeaker Companion.</p>
@@ -85,7 +85,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Wood Woad Sapling" type="Spell" source="Homebrew"
+	<element name="Summon Wood Woad Sapling" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_WOOD_WOAD_SAPLING">
 		<supports></supports>
 		<description>
@@ -111,7 +111,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Wood Woad" type="Spell" source="Homebrew"
+	<element name="Summon Wood Woad" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_WOOD_WOAD">
 		<supports></supports>
 		<description>
@@ -139,7 +139,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Myconid" type="Spell" source="Homebrew"
+	<element name="Summon Myconid" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_MYCONID">
 		<supports></supports>
 		<description>
@@ -166,7 +166,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Giant Eagle" type="Spell" source="Homebrew"
+	<element name="Summon Giant Eagle" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_GIANT_EAGLE">
 		<supports></supports>
 		<description>
@@ -193,7 +193,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Dryad" type="Spell" source="Homebrew" id="ID_CUSTOM_SPELL_SUMMON_DRYAD">
+	<element name="Summon Dryad" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_DRYAD">
 		<supports></supports>
 		<description>
 			<p>Summon a Greenspeaker Companion.</p>
@@ -217,7 +217,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Elder Dryad" type="Spell" source="Homebrew"
+	<element name="Summon Elder Dryad" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_ELDER_DRYAD">
 		<supports></supports>
 		<description>
@@ -242,7 +242,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Warden of the Wood" type="Spell" source="Homebrew"
+	<element name="Summon Warden of the Wood" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_WARDEN_OF_THE_WOOD">
 		<supports></supports>
 		<description>
@@ -269,7 +269,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Ancient Myconid" type="Spell" source="Homebrew"
+	<element name="Summon Ancient Myconid" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_ANCIENT_MYCONID">
 		<supports></supports>
 		<description>
@@ -294,7 +294,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Raven" type="Spell" source="Homebrew" id="ID_CUSTOM_SPELL_SUMMON_RAVEN">
+	<element name="Summon Raven" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_RAVEN">
 		<supports></supports>
 		<description>
 			<p>Summon a Ravensong Companion.</p>
@@ -319,7 +319,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Ashen Raven" type="Spell" source="Homebrew"
+	<element name="Summon Ashen Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_ASHEN_RAVEN">
 		<supports></supports>
 		<description>
@@ -345,7 +345,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Shade Raven" type="Spell" source="Homebrew"
+	<element name="Summon Shade Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_SHADE_RAVEN">
 		<supports></supports>
 		<description>
@@ -370,7 +370,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Dire Raven" type="Spell" source="Homebrew"
+	<element name="Summon Dire Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_DIRE_RAVEN">
 		<supports></supports>
 		<description>
@@ -397,7 +397,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon White Raven" type="Spell" source="Homebrew"
+	<element name="Summon White Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_WHITE_RAVEN">
 		<supports></supports>
 		<description>
@@ -424,7 +424,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Stormwing Raven" type="Spell" source="Homebrew"
+	<element name="Summon Stormwing Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_STORMWING_RAVEN">
 		<supports></supports>
 		<description>
@@ -450,7 +450,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Ghost Raven" type="Spell" source="Homebrew"
+	<element name="Summon Ghost Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN">
 		<supports></supports>
 		<description>
@@ -476,7 +476,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Highstorm Raven" type="Spell" source="Homebrew"
+	<element name="Summon Highstorm Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_HIGHSTORM_RAVEN">
 		<supports></supports>
 		<description>
@@ -502,7 +502,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Eclipse Raven" type="Spell" source="Homebrew"
+	<element name="Summon Eclipse Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN">
 		<supports></supports>
 		<description>
@@ -527,7 +527,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Worg Pup" type="Spell" source="Homebrew"
+	<element name="Summon Worg Pup" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_WORG_PUP">
 		<supports></supports>
 		<description>
@@ -552,7 +552,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Pack Hound" type="Spell" source="Homebrew"
+	<element name="Summon Pack Hound" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_PACK_HOUND">
 		<supports></supports>
 		<description>
@@ -578,7 +578,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Frostfang Pup" type="Spell" source="Homebrew"
+	<element name="Summon Frostfang Pup" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_FROSTFANG_PUP">
 		<supports></supports>
 		<description>
@@ -604,7 +604,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Blink Dog" type="Spell" source="Homebrew"
+	<element name="Summon Blink Dog" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_BLINK_DOG">
 		<supports></supports>
 		<description>
@@ -630,7 +630,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Shadow Mastiff" type="Spell" source="Homebrew"
+	<element name="Summon Shadow Mastiff" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_SHADOW_MASTIFF">
 		<supports></supports>
 		<description>
@@ -655,7 +655,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon White Worg" type="Spell" source="Homebrew"
+	<element name="Summon White Worg" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_WHITE_WORG">
 		<supports></supports>
 		<description>
@@ -681,7 +681,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Dire Shadow Mastiff" type="Spell" source="Homebrew"
+	<element name="Summon Dire Shadow Mastiff" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF">
 		<supports></supports>
 		<description>
@@ -706,7 +706,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Worg Alpha" type="Spell" source="Homebrew"
+	<element name="Summon Worg Alpha" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_WORG_ALPHA">
 		<supports></supports>
 		<description>
@@ -732,7 +732,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Glacial Worg" type="Spell" source="Homebrew"
+	<element name="Summon Glacial Worg" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG">
 		<supports></supports>
 		<description>
@@ -757,7 +757,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Owlbear Cub" type="Spell" source="Homebrew"
+	<element name="Summon Owlbear Cub" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_OWLBEAR_CUB">
 		<supports></supports>
 		<description>
@@ -781,7 +781,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Gremishka" type="Spell" source="Homebrew"
+	<element name="Summon Gremishka" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_GREMISHKA">
 		<supports></supports>
 		<description>
@@ -806,7 +806,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Juvenile Dilophosaurus" type="Spell" source="Homebrew"
+	<element name="Summon Juvenile Dilophosaurus" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_JUVENILE_DILO">
 		<supports></supports>
 		<description>
@@ -830,7 +830,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Giant Spider" type="Spell" source="Homebrew"
+	<element name="Summon Giant Spider" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_GIANT_SPIDER">
 		<supports></supports>
 		<description>
@@ -855,7 +855,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Sabertooth Panther" type="Spell" source="Homebrew"
+	<element name="Summon Sabertooth Panther" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_SABERTOOTH_PANTHER">
 		<supports></supports>
 		<description>
@@ -880,7 +880,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Dilophosaurus" type="Spell" source="Homebrew"
+	<element name="Summon Dilophosaurus" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_DILO">
 		<supports></supports>
 		<description>
@@ -905,7 +905,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Matriarch Spider" type="Spell" source="Homebrew"
+	<element name="Summon Matriarch Spider" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_MATRIARCH_SPIDER">
 		<supports></supports>
 		<description>
@@ -929,7 +929,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Greater Dilophosaurus" type="Spell" source="Homebrew"
+	<element name="Summon Greater Dilophosaurus" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_GREATER_DILO">
 		<supports></supports>
 		<description>
@@ -953,7 +953,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Ancient Owlbear" type="Spell" source="Homebrew"
+	<element name="Summon Ancient Owlbear" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_ANCIENT_OWLBEAR">
 		<supports></supports>
 		<description>
@@ -976,7 +976,7 @@
 			<set name="isConcentration">false</set>
 		</setters>
 	</element>
-	<element name="Summon Minor Fire Elemental" type="Spell" source="Homebrew"
+	<element name="Summon Minor Fire Elemental" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_MINOR_FIRE_ELEMENTAL">
 		<supports></supports>
 		<description>
@@ -1003,7 +1003,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Minor Water Elemental" type="Spell" source="Homebrew"
+	<element name="Summon Minor Water Elemental" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_MINOR_WATER_ELEMENTAL">
 		<supports></supports>
 		<description>
@@ -1030,7 +1030,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Minor Air Elemental" type="Spell" source="Homebrew"
+	<element name="Summon Minor Air Elemental" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_MINOR_AIR_ELEMENTAL">
 		<supports></supports>
 		<description>
@@ -1058,7 +1058,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Emberkin" type="Spell" source="Homebrew"
+	<element name="Summon Emberkin" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_EMBERKIN">
 		<supports></supports>
 		<description>
@@ -1085,7 +1085,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Summon Riverborn Elemental" type="Spell" source="Homebrew"
+	<element name="Summon Riverborn Elemental" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_RIVERBORN">
 		<supports></supports>
 		<description>
@@ -1112,7 +1112,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Stormling" type="Spell" source="Homebrew"
+	<element name="Summon Stormling" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_STORMLING">
 		<supports></supports>
 		<description>
@@ -1139,7 +1139,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Inferno Sovereign" type="Spell" source="Homebrew"
+	<element name="Summon Inferno Sovereign" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_INFERNO_SOVEREIGN">
 		<supports></supports>
 		<description>
@@ -1167,7 +1167,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Tidal Monarch" type="Spell" source="Homebrew"
+	<element name="Summon Tidal Monarch" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_TIDAL_MONARCH">
 		<supports></supports>
 		<description>
@@ -1194,7 +1194,7 @@
 		</setters>
 	</element>
 
-	<element name="Summon Storm King" type="Spell" source="Homebrew"
+	<element name="Summon Storm King" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_STORM_KING">
 		<supports></supports>
 		<description>
@@ -1223,7 +1223,7 @@
 	</element>
 
 
-	<element name="Nature's Invocation I" type="Spell" source="Homebrew"
+	<element name="Nature's Invocation I" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_NATURES_INVOCATION_I">
 		<supports></supports>
 		<description>
@@ -1248,7 +1248,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Nature's Invocation II" type="Spell" source="Homebrew"
+	<element name="Nature's Invocation II" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_NATURES_INVOCATION_II">
 		<supports></supports>
 		<description>
@@ -1275,7 +1275,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Nature's Invocation III" type="Spell" source="Homebrew"
+	<element name="Nature's Invocation III" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_NATURES_INVOCATION_III">
 		<supports></supports>
 		<description>
@@ -1300,7 +1300,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Nature's Invocation IV" type="Spell" source="Homebrew"
+	<element name="Nature's Invocation IV" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_NATURES_INVOCATION_IV">
 		<supports></supports>
 		<description>
@@ -1328,7 +1328,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Nature's Invocation V" type="Spell" source="Homebrew"
+	<element name="Nature's Invocation V" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_NATURES_INVOCATION_V">
 		<supports></supports>
 		<description>
@@ -1354,7 +1354,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Fire" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_FIRE">
+	<element name="Fire" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_FIRE">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_FIRA</requirements>
 		<description>
@@ -1378,7 +1378,7 @@
 	</element>
 
 	<!-- Blizzard -->
-	<element name="Blizzard" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_BLIZZARD">
+	<element name="Blizzard" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_BLIZZARD">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_BLIZZARA</requirements>
 		<description>
@@ -1402,7 +1402,7 @@
 	</element>
 
 	<!-- Thunder -->
-	<element name="Thunder" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_THUNDER">
+	<element name="Thunder" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_THUNDER">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_THUNDARA</requirements>
 		<description>
@@ -1427,7 +1427,7 @@
 	</element>
 
 	<!-- Cure -->
-	<element name="Cure" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_CURE">
+	<element name="Cure" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_CURE">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_CURA</requirements>
 		<description>
@@ -1449,7 +1449,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Fira" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_FIRA">
+	<element name="Fira" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_FIRA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_FIRAGA</requirements>
 		<description>
@@ -1472,7 +1472,7 @@
 	</element>
 
 	<!-- Blizzara -->
-	<element name="Blizzara" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_BLIZZARA">
+	<element name="Blizzara" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_BLIZZARA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_BLIZZAGA</requirements>
 		<description>
@@ -1496,7 +1496,7 @@
 	</element>
 
 	<!-- Thundara -->
-	<element name="Thundara" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_THUNDARA">
+	<element name="Thundara" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_THUNDARA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_THUNDAGA</requirements>
 		<description>
@@ -1520,7 +1520,7 @@
 	</element>
 
 	<!-- Cura -->
-	<element name="Cura" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_CURA">
+	<element name="Cura" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_CURA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_CURAGA</requirements>
 		<description>
@@ -1542,7 +1542,7 @@
 		</setters>
 	</element>
 
-	<element name="Firaga" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_FIRAGA">
+	<element name="Firaga" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_FIRAGA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_ZETAFLARE</requirements>
 		<description>
@@ -1565,7 +1565,7 @@
 	</element>
 
 	<!-- Blizzaga -->
-	<element name="Blizzaga" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_BLIZZAGA">
+	<element name="Blizzaga" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_BLIZZAGA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO</requirements>
 		<description>
@@ -1589,7 +1589,7 @@
 	</element>
 
 	<!-- Thundaga -->
-	<element name="Thundaga" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_THUNDAGA">
+	<element name="Thundaga" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_THUNDAGA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_JUDGMENT_BOLT</requirements>
 		<description>
@@ -1613,7 +1613,7 @@
 	</element>
 
 	<!-- Curaga -->
-	<element name="Curaga" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_CURAGA">
+	<element name="Curaga" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_CURAGA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_FULL_HEAL</requirements>
 		<description>
@@ -1634,7 +1634,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="ZetaFlare" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_ZETAFLARE">
+	<element name="ZetaFlare" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_ZETAFLARE">
 		<supports>Fighter, Limitbreaker</supports>
 		<description>
 			<p>An apocalyptic pillar of fire crashes down on a target within range. Make a ranged
@@ -1656,7 +1656,7 @@
 	</element>
 
 	<!-- Absolute Zero -->
-	<element name="Absolute Zero" type="Spell" source="Homebrew"
+	<element name="Absolute Zero" type="Spell" source="Crimson's Homebrew"
 		id="ID_HOMEBREW_SPELL_ABSOLUTE_ZERO">
 		<supports>Fighter, Limitbreaker</supports>
 		<description>
@@ -1681,7 +1681,7 @@
 	</element>
 
 	<!-- Judgment Bolt -->
-	<element name="Judgment Bolt" type="Spell" source="Homebrew"
+	<element name="Judgment Bolt" type="Spell" source="Crimson's Homebrew"
 		id="ID_HOMEBREW_SPELL_JUDGMENT_BOLT">
 		<supports>Fighter, Limitbreaker</supports>
 		<description>
@@ -1705,7 +1705,7 @@
 	</element>
 
 	<!-- Full Heal -->
-	<element name="Full Heal" type="Spell" source="Homebrew" id="ID_HOMEBREW_SPELL_FULL_HEAL">
+	<element name="Full Heal" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_FULL_HEAL">
 		<supports>Fighter, Limitbreaker</supports>
 		<description>
 			<p>You bathe a creature in radiant energy. The target regains hit points equal to 8d10 +

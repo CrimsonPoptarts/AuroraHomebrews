@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="fighter-limitbreaker.xml"
                 url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-limitbreaker.xml" />
         </update>
     </info>
     <!-- Path of the Limitbreaker Archetype -->
-    <element name="Limitbreaker" type="Archetype" source="Homebrew"
+    <element name="Limitbreaker" type="Archetype" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_LIMITBREAKER_FIGHTER">
         <supports>Martial Archetype</supports>
         <description>
@@ -43,7 +43,7 @@
     </element>
 
     <!-- Limit Gauge -->
-    <element name="Limit Gauge" type="Archetype Feature" source="Homebrew"
+    <element name="Limit Gauge" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_LIMIT_GAUGE">
         <description>
             <p>
@@ -75,7 +75,7 @@
     </element>
 
     <!-- Limit Magic -->
-    <element name="Limit Magic" type="Archetype Feature" source="Homebrew"
+    <element name="Limit Magic" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_LIMIT_MAGIC">
         <description>
             <p>
@@ -122,7 +122,7 @@
     </element>
 
     <!-- Cross Slash -->
-    <element name="Cross Slash" type="Archetype Feature" source="Homebrew"
+    <element name="Cross Slash" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_CROSS_SLASH">
         <description>
             <p>
@@ -140,7 +140,7 @@
         </sheet>
     </element>
 
-    <element name="Limit Growth" type="Archetype Feature" source="Homebrew"
+    <element name="Limit Growth" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMIT_GROWTH">
         <description>
             <p>
@@ -159,7 +159,7 @@
     </element>
 
     <!-- Warp Break -->
-    <element name="Warp Break" type="Archetype Feature" source="Homebrew"
+    <element name="Warp Break" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_WARP_BREAK">
         <description>
             <p>
@@ -175,7 +175,7 @@
     </element>
 
     <!-- Overdrive -->
-    <element name="Overdrive" type="Archetype Feature" source="Homebrew"
+    <element name="Overdrive" type="Archetype Feature" source="Crimson's Homebrew"
     id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_OVERDRIVE">
         <description>
             <p><em>15th-level Path of the Limitbreaker feature</em></p>
@@ -188,7 +188,7 @@
     </element>
 
     <!-- Final Limit -->
-    <element name="Final Limit" type="Archetype Feature" source="Homebrew"
+    <element name="Final Limit" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_LIMITBREAKER_FINAL_LIMIT">
         <description>
             <p>

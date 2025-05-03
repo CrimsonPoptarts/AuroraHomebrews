@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="fighter-flowmotion.xml"
                 url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-flowmotion.xml" />
         </update>
     </info>
 
-    <element name="Flowmotion Fighter" type="Archetype" source="Homebrew"
+    <element name="Flowmotion Fighter" type="Archetype" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FLOWMOTION_FIGHTER">
         <supports>Martial Archetype</supports>
         <description>
@@ -38,7 +38,7 @@
         </rules>
     </element>
 
-    <element name="Momentum Flow" type="Archetype Feature" source="Homebrew"
+    <element name="Momentum Flow" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_MOMENTUM_FLOW">
         <description>
             <p>
@@ -57,7 +57,7 @@
         </sheet>
     </element>
 
-    <element name="Kinetic Surge" type="Archetype Feature" source="Homebrew"
+    <element name="Kinetic Surge" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_KINETIC_SURGE">
         <description>
             <p>
@@ -72,7 +72,7 @@
         </sheet>
     </element>
 
-    <element name="Air Control" type="Archetype Feature" source="Homebrew"
+    <element name="Air Control" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_AIR_CONTROL">
         <description>
             <p>
@@ -89,7 +89,7 @@
         </sheet>
     </element>
 
-    <element name="Whirlwind Escape" type="Archetype Feature" source="Homebrew"
+    <element name="Whirlwind Escape" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_WHIRLWIND_ESCAPE">
         <description>
             <p>
@@ -106,7 +106,7 @@
         </sheet>
     </element>
 
-    <element name="Phantom Step" type="Archetype Feature" source="Homebrew"
+    <element name="Phantom Step" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_PHANTOM_STEP">
         <description>
             <p>
@@ -122,7 +122,7 @@
         </sheet>
     </element>
 
-    <element name="Limitless Flow" type="Archetype Feature" source="Homebrew"
+    <element name="Limitless Flow" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_FLOWMOTION_LIMITLESS_FLOW">
         <description>
             <p>

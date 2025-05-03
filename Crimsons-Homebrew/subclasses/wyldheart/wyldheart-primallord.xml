@@ -5,11 +5,11 @@
         <name>Primal Lord</name>
         <description>A homebrew subclass for those who draw power from their bond with nature and the primal instincts of the wild, embodying mastery over loyal beasts and the untamed wilderness.</description>
         <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="wyldheart-primallord.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-primallord.xml" />
         </update>
     </info>
-  <element name="Primal Lord" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_PRIMAL_LORD">
+  <element name="Primal Lord" type="Archetype" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_PRIMAL_LORD">
 		<supports>Blessing of the Wyld</supports>
 		<description>
 			<p><description>Your innate magic stems from your deep bond with nature and the primal instincts of the wild, embodied by your mastery over hounds and other loyal beasts.</description></p>
@@ -27,7 +27,7 @@
 			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_WYLD_BOON" level="3" />
 		</rules>
 	</element>
-	<element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_COMPANION_SUMMON_I">
+	<element name="Wyldheart Companion" type="Archetype Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_COMPANION_SUMMON_I">
 		<description>Summon a Wyldheart Companion to aid you in battle.</description>
 		<sheet display="false">
 			<description>Summon a Wyldheart Companion to aid you in battle.</description>
@@ -44,13 +44,13 @@
 			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GREATER_DILO" level="14" />
 		</rules>
 	</element>
-	<element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_BLESSING_OF_THE_WILD">
+	<element name="Blessing of the Wyld" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_BLESSING_OF_THE_WILD">
 		<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Strength modifier</description>
 		<sheet>
 			<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Strength modifier</description>
 		</sheet>
 	</element>
-	<element name="Primal Lord Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_WYLD_BOON">
+	<element name="Primal Lord Wyld Boon" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_PRIMAL_LORD_WYLD_BOON">
         <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_PRIMAL_LORD_BLESSING_OF_THE_WILD</requirements>
         <description>
             <p>At 3rd level, the Wyld's blessing grants you a savage gift of primal might. Choose one of the following features:</p>
@@ -71,7 +71,7 @@
             <select type="Class Feature" name="Primal Lord Wyld Boon" supports="Primal Lord Wyld Boon" level="3"/>
         </rules>
     </element>
-    <element name="Predator’s Rush" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_PREDATORS_RUSH">
+    <element name="Predator’s Rush" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_PREDATORS_RUSH">
         <supports>Primal Lord Wyld Boon</supports>
         <description>
             <p>As a bonus action, surge up to your movement speed, passing through enemies without provoking opportunity attacks. Each enemy you pass through must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or take 1d10 + your Strength modifier bludgeoning damage and be pushed 5 feet in a direction of your choice.</p>
@@ -82,7 +82,7 @@
             <description>As a bonus action, surge through enemies without provoking opportunity attacks. Enemies passed through make a Strength save (DC = 8 + proficiency + Strength) or take bludgeoning damage and be pushed. Gain a damage bonus with your summoned creature if ending adjacent.</description>
         </sheet>
     </element>
-    <element name="Primal Rend" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_PRIMAL_REND">
+    <element name="Primal Rend" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_PRIMAL_REND">
         <supports>Primal Lord Wyld Boon</supports>
         <description>
             <p>When you hit a creature with a melee or natural weapon attack, you can rend the wound open. The target must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or begin bleeding, taking damage equal to your Strength modifier at the start of each of its turns for 1 minute, or until it receives magical healing or uses an action to staunch the wound.</p>
@@ -92,7 +92,7 @@
             <description>When you hit with a melee or natural attack, force a Strength save (DC = 8 + proficiency + Strength) or cause bleed damage each turn. At 11th level, damage doubles. Uses scale with level.</description>
         </sheet>
     </element>
-    <element name="Alpha's Command" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_ALPHAS_COMMAND">
+    <element name="Alpha's Command" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_LORD_ALPHAS_COMMAND">
         <supports>Primal Lord Wyld Boon</supports>
         <description>
             <p>As a bonus action, unleash a feral roar. Up to two of your summoned creatures or allies within 30 feet can immediately use their reaction to move up to their speed and make one melee weapon or natural weapon attack.</p>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="cleric-blood.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/cleric/cleric-blood.xml" />
         </update>
     </info>
 
-    <element name="Blood Domain" type="Archetype" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_BLOODDOMAIN">
+    <element name="Blood Domain" type="Archetype" source="Crimson's Homebrew" id="ID_HOMEBREW_ARCHETYPE_BLOODDOMAIN">
         <supports>Divine Domain</supports>
         <description>
             <p>The Blood domain centers around the raw, vital essence that flows through all creatures. Deities of blood are often associated with sacrifice, vitality, rage, and the thin line between life and death. Their clerics manipulate blood to heal, harm, and control others, drawing strength from life's most fundamental force.</p>
@@ -51,7 +51,7 @@
         </rules>
     </element>
 
-    <element name="Bonus Proficiency" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BONUSPROFICIENCY">
+    <element name="Bonus Proficiency" type="Archetype Feature" source="Crimson's Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BONUSPROFICIENCY">
         <description>
             <p>When you choose this domain at 1st level, you gain proficiency with martial weapons.</p>
         </description>
@@ -61,7 +61,7 @@
         </rules>
     </element>
 
-    <element name="Blood Magic" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODMAGIC">
+    <element name="Blood Magic" type="Archetype Feature" source="Crimson's Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODMAGIC">
         <description>
             <p>Also starting at 1st level, you can expend your own vitality to fuel your spells. You can cast a cleric spell by taking 5 hit points of damage per spell level instead of expending a spell slot.</p>
         </description>
@@ -70,7 +70,7 @@
         </sheet>
     </element>
 
-    <element name="Channel Divinity: Blood Price" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_CHANNELDIVINITY_BLOODPRICE">
+    <element name="Channel Divinity: Blood Price" type="Archetype Feature" source="Crimson's Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_CHANNELDIVINITY_BLOODPRICE">
         <description>
             <p>Starting at 2nd level, you can use your Channel Divinity to turn a failed saving throw into a second chance. As a reaction when you fail a saving throw, you can take 10 damage and reroll the saving throw.</p>
         </description>
@@ -79,7 +79,7 @@
         </sheet>
     </element>
 
-    <element name="Vampiric Resilience" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_VAMPIRICRESILIENCE">
+    <element name="Vampiric Resilience" type="Archetype Feature" source="Crimson's Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_VAMPIRICRESILIENCE">
         <description>
             <p>Beginning at 6th level, whenever you deal necrotic damage, you regain hit points equal to half the necrotic damage dealt.</p>
         </description>
@@ -88,7 +88,7 @@
         </sheet>
     </element>
 
-    <element name="Blood Strike" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODSTRIKE">
+    <element name="Blood Strike" type="Archetype Feature" source="Crimson's Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_BLOODSTRIKE">
         <description>
             <p>At 8th level, you can empower your weapon strikes with necrotic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage. When you reach 14th level, the extra damage increases to 2d8.</p>
         </description>
@@ -98,7 +98,7 @@
         </sheet>
     </element>
 
-    <element name="Overcast (Desperation)" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_OVERCAST">
+    <element name="Overcast (Desperation)" type="Archetype Feature" source="Crimson's Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLOOD_OVERCAST">
         <description>
             <p>Starting at 17th level, when you are reduced below 20 hit points, you can cast one spell without expending HP or a spell slot. Once you use this feature, you can't use it again until you finish a long rest.</p>
         </description>

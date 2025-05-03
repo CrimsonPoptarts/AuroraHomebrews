@@ -4,12 +4,12 @@
 		<name>Master of Hounds</name>
 		<description>A homebrew subclass for those who draw power from their bond with nature and the primal instincts of the wild, mastering the art of commanding loyal beasts.</description>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="wyldheart-masterofhounds.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-masterofhounds.xml" />
 		</update>
 	</info>
 
-  <element name="Master of Hounds" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_MASTER_OF_HOUNDS">
+  <element name="Master of Hounds" type="Archetype" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_MASTER_OF_HOUNDS">
 		<supports>Blessing of the Wyld</supports>
 		<description>
 			<p><description>Your innate magic stems from your deep bond with nature and the primal instincts of the wild, embodied by your mastery over hounds and other loyal beasts.</description></p>
@@ -27,7 +27,7 @@
 			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_MASTER_OF_HOUNDS_WYLD_BOON" level="3" />
 		</rules>
 	</element>
-	<element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_MASTER_OF_HOUNDS_COMPANION_SUMMON_I">
+	<element name="Wyldheart Companion" type="Archetype Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_MASTER_OF_HOUNDS_COMPANION_SUMMON_I">
 		<description>Summon a Wyldheart Companion to aid you in battle.</description>
 		<sheet display="false">
 			<description>Summon a Wyldheart Companion to aid you in battle.</description>
@@ -44,13 +44,13 @@
 			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG" level="14" />
 		</rules>
 	</element>
-	<element name="Blessing of the Wyld" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_MASTER_OF_HOUNDS_BLESSING_OF_THE_WILD">
+	<element name="Blessing of the Wyld" type="Archetype Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_MASTER_OF_HOUNDS_BLESSING_OF_THE_WILD">
 		<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Dexterity modifier.</description>
 		<sheet>
 			<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Dexterity modifier.</description>
 		</sheet>
 	</element>
-	<element name="Master of Hounds Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_MASTER_OF_HOUNDS_WYLD_BOON">
+	<element name="Master of Hounds Wyld Boon" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_MASTER_OF_HOUNDS_WYLD_BOON">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_MASTER_OF_HOUNDS_BLESSING_OF_THE_WILD</requirements>
 		<description>
 			<p>At 3rd level, the Wyld's blessing grants you a gift that enhances your bond with the wild beasts. You gain one of the following features of your choice.</p>
@@ -66,7 +66,7 @@
 			<select type="Class Feature" name="Master of Hounds Wyld Boon" supports="Master of Hounds Wyld Boon" level="3"/>
 		</rules>
 	</element>
-    <element name="Bestial Presence" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_BEASTIAL_PRESENCE">
+    <element name="Bestial Presence" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_BEASTIAL_PRESENCE">
 		<supports>Master of Hounds Wyld Boon</supports>
 		<description>
 			<p>Your connection to beasts becomes stronger. When you summon a beast companion or a summoned beast is within 30 feet of you, you gain a +2 bonus to your Dexterity saving throws.  This goes to +3 at level 5, +4 at level 10, etc. Additionally, if the beast is within 5 feet of you, it can add your (Dexterity modifier x Master of Hounds level)/3 rounded down to its attack rolls.</p>
@@ -75,7 +75,7 @@
 			<description>Gain +2 to Dexterity saving throws when a summoned beast is within 30 feet. This goes to +3 at level 5, +4 at level 10, etc. Your beast companion can add your (Dexterity modifier x Master of Hounds level)/3 to its attack rolls if it is within 5 feet of you.</description>
 		</sheet>
 	</element>
-	<element name="Feral Instincts" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_FERAL_INSTINCTS">
+	<element name="Feral Instincts" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_FERAL_INSTINCTS">
 		<supports>Master of Hounds Wyld Boon</supports>
 		<description>
 			<p>The primal forces awaken your reflexes. You gain proficiency in Stealth, and when you make a Stealth check while in natural terrain, you can add twice your Dexterity modifier instead of once. Additionally, when a creature attempts to hit you with an attack, you can use your reaction to impose disadvantage on that attack roll if the attacker is within 30 feet of you and the attack is coming from a creature that is either a beast or a fey. Lastly, you have advantage on initiative rolls.</p>
@@ -84,7 +84,7 @@
 			<description>Gain Stealth proficiency. In natural terrain, double your Dexterity modifier on Stealth checks. Use your reaction to impose disadvantage on an attack from a beast or fey within 30 feet. Lastly, you have advantage on initiative rolls.</description>
 		</sheet>
 	</element>
-	<element name="Pack Leader" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PACK_LEADER">
+	<element name="Pack Leader" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PACK_LEADER">
 		<supports>Master of Hounds Wyld Boon</supports>
 		<description>
 			<p>Your bond with your pack deepens. When you use the Help action, you can grant the creature you aid advantage on the next attack roll or saving throw it makes, as long as it is within 30 feet of you. Additionally, when your beast companion hits a creature with an attack, it can make an additional attack against the same target using its bonus action. This can be used a number of times equal to your Dexterity modifier per long rest.</p>

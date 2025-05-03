@@ -4,12 +4,12 @@
 		<name>Kaos Warden</name>
 		<description>A homebrew subclass for those who draw power from their bond with nature and the chaotic spirits of the wild, mastering elemental beasts and primal forces.</description>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="wyldheart-kaoswarden.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-kaoswarden.xml" />
 		</update>
 	</info>
 
-  <element name="Kaos Warden" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_KAOS_WARDEN">
+  <element name="Kaos Warden" type="Archetype" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_KAOS_WARDEN">
     <supports>Blessing of the Wyld</supports>
     <description>
       <p><description>Your innate magic stems from your deep bond with nature and the chaotic spirits of the wild, embodied by your mastery over elemental beasts and ancient natural forces.</description></p>
@@ -27,7 +27,7 @@
       <grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_WYLD_BOON" level="3" />
     </rules>
   </element>
-  <element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_COMPANION_SUMMON_I">
+  <element name="Wyldheart Companion" type="Archetype Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_COMPANION_SUMMON_I">
     <description>Summon a Wyldheart Companion to aid you in battle.</description>
     <sheet display="false">
       <description>Summon a Wyldheart Companion to aid you in battle.</description>
@@ -44,13 +44,13 @@
       <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_STORM_KING" level="14" />
     </rules>
   </element>
-  <element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_BLESSING_OF_THE_WILD">
+  <element name="Blessing of the Wyld" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_BLESSING_OF_THE_WILD">
     <description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Wisdom modifier</description>
     <sheet>
       <description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Wisdom modifier</description>
     </sheet>
   </element>
-  <element name="Kaos Warden Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_WYLD_BOON">
+  <element name="Kaos Warden Wyld Boon" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_KAOS_WYLD_BOON">
 	<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_KAOS_BLESSING_OF_THE_WILD</requirements>
 	<description>
 		<p>At 3rd level, your bond with the primal chaos grants you a savage gift. Choose one of the following blessings shaped by the wild:</p>
@@ -66,7 +66,7 @@
 		<select type="Class Feature" name="Kaos Warden Wyld Boon" supports="Kaos Warden Wyld Boon" level="3"/>
 	</rules>
 	</element>
-	<element name="Wildshield Pulse" type="Class Feature" source="Homebrew" id="_WYLDHEART_KAOS_COMPANION_SUMMON_I">
+	<element name="Wildshield Pulse" type="Class Feature" source="Crimson's Homebrew" id="_WYLDHEART_KAOS_COMPANION_SUMMON_I">
 		<supports>Kaos Warden Wyld Boon</supports>
 		<description>
 			<p>Once per short rest, release a pulse of primal energy as a reaction to a melee attack. </p>
@@ -77,7 +77,7 @@
 			<description>Release a pulse of primal energy. Allies within 10 feet gain temporary HP equal to your Wisdom modifier + Proficiency bonus. Enemies must make a Dexterity saving throw (DC = 8 + Proficiency + Wisdom modifier) or be pushed 10 feet and have disadvantage on their next attack roll.</description>
 		</sheet>
 	</element>
-	<element name="Savage Reprisal" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_KAOS_WILD_SAVAGE_REPRISAL">
+	<element name="Savage Reprisal" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_KAOS_WILD_SAVAGE_REPRISAL">
 		<supports>Kaos Warden Wyld Boon</supports>
 		<description>
 			<p>Once per turn, when a creature within 10 feet hits you or your Wyld Companion, use your reaction to retaliate. </p>
@@ -87,7 +87,7 @@
 			<description>Once per turn, when a creature within 10 feet hits you or your Wyld Companion, use your reaction to retaliate. The attacker takes force damage equal to 1d6 + your Wisdom modifier, scaling as follows: 1d6 at Warden level 1–4 / 2d6 at Warden level 5–10 / 3d6 at Warden level 11–16 / 4d6 at Warden level 17+. The attacker must also make a Strength saving throw (DC = 8 + Proficiency + Wisdom modifier) or be knocked prone.</description>
 		</sheet>
 	</element>
-	<element name="Totemic Fracture" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_KAOS_WILD_TOTEMIC_FRACTURE">
+	<element name="Totemic Fracture" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_KAOS_WILD_TOTEMIC_FRACTURE">
 		<supports>Kaos Warden Wyld Boon</supports>
 		<description>
 			<p>Once per long rest, when your Wyld Companion drops to 0 HP, erupt in a 15-foot blast of primal energy. </p>

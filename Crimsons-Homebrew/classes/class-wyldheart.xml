@@ -4,11 +4,11 @@
 		<name>Wyldheart</name>
 		<description>A homebrew class for those who channel the untamed forces of nature and the elements, embodying the primal magic of the wild.</description>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-wyldheart.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes/class-wyldheart.xml" />
 		</update>
 	</info>
-	<element name="Wyldheart" type="Class" source="Homebrew" id="ID_CUSTOM_CLASS_WYLDHEART">
+	<element name="Wyldheart" type="Class" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_WYLDHEART">
 		<description>
             <p>Golden eyes flashing, a human stretches out her hand and unleashes the primal magic that courses through her veins. As an inferno rages around her foes, spectral wings of flame emerge from her back, lifting her above the chaos.</p>
             <p class="indent">Hair flowing like a storm, a half-elf raises his arms to the sky. A surge of elemental energy crackles through him, erupting in a devastating wave of lightning that leaves the battlefield scorched and trembling.</p>
@@ -132,7 +132,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Spellcasting" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_SPELLCASTING_WYLDHEART">
+	<element name="Spellcasting" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_SPELLCASTING_WYLDHEART">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_SPELLCASTING</requirements>
 		<description>
 			<p>Your bond with the primal forces of nature and your connection to your Wyld Companion allows you to wield magic as a channel of the world's wild and untamed essence. This power is not studied or inherited through bloodlines—it is a living force you attune to through instinct, emotion, and empathy.</p>
@@ -202,7 +202,7 @@
 			<select type="Spell" name="Spell (Wyldheart)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Wyldheart"/>
 		</rules>
 	</element>
-	<element name="Companion Summon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_COMPANION_SUMMON">
+	<element name="Companion Summon" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_COMPANION_SUMMON">
 		<description>
 			<p>At 1st level, you can summon a Wyld Companion, a creature that embodies the primal forces of nature. This companion is a manifestation of your bond with the wild and serves as your ally in battle and exploration. In combat, it acts as a pack creature.</p>
 			<p class="indent">The Wyld Companion can take the form of a beast or elemental creature, depending on your choice. You can summon it as a bonus action, and it remains with you until you dismiss it or it is reduced to 0 hit points.</p>
@@ -212,7 +212,7 @@
 			<description>You can summon a Wyld Companion to aid you in battle. In combat, it acts as a pack creature. Dissmissing a companion over 50% HP returns a use to you.</description>
 		</sheet>
 	</element>
-	<element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_BLESSING_OF_THE_WILD">
+	<element name="Blessing of the Wyld" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_BLESSING_OF_THE_WILD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_BLESSING_OF_THE_WYLD</requirements>
 		<description>
 			<p>You gain a deep connection to the Wyld, choosing an ability score to be enhanced. This blessing amplifies your connection to nature, aligning your strengths with the primal forces.</p> 
@@ -226,7 +226,7 @@
 			<select type="Archetype" name="Blessing of the Wyld" supports="Blessing of the Wyld" />
 		</rules>
 	</element>
-	<element name="Nature's Invocation" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_NATURES_INVOCATION">
+	<element name="Nature's Invocation" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_NATURES_INVOCATION">
 		<description>
 			<p>At 1st level, you can invoke the primal forces of nature to enhance your companion. Grant companion HP equal to 6*(Invocation Level).</p>
 			<p class="indent">Nature’s Invocation I (Level 1)</p>
@@ -254,7 +254,7 @@
 			
 		</rules>
 	</element>
-	<element name="Wyldheart Bond" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_WYLDHEART_BOND">
+	<element name="Wyldheart Bond" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_WYLDHEART_BOND">
 		<description>
 			<p>You and your companion share a telepathic link. As long as you're on the same plane, you can communicate with them, and they can use your saving throws if they are higher.</p>
 			<p class="indent">You can use this feature a number of times equal to your proficiency bonus per long rest.</p>
@@ -263,7 +263,7 @@
 			<description>You and your companion share a telepathic link. As long as you're on the same plane, you can communicate with them, and they can use your saving throws if they are higher.</description>
 		</sheet>
 	</element>
-	<element name="Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_WYLD_BOON">
+	<element name="Wyld Boon" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_WYLD_BOON">
 		<description>
 			<p>Gain a powerful active ability based on your subclass and companion. Can be used a number of times equal to your proficiency bonus per long rest.</p>
 		</description>
@@ -298,7 +298,7 @@
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Heart Resonance" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_HEART_RESONANCE_FEATURE">
+	<element name="Heart Resonance" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_HEART_RESONANCE_FEATURE">
 		<description>
 			<p>At 1st level, your spirit resonates with the primal force of the Wyld, creating a deep, magical bond between you and your summoned companion. This Heart Resonance links your vitality and instincts with the creature’s, empowering both in combat and beyond.</p>
 
@@ -316,7 +316,7 @@
 			<select type="Class Feature" name="Heart Resonance" supports="Heart Resonance" level="6"/>
 		</rules>
 	</element>
-	<element name="Echoed Fury" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_ECHOED_FURY">
+	<element name="Echoed Fury" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_ECHOED_FURY">
 		<supports>Heart Resonance</supports>
 		<description>
 			<p>When you take the Attack action, your companion can use its reaction to make a melee attack against the same target if it can see it. If both your attack and your companion’s attack hit the same creature on the same turn, the creature has disadvantage on its next attack roll before the end of its next turn.</p>
@@ -326,7 +326,7 @@
 		</sheet>
 	</element>
 
-	<element name="Instinctive Guard" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_INSTINCTIVE_GUARD">
+	<element name="Instinctive Guard" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_INSTINCTIVE_GUARD">
 		<supports>Heart Resonance</supports>
 		<description>
 			<p>When your companion is within 10 feet of you, it can use its reaction to impose disadvantage on an attack roll against you. If the attack misses, your companion can move up to 10 feet without provoking opportunity attacks. You can use this feature a number of times equal to your Dexterity modifier (minimum of once), and regain all uses after a long rest.</p>
@@ -336,7 +336,7 @@
 		</sheet>
 	</element>
 
-	<element name="Primal Surge" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_SURGE">
+	<element name="Primal Surge" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_PRIMAL_SURGE">
 		<supports>Heart Resonance</supports>
 		<description>
 			<p>As a bonus action, you and your companion can each move up to half your speed without provoking opportunity attacks. When you do, you gain temporary hit points equal to your Wyldheart level. Once you use this feature, you can't use it again until you finish a short or long rest.</p>
@@ -347,7 +347,7 @@
 	</element>
 
 
-	<element name="Natural Ward" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_NATURAL_WARD">
+	<element name="Natural Ward" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_NATURAL_WARD">
 		<description>
 			<p>At 7th level, your connection to nature protects you. While your companion is within 10 feet, you have advantage on saving throws against spells and harmful effects from magical creatures, additionally, both your companion's AC and your's increase by 2 as your skin toughens like wood.</p>
 		</description>
@@ -355,7 +355,7 @@
 			<description>Your connection to nature protects you. While your companion is within 10 feet, you have advantage on saving throws against spells and harmful effects from magical creatures, additionally, both your companion's AC and your's increase by 2 as your skin toughens like wood..</description>
 		</sheet>
 	</element>
-	<element name="Spirit Link" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_SPIRIT_LINK">
+	<element name="Spirit Link" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_SPIRIT_LINK">
 		<description>
 			<p>At 10th level, you and your companion can share damage. When either of you takes damage, you may split the damage between the two of you (1/turn).</p>
 		</description>
@@ -363,7 +363,7 @@
 			<description>You and your companion can share damage. When either of you takes damage, you may split the damage between the two of you (1/turn).</description>
 		</sheet>
 	</element>
-	<element name="Aura of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_AURA_OF_THE_WYLD">
+	<element name="Aura of the Wyld" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_AURA_OF_THE_WYLD">
 		<description>
 			<p>At 13th level, allies within 10 feet of you gain resistance to poison and psychic damage, and advantage on saving throws against being charmed or frightened.</p>
 		</description>
@@ -371,7 +371,7 @@
 			<description>Allies within 10 feet of you gain resistance to poison and psychic damage, and advantage on saving throws against being charmed or frightened.</description>
 		</sheet>
 	</element>
-	<element name="Companion Apex Surge" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_COMPANION_APEX_SURGE">
+	<element name="Companion Apex Surge" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_COMPANION_APEX_SURGE">
 		<description>
 			<p>At 17th level, your companion can unleash a surge of primal energy once per long rest. This improves their next attack or ability dramatically and grants temporary HP equal to 3d12.</p>
 		</description>
@@ -379,7 +379,7 @@
 			<description>Your companion can unleash a surge of primal energy once per long rest. This improves their next attack or ability dramatically and grants temporary HP equal to 3d12.</description>
 		</sheet>
 	</element>
-	<element name="Nature Incarnate" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_NATURE_INCARNATE">
+	<element name="Nature Incarnate" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_NATURE_INCARNATE">
 		<description>
 			<p>You become a living avatar of the Wyld. Once per long rest, you may transform into a nature-aspected form, gaining resistance to all damage, immunity to charm/frightened, and advantage on attacks and spell saves for 1 minute.</p>
 		</description>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="barbarian-lycanthrope.xml"
                 url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-lycanthrope.xml" />
         </update>
     </info>
 
-    <element name="Path of the Lycan" type="Archetype" source="Homebrew"
+    <element name="Path of the Lycan" type="Archetype" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_LYCAN_SCALING">
         <supports>Primal Path</supports>
         <description>
@@ -35,7 +35,7 @@
         </rules>
     </element>
 
-    <element name="Lycan Blood" type="Archetype Feature" source="Homebrew"
+    <element name="Lycan Blood" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_LYCAN_BLOOD">
         <description>
             <p>
@@ -57,7 +57,7 @@
         </sheet>
     </element>
 
-    <element name="Bestial Fury" type="Archetype Feature" source="Homebrew"
+    <element name="Bestial Fury" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BESTIAL_FURY">
         <description>
             <p>
@@ -84,7 +84,7 @@
         </rules>
     </element>
 
-    <element name="Bloodhunter Senses" type="Archetype Feature" source="Homebrew"
+    <element name="Bloodhunter Senses" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BLOODHUNTER_SENSES">
         <description>
             <p>
@@ -104,7 +104,7 @@
         </sheet>
     </element>
 
-    <element name="Savage Leap" type="Archetype Feature" source="Homebrew"
+    <element name="Savage Leap" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_SAVAGE_LEAP">
         <description>
             <p>
@@ -124,7 +124,7 @@
         </sheet>
     </element>
 
-    <element name="Alpha Form" type="Archetype Feature" source="Homebrew"
+    <element name="Alpha Form" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_ALPHA_FORM">
         <description>
             <p>

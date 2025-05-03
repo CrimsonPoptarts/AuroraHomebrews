@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="barbarian-virtuoso.xml"
 				url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-virtuoso.xml" />
 		</update>
 	</info>
 
-	<element name="Path of the Virtuoso" type="Archetype" source="Homebrew"
+	<element name="Path of the Virtuoso" type="Archetype" source="Crimson's Homebrew"
 		id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_VIRTUOSO">
 		<supports>Primal Path</supports>
 		<description>
@@ -37,7 +37,7 @@
 		</rules>
 	</element>
 
-	<element name="Flow State" type="Archetype Feature" source="Homebrew"
+	<element name="Flow State" type="Archetype Feature" source="Crimson's Homebrew"
 		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_FLOW_STATE">
 		<description>
 			<p>
@@ -59,7 +59,7 @@
 		</sheet>
 	</element>
 
-	<element name="Sonic Assault" type="Archetype Feature" source="Homebrew"
+	<element name="Sonic Assault" type="Archetype Feature" source="Crimson's Homebrew"
 		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_SONIC_ASSAULT">
 		<description>
 			<p>
@@ -80,7 +80,7 @@
 		</sheet>
 	</element>
 
-	<element name="Rhythmic Onslaught" type="Archetype Feature" source="Homebrew"
+	<element name="Rhythmic Onslaught" type="Archetype Feature" source="Crimson's Homebrew"
 		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_RHYTHMIC_ONSLAUGHT">
 		<description>
 			<p>
@@ -105,7 +105,7 @@
 		</rules>
 	</element>
 
-	<element name="Ultimate Cadence" type="Archetype Feature" source="Homebrew"
+	<element name="Ultimate Cadence" type="Archetype Feature" source="Crimson's Homebrew"
 		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_ULTIMATE_CADENCE">
 		<description>
 			<p>
@@ -124,7 +124,7 @@
 		</sheet>
 	</element>
 
-	<element name="Living Legend" type="Archetype Feature" source="Homebrew"
+	<element name="Living Legend" type="Archetype Feature" source="Crimson's Homebrew"
 		id="ID_HOMEBREW_ARCHETYPE_FEATURE_VIRTUOSO_LIVING_LEGEND">
 		<description>
 			<p>

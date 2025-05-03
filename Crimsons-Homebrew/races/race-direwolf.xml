@@ -4,11 +4,11 @@
     <name>Dire Wolf</name>
     <description>Dire Wolves are large, powerful beasts with keen senses and a natural affinity for
       teamwork. They are swift, strong, and deadly hunters.</description>
-      <update version="0.0.1">
+      <update version="0.0.2">
         <file name="race-direwolf.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/races/race-direwolf.xml" />
       </update>
     </info>
-  <element name="Dire Wolf" type="Race" source="Custom Homebrew" id="ID_CUSTOM_RACE_DIRE_WOLF">
+  <element name="Dire Wolf" type="Race" source="Crimson's Homebrew" id="ID_CUSTOM_RACE_DIRE_WOLF">
     <description>
       <p>Dire Wolves are large, intelligent wolves with heightened senses and a natural ability to
         work in packs. They are formidable creatures, capable of taking down prey much larger than
@@ -68,7 +68,7 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_PACK_TACTICS" />
     </rules>
   </element>
-  <element name="Keen Hearing and Smell" type="Racial Trait" source="Custom Homebrew"
+  <element name="Keen Hearing and Smell" type="Racial Trait" source="Crimson's Homebrew"
     id="ID_RACIAL_TRAIT_KEEN_HEARING_AND_SMELL">
     <description>
       <p>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
@@ -77,7 +77,7 @@
       <description>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
     </sheet>
   </element>
-  <element name="Pack Tactics" type="Racial Trait" source="Custom Homebrew"
+  <element name="Pack Tactics" type="Racial Trait" source="Crimson's Homebrew"
     id="ID_RACIAL_TRAIT_PACK_TACTICS">
     <description>
       <p>You have advantage on an attack roll against a creature if at least one of your allies is
@@ -88,7 +88,7 @@
         allies is within 5 feet of the creature and the ally isn't incapacitated.</description>
     </sheet>
   </element>
-  <element name="Natural Hunter" type="Racial Trait" source="Custom Homebrew"
+  <element name="Natural Hunter" type="Racial Trait" source="Crimson's Homebrew"
     id="ID_RACIAL_TRAIT_NATURAL_HUNTER">
     <description>
       <p>You gain proficiency in the Stealth skill.</p>
@@ -97,7 +97,7 @@
       <description>You gain proficiency in the Stealth skill.</description>
     </sheet>
   </element>
-  <element name="Powerful Build" type="Racial Trait" source="Custom Homebrew"
+  <element name="Powerful Build" type="Racial Trait" source="Crimson's Homebrew"
     id="ID_RACIAL_TRAIT_POWERFUL_BUILD">
     <description>
       <p>You count as one size larger when determining your carrying capacity and the weight you can
@@ -108,7 +108,7 @@
         weight you can push, drag, or lift.</description>
     </sheet>
   </element>
-  <element name="Night Vision" type="Racial Trait" source="Custom Homebrew"
+  <element name="Night Vision" type="Racial Trait" source="Crimson's Homebrew"
     id="ID_RACIAL_TRAIT_NIGHT_VISION">
     <description>
       <p>You have darkvision with a range of 60 feet.</p>

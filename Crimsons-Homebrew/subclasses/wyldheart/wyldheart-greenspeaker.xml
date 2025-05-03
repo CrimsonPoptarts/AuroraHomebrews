@@ -4,12 +4,12 @@
         <name>Greenspeaker</name>
             <description>A subclass for those who draw power from their bond with nature and the powerful plants of the wild, embodying the mastery over forest guardians and fey.</description>
             <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="wyldheart-greenspeaker.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-greenspeaker.xml" />
         </update>
     </info>
 
-  <element name="Greenspeaker" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_GREENSPEAKER">
+  <element name="Greenspeaker" type="Archetype" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_GREENSPEAKER">
 		<supports>Blessing of the Wyld</supports>
 		<description>
 			<p><description>Your innate magic stems from your deep bond with nature and the powerful plants of the wild, embodied by your mastery over forest gaurdian's and fey.</description></p>
@@ -27,7 +27,7 @@
 			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_WYLD_BOON" level="3" />
 		</rules>
 	</element>
-	<element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_COMPANION_SUMMON_I">
+	<element name="Wyldheart Companion" type="Archetype Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_COMPANION_SUMMON_I">
 		<description>Summon a Wyldheart Companion to aid you in battle.</description>
 		<sheet display="false">
 			<description>Summon a Wyldheart Companion to aid you in battle.</description>
@@ -44,13 +44,13 @@
             <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_ELDER_DRYAD" level="14" />
 		</rules>
 	</element>
-	<element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_BLESSING_OF_THE_WILD">
+	<element name="Blessing of the Wyld" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_BLESSING_OF_THE_WILD">
 		<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Constitution modifier</description>
 		<sheet>
 			<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Constitution modifier</description>
 		</sheet>
 	</element>
-	<element name="Greenspeaker Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_WYLD_BOON">
+	<element name="Greenspeaker Wyld Boon" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_WYLD_BOON">
         <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_GREENSPEAKER_BLESSING_OF_THE_WILD</requirements>
         <description>
             <p>At 3rd level, your bond with the arcane wild grants you a primal gift. Choose one of the following blessings shaped by the whispering wilderness:</p>
@@ -66,7 +66,7 @@
             <select type="Class Feature" name="Greenspeaker Wyld Boon" supports="Greenspeaker Wyld Boon" level="3"/>
         </rules>
     </element>
-    <element name="Bloomcaller's Grace" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_BLOOMCALLERS_GRACE">
+    <element name="Bloomcaller's Grace" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_BLOOMCALLERS_GRACE">
         <supports>Greenspeaker Wyld Boon</supports>
         <description>
             <p>Your presence sparks unnatural growth, shielding and healing your allies.</p>
@@ -78,7 +78,7 @@
             <description>Summoned creatures gain temp HP ((3 × your (Constitution modifier + Greenspeaker level))/6 rounded down) and a 10 feet speed boost. When dropping to 0 HP, they explode, healing allies within 10 ft for your Constitution mod.</description>
         </sheet>
     </element>
-    <element name="Spiritweave" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_SPIRITWEAVE">
+    <element name="Spiritweave" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_SPIRITWEAVE">
         <supports>Greenspeaker Wyld Boon</supports>
         <description>
             <p>You subtly stitch your summoned creatures into the weave of your own magic.</p>
@@ -90,7 +90,7 @@
             <description>Gain +1 AC and saving throws when a summon is within 60 ft. Once per turn, move a summon 10 ft without provoking opportunity attacks during a spell.</description>
         </sheet>
     </element>
-    <element name="Whisperbloom" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_WHISPERBLOOM">
+    <element name="Whisperbloom" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_GREEN_SPEAKER_WHISPERBLOOM">
         <supports>Greenspeaker Wyld Boon</supports>
         <description>
             <p>Nature marks your summoned creatures as vessels of ancient secrets.</p>

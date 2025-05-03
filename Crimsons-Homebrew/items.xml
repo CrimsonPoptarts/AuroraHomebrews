@@ -2,11 +2,11 @@
 <elements>
     <info>
         <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="items.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/items.xml" />
         </update>
     </info>
-    <element name="Dawnblade" type="Magic Item" source="Quests from the Infinite Staircase" id="ID_WOTC_QIS_MAGIC_ITEM_DAWNBLADE">
+    <element name="Dawnblade" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_DAWNBLADE">
         <description>
             <p>The holy weapon Dawnblade shines with the brilliance of the morning sun, a beacon of hope against darkness. Wielded by champions of light, its power safeguards against fear and corruption.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>Dawnblade</em> deals 1d8 slashing damage (versatile 1d10).</p>
@@ -25,7 +25,7 @@
         </setters>
     </element>
 
-    <element name="Duskblade" type="Magic Item" source="Quests from the Infinite Staircase" id="ID_WOTC_QIS_MAGIC_ITEM_DUSKBLADE">
+    <element name="Duskblade" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_DUSKBLADE">
         <description>
             <p>The sinister Duskblade thrives in shadow and death. Forged in twilight, it empowers its wielder to strike swiftly and unseen, weaving darkness into deadly assaults.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>Duskblade</em> deals 1d8 slashing damage (versatile 1d10).</p>
@@ -44,7 +44,7 @@
         </setters>
     </element>
 
-    <element name="Acidic Blood Whip" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_ACIDICBLOODWHIP">
+    <element name="Acidic Blood Whip" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_ACIDICBLOODWHIP">
         <description>
             <p>This cruel weapon is formed of blood hardened and twisted by dark magic, dripping with a searing acidic essence. It lashes out unnaturally far, tearing flesh and corroding armor alike.</p>
             <p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon. <em>Acidic Blood Whip</em> deals 2d8 acid damage, and on a hit, the target's AC is reduced by 2 for 2 rounds.</p>
@@ -62,7 +62,7 @@
         </setters>
     </element>
 
-    <element name="M19's Dagger" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M19_DAGGER">
+    <element name="M19's Dagger" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_M19_DAGGER">
         <description>
             <p>Forged in the clandestine workshops of rogue artificers, M19's Dagger embodies precision, efficiency, and a touch of sentient engineering. This sleek weapon resonates with the Warforged spirit, complementing their stealth and adaptability.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M19's Dagger</em> deals 1d4 piercing damage (finesse, light, thrown range 20/60).</p>
@@ -80,7 +80,7 @@
             <set name="weapon">Dagger</set>
         </setters>
     </element>
-    <element name="M18's Greataxe" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M18_GREAXE">
+    <element name="M18's Greataxe" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_M18_GREAXE">
         <description>
             <p>Crafted by a legendary smith who harnessed the primal fury of the wild, M18's Greataxe is an embodiment of raw strength and untamed rage. This massive weapon resonates with a barbarian's battle-hardened soul, amplifying their ferocity in combat.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M18's Greataxe</em> deals 1d12 slashing damage (heavy, two-handed).</p>
@@ -98,7 +98,7 @@
             <set name="weapon">Greataxe</set>
         </setters>
     </element>
-    <element name="M17's Spear" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M17_SPEAR">
+    <element name="M17's Spear" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_M17_SPEAR">
         <description>
             <p>Imbued with the divine essence of life itself, M17's Spear is a sacred weapon entrusted to those who champion healing and restoration. Its radiant energy pulses with the power to mend wounds and smite those who threaten the sanctity of life.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M17's Spear</em> deals 1d6 piercing damage (versatile 1d8).</p>
@@ -117,7 +117,7 @@
             <set name="weapon">Spear</set>
         </setters>
     </element>
-    <element name="M20's Greatsword" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M20_GREATSWORD">
+    <element name="M20's Greatsword" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M20_GREATSWORD">
         <description>
             <p>Forged in the fires of unrelenting battle and imbued with the essence of mastery, M20's Greatsword is the ultimate warrior's weapon. Its blade gleams with an unyielding power, bolstering its wielder's might and precision.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M20's Greatsword</em> deals 2d6 slashing damage (heavy, two-handed).</p>
@@ -136,7 +136,7 @@
             <set name="weapon">Greatsword</set>
         </setters>
     </element>
-    <element name="M21's Boomerang" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M21_BOOMERANG">
+    <element name="M21's Boomerang" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M21_BOOMERANG">
         <description>
             <p>Crafted by ascetic masters in a secluded mountain monastery, M21's Boomerang channels the wearer's inner ki into precise, devastating throws. This weapon returns to its wielder's hand, embodying the harmony of motion and discipline.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M21's Boomerang</em> deals 1d6 bludgeoning damage (finesse, thrown range 30/60). When thrown, the boomerang returns to your hand immediately after the attack, even if it misses.</p>
@@ -154,7 +154,7 @@
             <set name="weapon">Boomerang</set>
         </setters>
     </element>
-    <element name="M22's Warhammer" type="Magic Item" source="Custom Creation" id="ID_CUSTOM_MAGIC_ITEM_M22_WARHAMMER">
+    <element name="M22's Warhammer" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M22_WARHAMMER">
         <description>
             <p>Forged in the celestial forges of a sacred order, M22's Warhammer channels the wrath of the gods against the unholy. This weapon is an extension of the Paladin's oath, resonating with divine power to smite foes and protect the innocent.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M22's Warhammer</em> deals 1d8 bludgeoning damage (versatile 1d10).</p>
@@ -173,7 +173,7 @@
             <set name="weapon">Warhammer</set>
         </setters>
     </element>
-    <element name="Bloodhowl" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_BLOODHOWL">
+    <element name="Bloodhowl" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_BLOODHOWL">
         <description>
             <p>Forged from the molten blood of an infernal beast, Bloodhowl is a cursed greataxe that sings with rage and hunger. Its edge thirsts for the lifeblood of foes, roaring louder with every strike. Only a warrior with true feral might can tame its fury.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>Bloodhowl</em> deals 1d12 slashing damage (heavy, two-handed).</p>

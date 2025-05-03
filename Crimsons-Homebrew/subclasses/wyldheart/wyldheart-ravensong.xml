@@ -4,11 +4,11 @@
 		<name>Ravensong</name>
 		<description>A homebrew subclass for those who draw power from their bond with nature and the enigmatic allure of ravens, embodying the symphony of the skies and the mysteries of the wild.</description>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="wyldheart-ravensong.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-ravensong.xml" />
 		</update>
 	</info>
-  <element name="Ravensong" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_RAVENSONG">
+  <element name="Ravensong" type="Archetype" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_RAVENSONG">
 		<supports>Blessing of the Wyld</supports>
 		<description>
 			<p><description>Your innate magic stems from your deep bond with nature and the primal instincts of the wild, embodied by your mastery over hounds and other loyal beasts.</description></p>
@@ -26,7 +26,7 @@
 			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_WYLD_BOON" level="3" />
 		</rules>
 	</element>
-	<element name="Wyldheart Companion" type="Archetype Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_COMPANION_SUMMON_I">
+	<element name="Wyldheart Companion" type="Archetype Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_COMPANION_SUMMON_I">
 		<description>Summon a Wyldheart Companion to aid you in battle.</description>
 		<sheet display="false">
 			<description>Summon a Wyldheart Companion to aid you in battle.</description>
@@ -43,13 +43,13 @@
 			<grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN" level="14" />
 		</rules>
 	</element>
-	<element name="Blessing of the Wyld" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_BLESSING_OF_THE_WILD">
+	<element name="Blessing of the Wyld" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_BLESSING_OF_THE_WILD">
 		<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Intelligence modifier</description>
 		<sheet>
 			<description>Your connection to the Wyld grants you a permanent boost to cantrip damage based on your Intelligence modifier</description>
 		</sheet>
 	</element>
-	<element name="Ravensong Wyld Boon" type="Class Feature" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_WYLD_BOON">
+	<element name="Ravensong Wyld Boon" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_RAVENSONG_WYLD_BOON">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_RAVENSONG_BLESSING_OF_THE_WILD</requirements>
 		<description>
 			<p>At 3rd level, the Wyld's blessing grants you a gift that enhances your bond with the wild beasts. You gain one of the following features of your choice.</p>
@@ -72,7 +72,7 @@
 			<select type="Class Feature" name="Ravensong Wyld Boon" supports="Ravensong Wyld Boon" level="3"/>
 		</rules>
 	</element>
-    <element name="Mourning Veil" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_MOURNING_VEIL">
+    <element name="Mourning Veil" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_MOURNING_VEIL">
 		<supports>Ravensong Wyld Boon</supports>
 		<description>
 			<p>Your presence cloaks both you and your summons in the mourning garb of the spirit world.</p>
@@ -83,7 +83,7 @@
 			<description>When you summon a creature, both you and it become wreathed in ghostly shadows for 1 minute. While shrouded, you each have resistance to magical damage, and are invisible to creatures more than 10 feet away. If a shrouded creature (you or your summon) is reduced to 0 HP, it lets out a haunting wail. Enemies within 10 feet must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier) or be silenced until the end of their next turn (no speech or verbal components).</description>
 		</sheet>
 	</element>
-	<element name="Echo of the Unseen" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_ECHO_OF_THE_UNSEEN">
+	<element name="Echo of the Unseen" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_ECHO_OF_THE_UNSEEN">
 		<supports>Ravensong Wyld Boon</supports>
 		<description>
 			<p>The whispers of your summons tie fate into knots, binding enemies in threads of foreboding.</p>
@@ -94,7 +94,7 @@
 			<description>While you have a summoned creature within 60 feet, you have advantage on Dexterity (Stealth) checks. Once per turn when a summoned creature misses an attack, you may use your reaction to teleport to an unoccupied space within 10 feet of it.</description>
 		</sheet>
 	</element>
-	<element name="Omenbound Pact" type="Class Feature" source="Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_OMENBOUND_PACT">
+	<element name="Omenbound Pact" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_WYLDHEART_RAVENSONG_OMENBOUND_PACT">
 		<supports>Ravensong Wyld Boon</supports>
 		<description>
 			<p>The whispers of your summons tie fate into knots, binding enemies in threads of foreboding.</p>

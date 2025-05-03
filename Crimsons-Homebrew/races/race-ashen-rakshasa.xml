@@ -4,11 +4,11 @@
 		<name>Ashen Rakshasa</name>
     <description>A homebrew race of fiendish origin, the Ashen Rakshasa are cursed beings seeking redemption, marked by their ashen skin, burning eyes, and infernal power.</description>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="race-ashen-rakshasa.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/races/race-ashen-rakshasa.xml" />
 		</update>
 	</info>
-  <element name="Ashen Rakshasa" type="Race" source="Custom Homebrew" id="ID_CUSTOM_RACE_ASHEN_RAKSHASA">
+  <element name="Ashen Rakshasa" type="Race" source="Crimson's Homebrew" id="ID_CUSTOM_RACE_ASHEN_RAKSHASA">
     <description>
       <p>The Ashen Rakshasa are fiends reborn in mortal forms, their ashen skin and burning eyes marking them as cursed beings of power. Their voices carry a supernatural weight, and their every step leaves behind embers of their infernal past.Given a second chance, most tend to take up lives of repentence, mastering some form of trade.</p>
       <h4>ASHEN RAKSHASA TRAITS</h4>
@@ -64,7 +64,7 @@
 		<grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="5"/>
 	</rules>
   </element>
-	<element name="Cursed Visage" type="Racial Trait" source="Custom Homebrew" id="ID_RACIAL_TRAIT_CURSED_VISAGE">
+	<element name="Cursed Visage" type="Racial Trait" source="Crimson's Homebrew" id="ID_RACIAL_TRAIT_CURSED_VISAGE">
 	<description>
 	  <p>You have proficiency in the Intimidation skill. Additionally, as a bonus action, you can use this trait to force one creature within 30 feet to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). On a failure, the creature is frightened of you until the end of your next turn. You can use this trait a number of times equal to your proficiency bonus per long rest.</p>
 	</description>
@@ -72,7 +72,7 @@
 	  <p>You have proficiency in the Intimidation skill. Additionally, as a bonus action, you can use this trait to force one creature within 30 feet to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). On a failure, the creature is frightened of you until the end of your next turn. You can use this trait a number of times equal to your proficiency bonus per long rest.</p>
 	</sheet>
   </element>
-  <element name="Smoldering Step" type="Racial Trait" source="Custom Homebrew" id="ID_RACIAL_TRAIT_SMOLDERING_STEP">
+  <element name="Smoldering Step" type="Racial Trait" source="Crimson's Homebrew" id="ID_RACIAL_TRAIT_SMOLDERING_STEP">
     <description>
       <p>Once per short rest, you can teleport up to 30 feet as a bonus action. When you teleport, you leave behind a cloud of embers. Any creature within 5 feet of your original location must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or take fire damage equal to your level.</p>
     </description>
@@ -80,7 +80,7 @@
       <p>Once per short rest, you can teleport up to 30 feet as a bonus action. When you teleport, you leave behind a cloud of embers. Any creature within 5 feet of your original location must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or take fire damage equal to your level.</p>
     </sheet>
   </element>
-  <element name="Reverse Fate" type="Racial Trait" source="Custom Homebrew" id="ID_RACIAL_TRAIT_REVERSE_FATE">
+  <element name="Reverse Fate" type="Racial Trait" source="Crimson's Homebrew" id="ID_RACIAL_TRAIT_REVERSE_FATE">
     <description>
       <p>Once per long rest, when an enemy attacks you, you can force reality to shift. The attacker must make a Charisma saving throw (DC 8 + proficiency bonus + Charisma modifier). On a failure, the attack is negated, and the attacker suffers half the damage they would have dealt to you.</p>
     </description>
@@ -88,7 +88,7 @@
       <p>Once per long rest, when an enemy attacks you, you can force reality to shift. The attacker must make a Charisma saving throw (DC 8 + proficiency bonus + Charisma modifier). On a failure, the attack is negated, and the attacker suffers half the damage they would have dealt to you.</p>
     </sheet>
   </element>
-  <element name="Ashborn Resurrection" type="Racial Trait" source="Custom Homebrew" id="ID_RACIAL_TRAIT_ASHBORN_RESURRECTION">
+  <element name="Ashborn Resurrection" type="Racial Trait" source="Crimson's Homebrew" id="ID_RACIAL_TRAIT_ASHBORN_RESURRECTION">
     <description>
       <p>Once per long rest, if you are reduced to 0 HP, you explode in a fiery burst. All creatures within 10 feet take fire and necrotic damage equal to twice your level. You return to life with half your max HP. However, when resting nightmares of your past life keep you up. You only restore half you MAX HP from long rests.</p>
     </description>

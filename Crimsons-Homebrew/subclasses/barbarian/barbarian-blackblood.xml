@@ -2,7 +2,7 @@
 <elements>
 
     <info>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="barbarian-blackblood.xml"
                 url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-blackblood.xml" />
         </update>
@@ -16,7 +16,7 @@
         </update>
     </info>
 
-    <element name="Path of the Black Blood" type="Archetype" source="Homebrew"
+    <element name="Path of the Black Blood" type="Archetype" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_BLACK_BLOOD">
         <supports>Primal Path</supports>
         <description>
@@ -48,7 +48,7 @@
         </rules>
     </element>
 
-    <element name="Black Blood Symbiote" type="Archetype Feature" source="Homebrew"
+    <element name="Black Blood Symbiote" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SYMBIOTE">
         <description>
             <p>
@@ -70,7 +70,7 @@
         </rules>
     </element>
 
-    <element name="Twisted Form" type="Archetype Feature" source="Homebrew"
+    <element name="Twisted Form" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_TWISTED_FORM">
         <description>
             <p>
@@ -88,7 +88,7 @@
         </sheet>
     </element>
 
-    <element name="Hardened Blood" type="Archetype Feature" source="Homebrew"
+    <element name="Hardened Blood" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_HARDENED_BLOOD">
         <description>
             <p>
@@ -104,7 +104,7 @@
         </sheet>
     </element>
 
-    <element name="Resonant Assault" type="Archetype Feature" source="Homebrew"
+    <element name="Resonant Assault" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_RESONANT_ASSAULT">
         <description>
             <p>
@@ -128,7 +128,7 @@
         </rules>
     </element>
 
-    <element name="Abyssal Form" type="Archetype Feature" source="Homebrew"
+    <element name="Abyssal Form" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_ABYSSAL_FORM">
         <description>
             <p>
@@ -151,7 +151,7 @@
         </sheet>
     </element>
 
-    <element name="Black Blood Surge" type="Archetype Feature" source="Homebrew"
+    <element name="Black Blood Surge" type="Archetype Feature" source="Crimson's Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SURGE_TABLE">
         <description>
             <p>
