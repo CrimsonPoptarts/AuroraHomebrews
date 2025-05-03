@@ -1,1 +1,12 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Classes</name>
+		<update version="1.0.0">
+			<file name="classes.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/classes.index" />
+		</update>
+	</info>
+	<files>
+    <file name="class-wyldheart.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes/class-wyldheart.xml" />
+  </files>
+</index>
