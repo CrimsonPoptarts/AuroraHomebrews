@@ -3,7 +3,7 @@
 	<info>
 		<name>Subclasses</name>
 		<update version="1.0.0">
-			<file name="subclasses.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/subclasses.index" />
+			<file name="subclasses.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses.index" />
 		</update>
 	</info>
 	<files>
