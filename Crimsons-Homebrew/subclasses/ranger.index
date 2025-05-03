@@ -1,1 +1,12 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Ranger</name>
+		<update version="1.0.0">
+			<file name="ranger.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/ranger.index" />
+		</update>
+	</info>
+	<files>
+    <file name="ranger-death-whistler.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/ranger/ranger-death-whistler.xml" />
+	</files>
+</index>
