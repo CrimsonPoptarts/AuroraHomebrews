@@ -2,7 +2,7 @@
 <elements>
     <info>
         <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="items.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/items.xml" />
         </update>
     </info>
@@ -117,7 +117,7 @@
             <set name="weapon">Spear</set>
         </setters>
     </element>
-    <element name="M20's Greatsword" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M20_GREATSWORD">
+    <element name="M20's Greatsword" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M20_GREATSWORD">
         <description>
             <p>Forged in the fires of unrelenting battle and imbued with the essence of mastery, M20's Greatsword is the ultimate warrior's weapon. Its blade gleams with an unyielding power, bolstering its wielder's might and precision.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M20's Greatsword</em> deals 2d6 slashing damage (heavy, two-handed).</p>
@@ -136,7 +136,7 @@
             <set name="weapon">Greatsword</set>
         </setters>
     </element>
-    <element name="M21's Boomerang" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M21_BOOMERANG">
+    <element name="M21's Boomerang" stype="Magic Item" ource="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M21_BOOMERANG">
         <description>
             <p>Crafted by ascetic masters in a secluded mountain monastery, M21's Boomerang channels the wearer's inner ki into precise, devastating throws. This weapon returns to its wielder's hand, embodying the harmony of motion and discipline.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M21's Boomerang</em> deals 1d6 bludgeoning damage (finesse, thrown range 30/60). When thrown, the boomerang returns to your hand immediately after the attack, even if it misses.</p>
@@ -154,7 +154,7 @@
             <set name="weapon">Boomerang</set>
         </setters>
     </element>
-    <element name="M22's Warhammer" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M22_WARHAMMER">
+    <element name="M22's Warhammer" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M22_WARHAMMER">
         <description>
             <p>Forged in the celestial forges of a sacred order, M22's Warhammer channels the wrath of the gods against the unholy. This weapon is an extension of the Paladin's oath, resonating with divine power to smite foes and protect the innocent.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M22's Warhammer</em> deals 1d8 bludgeoning damage (versatile 1d10).</p>
