@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="fighter-limitbreaker.xml"
                 url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-limitbreaker.xml" />
         </update>
@@ -60,8 +60,7 @@
             <p>Unused Limit Dice vanish after a long rest.</p>
         </description>
         <sheet>
-            <description>Gain Limit Dice when dealing/taking damage. Spend to fuel Limit Arts and
-                empower magic. Dice reset on long rest. The number on the sheet is the maximum.</description>
+            <description>You have {{limit dice:amount}} Limit Dice, which are d{{limit dice:size}}s. Gain Limit Dice as follows: 1 when you take damage, 1 when you deal damage with a weapon attack (once per turn), and 2 when you score a critical hit. Spend Limit Dice to fuel Limit Arts, empower Limit Magic, or trigger special effects. Unused Limit Dice reset after a long rest. The number displayed on the sheet represents your current maximum Limit Dice.</description>
         </sheet>
         <rules>
             <stat name="limit dice:amount" value="2" />
