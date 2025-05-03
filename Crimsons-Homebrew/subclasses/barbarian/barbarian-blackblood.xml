@@ -1,17 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
+
+    <info>
+        <update version="0.0.1">
+            <file name="barbarian-blackblood.xml"
+                url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-blackblood.xml" />
+        </update>
+    </info>
     <info>
         <name>Path of the Black Blood</name>
-        <description>The Path of the Black Blood, inspired by Crona and Ragnarok from Soul Eater, upgraded with chaotic surges.</description>
+        <description>The Path of the Black Blood, inspired by Crona and Ragnarok from Soul Eater,
+            upgraded with chaotic surges.</description>
         <update version="0.0.4">
             <file name="barbarian-blackblood.xml" url="https://example.com" />
         </update>
     </info>
 
-    <element name="Path of the Black Blood" type="Archetype" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_BLACK_BLOOD">
+    <element name="Path of the Black Blood" type="Archetype" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_BLACK_BLOOD">
         <supports>Primal Path</supports>
         <description>
-            <p>Barbarians who walk the Path of the Black Blood unleash a violent, symbiotic force within them. Their black blood mutates their bodies, warps their minds, and fuels unpredictable surges of monstrous power. Each rage invites both destruction and chaos, as they walk the edge of madness itself.</p>
+            <p>Barbarians who walk the Path of the Black Blood unleash a violent, symbiotic force
+                within them. Their black blood mutates their bodies, warps their minds, and fuels
+                unpredictable surges of monstrous power. Each rage invites both destruction and
+                chaos, as they walk the edge of madness itself.</p>
             <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SYMBIOTE" />
             <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_TWISTED_FORM" />
             <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_HARDENED_BLOOD" />
@@ -21,59 +33,93 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SYMBIOTE" level="3" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_TWISTED_FORM" level="3" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_HARDENED_BLOOD" level="6" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_RESONANT_ASSAULT" level="10" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_ABYSSAL_FORM" level="14" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SURGE_TABLE" level="3" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SYMBIOTE"
+                level="3" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_TWISTED_FORM" level="3" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_HARDENED_BLOOD" level="6" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_RESONANT_ASSAULT" level="10" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_ABYSSAL_FORM" level="14" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SURGE_TABLE" level="3" />
         </rules>
     </element>
 
-    <element name="Black Blood Symbiote" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SYMBIOTE">
+    <element name="Black Blood Symbiote" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SYMBIOTE">
         <description>
-            <p><em>3rd-level Path of the Black Blood feature</em></p>
-            <p>Your blood is alive with a chaotic symbiote. While raging, you can communicate telepathically with your symbiote, use Strength for Intimidation checks, and have advantage on saving throws against being charmed, frightened, or possessed.</p>
-            <p>You also learn the <em>thaumaturgy</em> cantrip, using Constitution as your spellcasting ability.</p>
+            <p>
+                <em>3rd-level Path of the Black Blood feature</em>
+            </p>
+            <p>Your blood is alive with a chaotic symbiote. While raging, you can communicate
+                telepathically with your symbiote, use Strength for Intimidation checks, and have
+                advantage on saving throws against being charmed, frightened, or possessed.</p>
+            <p>You also learn the <em>thaumaturgy</em> cantrip, using Constitution as your
+                spellcasting ability.</p>
         </description>
         <sheet>
-            <description>While raging, telepathically communicate with your symbiote, use Strength for Intimidation, and gain advantage vs. charm, fear, possession. Learn thaumaturgy (Constitution casting).</description>
+            <description>While raging, telepathically communicate with your symbiote, use Strength
+                for Intimidation, and gain advantage vs. charm, fear, possession. Learn thaumaturgy
+                (Constitution casting).</description>
         </sheet>
         <rules>
             <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
         </rules>
     </element>
 
-    <element name="Twisted Form" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_TWISTED_FORM">
+    <element name="Twisted Form" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_TWISTED_FORM">
         <description>
-            <p><em>3rd-level Path of the Black Blood feature</em></p>
+            <p>
+                <em>3rd-level Path of the Black Blood feature</em>
+            </p>
             <p>When you rage, black blood mutates your body violently:</p>
-            <p style="text-indent: -1em; margin-left: 1em"><strong>Black Blood Blade.</strong> Your melee attacks deal an additional 1d8 + your proficiency bonus necrotic damage.</p>
-            <p style="text-indent: -1em; margin-left: 1em"><strong>Elastic Reach.</strong> Your reach with melee attacks increases by 10 feet.</p>
+            <p style="text-indent: -1em; margin-left: 1em"><strong>Black Blood Blade.</strong> Your
+                melee attacks deal an additional 1d8 + your proficiency bonus necrotic damage.</p>
+            <p style="text-indent: -1em; margin-left: 1em"><strong>Elastic Reach.</strong> Your
+                reach with melee attacks increases by 10 feet.</p>
         </description>
         <sheet>
-            <description>While raging, melee attacks deal 1d8 + proficiency bonus necrotic damage and your reach increases by 10 feet.</description>
+            <description>While raging, melee attacks deal 1d8 + proficiency bonus necrotic damage
+                and your reach increases by 10 feet.</description>
         </sheet>
     </element>
 
-    <element name="Hardened Blood" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_HARDENED_BLOOD">
+    <element name="Hardened Blood" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_HARDENED_BLOOD">
         <description>
-            <p><em>6th-level Path of the Black Blood feature</em></p>
-            <p>While raging, you gain resistance to all damage types except radiant. You can use your reaction to reduce incoming damage by 2 × your barbarian level + your Constitution modifier.</p>
+            <p>
+                <em>6th-level Path of the Black Blood feature</em>
+            </p>
+            <p>While raging, you gain resistance to all damage types except radiant. You can use
+                your reaction to reduce incoming damage by 2 × your barbarian level + your
+                Constitution modifier.</p>
         </description>
         <sheet action="Reaction">
-            <description>While raging, resist all damage except radiant. Reaction: reduce incoming damage by 2 × barbarian level + Constitution modifier.</description>
+            <description>While raging, resist all damage except radiant. Reaction: reduce incoming
+                damage by 2 × barbarian level + Constitution modifier.</description>
         </sheet>
     </element>
 
-    <element name="Resonant Assault" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_RESONANT_ASSAULT">
+    <element name="Resonant Assault" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_RESONANT_ASSAULT">
         <description>
-            <p><em>10th-level Path of the Black Blood feature</em></p>
-            <p>Whenever you hit with a melee attack while raging, once per turn, you can unleash a pulse of black blood energy. Each creature of your choice within 10 feet must succeed on a Constitution saving throw (DC = 8 + proficiency bonus + Constitution modifier) or take 6d6 necrotic damage (half on success).</p>
-            <p class="indent">At 14th level, damage increases to 8d6. At 18th level, damage increases to 10d6.</p>
+            <p>
+                <em>10th-level Path of the Black Blood feature</em>
+            </p>
+            <p>Whenever you hit with a melee attack while raging, once per turn, you can unleash a
+                pulse of black blood energy. Each creature of your choice within 10 feet must
+                succeed on a Constitution saving throw (DC = 8 + proficiency bonus + Constitution
+                modifier) or take 6d6 necrotic damage (half on success).</p>
+            <p class="indent">At 14th level, damage increases to 8d6. At 18th level, damage
+                increases to 10d6.</p>
         </description>
         <sheet action="Special">
-            <description>Once per turn while raging, on a melee hit, unleash a 6d6 necrotic pulse (scales at 14 and 18). Save DC{{resonant assault:dc}} Constitution.</description>
+            <description>Once per turn while raging, on a melee hit, unleash a 6d6 necrotic pulse
+                (scales at 14 and 18). Save DC{{resonant assault:dc}} Constitution.</description>
         </sheet>
         <rules>
             <stat name="resonant assault:dc" value="8" />
@@ -82,39 +128,88 @@
         </rules>
     </element>
 
-    <element name="Abyssal Form" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_ABYSSAL_FORM">
+    <element name="Abyssal Form" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_ABYSSAL_FORM">
         <description>
-            <p><em>14th-level Path of the Black Blood feature</em></p>
+            <p>
+                <em>14th-level Path of the Black Blood feature</em>
+            </p>
             <p>When you rage, blood tendrils erupt from your body for 1 minute:</p>
-            <p style="text-indent: -1em; margin-left: 1em"><strong>Tendril Grasp.</strong> As a bonus action, grapple up to three creatures within 30 feet. Grappled creatures cannot opportunity attack you.</p>
-            <p style="text-indent: -1em; margin-left: 1em"><strong>Blood Armor.</strong> At the start of each of your turns while raging, you gain temporary hit points equal to 3 × your barbarian level + your Constitution modifier.</p>
-            <p style="text-indent: -1em; margin-left: 1em"><strong>Bleeding Grasp.</strong> Grappled creatures take 1d10 necrotic damage at the start of their turns.</p>
+            <p style="text-indent: -1em; margin-left: 1em"><strong>Tendril Grasp.</strong> As a
+                bonus action, grapple up to three creatures within 30 feet. Grappled creatures
+                cannot opportunity attack you.</p>
+            <p style="text-indent: -1em; margin-left: 1em"><strong>Blood Armor.</strong> At the
+                start of each of your turns while raging, you gain temporary hit points equal to 3 ×
+                your barbarian level + your Constitution modifier.</p>
+            <p style="text-indent: -1em; margin-left: 1em"><strong>Bleeding Grasp.</strong> Grappled
+                creatures take 1d10 necrotic damage at the start of their turns.</p>
         </description>
         <sheet action="Bonus Action">
-            <description>Sprout tendrils. Bonus action grapple up to three creatures within 30 ft. Temp hp 3 × level + Con mod each turn. Grappled creatures take 1d10 necrotic damage at the start of their turns.</description>
+            <description>Sprout tendrils. Bonus action grapple up to three creatures within 30 ft.
+                Temp hp 3 × level + Con mod each turn. Grappled creatures take 1d10 necrotic damage
+                at the start of their turns.</description>
         </sheet>
     </element>
 
-    <element name="Black Blood Surge" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SURGE_TABLE">
+    <element name="Black Blood Surge" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_BLACK_BLOOD_SURGE_TABLE">
         <description>
-            <p><em>3rd-level Path of the Black Blood feature</em></p>
-            <p>Whenever you rage, roll 1d8 on the Black Blood Surge table to see how your chaotic power manifests:</p>
+            <p>
+                <em>3rd-level Path of the Black Blood feature</em>
+            </p>
+            <p>Whenever you rage, roll 1d8 on the Black Blood Surge table to see how your chaotic
+                power manifests:</p>
             <table>
                 <thead>
-                    <tr><td>d8</td><td>Effect</td></tr>
+                    <tr>
+                        <td>d8</td>
+                        <td>Effect</td>
+                    </tr>
                 </thead>
-                <tr><td>1</td><td><strong>Self-Harm.</strong> Take 1d6 necrotic damage per 3 barbarian levels (max 6d6). No resistance applies.</td></tr>
-                <tr><td>2</td><td><strong>Blood Frenzy.</strong> Must attack the nearest creature this turn.</td></tr>
-                <tr><td>3</td><td><strong>Unstable Growth.</strong> AC -2 for the rage duration; reach increases by +10 ft (+15 ft at 15th level).</td></tr>
-                <tr><td>4</td><td><strong>Bone Spikes.</strong> Any melee attacker takes 1d8 piercing per 3 barbarian levels (max 6d8).</td></tr>
-                <tr><td>5</td><td><strong>Overload.</strong> Your next melee attack deals +2d8 necrotic damage (4d8 at 15th level, 6d8 at 20th level).</td></tr>
-                <tr><td>6</td><td><strong>Blood Armor Surge.</strong> Gain 1d10 temp hp per 3 barbarian levels (max 6d10).</td></tr>
-                <tr><td>7</td><td><strong>Terror Bloom.</strong> All creatures within 10 feet must make a Wisdom save or be frightened until the start of your next turn.</td></tr>
-                <tr><td>8</td><td><strong>Perfect Resonance.</strong> Movement speed doubles, immune to charm/stun/fear for the rage duration.</td></tr>
+                <tr>
+                    <td>1</td>
+                    <td><strong>Self-Harm.</strong> Take 1d6 necrotic damage per 3 barbarian levels
+                        (max 6d6). No resistance applies.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><strong>Blood Frenzy.</strong> Must attack the nearest creature this turn.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><strong>Unstable Growth.</strong> AC -2 for the rage duration; reach
+                        increases by +10 ft (+15 ft at 15th level).</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><strong>Bone Spikes.</strong> Any melee attacker takes 1d8 piercing per 3
+                        barbarian levels (max 6d8).</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><strong>Overload.</strong> Your next melee attack deals +2d8 necrotic damage
+                        (4d8 at 15th level, 6d8 at 20th level).</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><strong>Blood Armor Surge.</strong> Gain 1d10 temp hp per 3 barbarian levels
+                        (max 6d10).</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><strong>Terror Bloom.</strong> All creatures within 10 feet must make a
+                        Wisdom save or be frightened until the start of your next turn.</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><strong>Perfect Resonance.</strong> Movement speed doubles, immune to
+                        charm/stun/fear for the rage duration.</td>
+                </tr>
             </table>
         </description>
         <sheet>
-            <description>Roll 1d8 every time you rage. Effects include self-damage, frenzy, increased reach, spikes, bonus damage, temp hp, mass fear, or perfect immunity.</description>
+            <description>Roll 1d8 every time you rage. Effects include self-damage, frenzy,
+                increased reach, spikes, bonus damage, temp hp, mass fear, or perfect immunity.</description>
         </sheet>
     </element>
 

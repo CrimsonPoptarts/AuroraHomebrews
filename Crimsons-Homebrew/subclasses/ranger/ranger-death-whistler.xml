@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <name>Path of the Whistling Death</name>
-        <description>The Path of the Whistling Death — deadly rangers who control a whistling arrow through sound and deadly precision.</description>
-        <update version="0.0.2">
-            <file name="ranger-whistling-death.xml" url="https://homebrew.example/ranger-whistling-death.xml" />
+        <update version="0.0.1">
+            <file name="ranger-death-whistler.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/ranger/ranger-death-whistler.xml" />
         </update>
     </info>
+
 
     <element name="Path of the Whistling Death" type="Archetype" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_RANGER_PATH_OF_THE_WHISTLING_DEATH">
         <supports>Ranger Archetype</supports>

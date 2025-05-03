@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Kaos Warden</name>
+		<description>A homebrew subclass for those who draw power from their bond with nature and the chaotic spirits of the wild, mastering elemental beasts and primal forces.</description>
+		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+		<update version="0.0.1">
+			<file name="wyldheart-kaoswarden.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-kaoswarden.xml" />
+		</update>
+	</info>
+
   <element name="Kaos Warden" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_KAOS_WARDEN">
     <supports>Blessing of the Wyld</supports>
     <description>

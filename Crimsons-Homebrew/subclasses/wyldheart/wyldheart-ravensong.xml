@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Ravensong</name>
+		<description>A homebrew subclass for those who draw power from their bond with nature and the enigmatic allure of ravens, embodying the symphony of the skies and the mysteries of the wild.</description>
+		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+		<update version="0.0.1">
+			<file name="wyldheart-ravensong.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-ravensong.xml" />
+		</update>
+	</info>
   <element name="Ravensong" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_RAVENSONG">
 		<supports>Blessing of the Wyld</supports>
 		<description>

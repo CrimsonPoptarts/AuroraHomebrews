@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+
+    <info>
+        <name>Primal Lord</name>
+        <description>A homebrew subclass for those who draw power from their bond with nature and the primal instincts of the wild, embodying mastery over loyal beasts and the untamed wilderness.</description>
+        <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+        <update version="0.0.1">
+            <file name="wyldheart-primallord.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-primallord.xml" />
+        </update>
+    </info>
   <element name="Primal Lord" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_PRIMAL_LORD">
 		<supports>Blessing of the Wyld</supports>
 		<description>

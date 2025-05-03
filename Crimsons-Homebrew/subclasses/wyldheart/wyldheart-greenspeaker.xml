@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <name>Greenspeaker</name>
+            <description>A subclass for those who draw power from their bond with nature and the powerful plants of the wild, embodying the mastery over forest guardians and fey.</description>
+            <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+        <update version="0.0.1">
+            <file name="wyldheart-greenspeaker.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-greenspeaker.xml" />
+        </update>
+    </info>
+
   <element name="Greenspeaker" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_GREENSPEAKER">
 		<supports>Blessing of the Wyld</supports>
 		<description>

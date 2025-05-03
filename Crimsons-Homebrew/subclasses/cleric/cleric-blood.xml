@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <update version="0.0.1">
+            <file name="cleric-blood.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/cleric/cleric-blood.xml" />
+        </update>
+    </info>
+
     <element name="Blood Domain" type="Archetype" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_BLOODDOMAIN">
         <supports>Divine Domain</supports>
         <description>

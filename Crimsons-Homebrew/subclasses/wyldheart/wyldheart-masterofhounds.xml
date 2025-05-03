@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Master of Hounds</name>
+		<description>A homebrew subclass for those who draw power from their bond with nature and the primal instincts of the wild, mastering the art of commanding loyal beasts.</description>
+		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
+		<update version="0.0.1">
+			<file name="wyldheart-masterofhounds.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-masterofhounds.xml" />
+		</update>
+	</info>
+
   <element name="Master of Hounds" type="Archetype" source="Homebrew" id="ID_CUSTOM_ARCHETYPE_MASTER_OF_HOUNDS">
 		<supports>Blessing of the Wyld</supports>
 		<description>

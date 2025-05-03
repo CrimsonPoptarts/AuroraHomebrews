@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-    <element name="Path of the Lycan" type="Archetype" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_LYCAN_SCALING">
+    <info>
+        <update version="0.0.1">
+            <file name="barbarian-lycanthrope.xml"
+                url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-lycanthrope.xml" />
+        </update>
+    </info>
+
+    <element name="Path of the Lycan" type="Archetype" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_LYCAN_SCALING">
         <supports>Primal Path</supports>
         <description>
-            <p>Barbarians who embrace the Path of the Lycan unleash a beast within. Each step forward awakens new levels of monstrous power: deadlier strikes, enhanced senses, unstoppable vitality, and brutal takedowns.</p>
+            <p>Barbarians who embrace the Path of the Lycan unleash a beast within. Each step
+                forward awakens new levels of monstrous power: deadlier strikes, enhanced senses,
+                unstoppable vitality, and brutal takedowns.</p>
             <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_LYCAN_BLOOD" />
             <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BESTIAL_FURY" />
             <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BLOODHUNTER_SENSES" />
@@ -12,42 +22,60 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_LYCAN_BLOOD" level="3" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BESTIAL_FURY" level="3" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BLOODHUNTER_SENSES" level="6" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_SAVAGE_LEAP" level="10" />
-            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_ALPHA_FORM" level="14" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_LYCAN_BLOOD" level="3" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BESTIAL_FURY" level="3" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BLOODHUNTER_SENSES" level="6" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_SAVAGE_LEAP" level="10" />
+            <grant type="Archetype Feature"
+                id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_ALPHA_FORM" level="14" />
         </rules>
     </element>
 
-    <element name="Lycan Blood" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_LYCAN_BLOOD">
+    <element name="Lycan Blood" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_LYCAN_BLOOD">
         <description>
-            <p><em>3rd-level Path of the Lycan feature</em></p>
-            <p>While raging, your unarmed strikes deal 1d8 slashing or piercing damage (your choice).</p>
+            <p>
+                <em>3rd-level Path of the Lycan feature</em>
+            </p>
+            <p>While raging, your unarmed strikes deal 1d8 slashing or piercing damage (your
+                choice).</p>
             <p class="indent">At 6th level, the damage increases to 1d10.</p>
             <p class="indent">At 10th level, it increases to 2d8.</p>
             <p class="indent">At 14th level, it increases to 2d10.</p>
             <p class="indent">At 18th level, it increases to 3d10.</p>
-            <p class="indent">Additionally, you gain temporary hit points equal to twice your barbarian level at the start of each of your turns while raging. Starting at 14th level, this becomes three times your barbarian level.</p>
+            <p class="indent">Additionally, you gain temporary hit points equal to twice your
+                barbarian level at the start of each of your turns while raging. Starting at 14th
+                level, this becomes three times your barbarian level.</p>
         </description>
         <sheet>
-            <description>Unarmed strikes scale: 1d8 → 1d10 → 2d8 → 2d10 → 3d10. Temp hp 2× or 3× barbarian level at the start of each turn while raging.</description>
+            <description>Unarmed strikes scale: 1d8 → 1d10 → 2d8 → 2d10 → 3d10. Temp hp 2× or 3×
+                barbarian level at the start of each turn while raging.</description>
         </sheet>
     </element>
 
-    <element name="Bestial Fury" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BESTIAL_FURY">
+    <element name="Bestial Fury" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BESTIAL_FURY">
         <description>
-            <p><em>3rd-level Path of the Lycan feature</em></p>
-            <p>While raging, when you hit a creature with an unarmed strike, it takes additional slashing damage.</p>
+            <p>
+                <em>3rd-level Path of the Lycan feature</em>
+            </p>
+            <p>While raging, when you hit a creature with an unarmed strike, it takes additional
+                slashing damage.</p>
             <p class="indent">At 3rd level, the extra damage is 2d6.</p>
             <p class="indent">At 6th level, the extra damage is 3d6.</p>
             <p class="indent">At 10th level, the extra damage is 4d6.</p>
             <p class="indent">At 14th level, the extra damage is 5d6.</p>
             <p class="indent">At 18th level, the extra damage is 6d6.</p>
-            <p class="indent">You can also choose to force a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) to knock the creature prone.</p>
+            <p class="indent">You can also choose to force a Strength saving throw (DC = 8 + your
+                proficiency bonus + your Strength modifier) to knock the creature prone.</p>
         </description>
         <sheet>
-            <description>On hit: bonus slashing damage 2d6 → 6d6 scaling. Strength save (DC {{bestial fury:dc}}) or knock prone.</description>
+            <description>On hit: bonus slashing damage 2d6 → 6d6 scaling. Strength save (DC
+                {{bestial fury:dc}}) or knock prone.</description>
         </sheet>
         <rules>
             <stat name="bestial fury:dc" value="8" />
@@ -56,45 +84,64 @@
         </rules>
     </element>
 
-    <element name="Bloodhunter Senses" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BLOODHUNTER_SENSES">
+    <element name="Bloodhunter Senses" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_BLOODHUNTER_SENSES">
         <description>
-            <p><em>6th-level Path of the Lycan feature</em></p>
+            <p>
+                <em>6th-level Path of the Lycan feature</em>
+            </p>
             <p>You gain blindsight to a range of 30 feet.</p>
-            <p class="indent">While raging, you can detect the scent of creatures even if they are invisible, with the following range:</p>
+            <p class="indent">While raging, you can detect the scent of creatures even if they are
+                invisible, with the following range:</p>
             <p class="indent">60 feet at 6th level.</p>
             <p class="indent">90 feet at 10th level.</p>
             <p class="indent">120 feet at 14th level.</p>
             <p class="indent">150 feet at 18th level.</p>
         </description>
         <sheet>
-            <description>Gain 30 ft blindsight. Scent detection while raging: 60 → 150 ft scaling with level.</description>
+            <description>Gain 30 ft blindsight. Scent detection while raging: 60 → 150 ft scaling
+                with level.</description>
         </sheet>
     </element>
 
-    <element name="Savage Leap" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_SAVAGE_LEAP">
+    <element name="Savage Leap" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_SAVAGE_LEAP">
         <description>
-            <p><em>10th-level Path of the Lycan feature</em></p>
-            <p>When you move at least 15 feet straight toward a creature and hit it with an unarmed strike on the same turn, you deal bonus damage.</p>
+            <p>
+                <em>10th-level Path of the Lycan feature</em>
+            </p>
+            <p>When you move at least 15 feet straight toward a creature and hit it with an unarmed
+                strike on the same turn, you deal bonus damage.</p>
             <p class="indent">At 10th level, the bonus damage is 4d8.</p>
             <p class="indent">At 14th level, it increases to 5d8.</p>
             <p class="indent">At 18th level, it increases to 6d8.</p>
-            <p class="indent">If you successfully grapple the creature, it is restrained until the start of your next turn.</p>
+            <p class="indent">If you successfully grapple the creature, it is restrained until the
+                start of your next turn.</p>
         </description>
         <sheet>
-            <description>Charge and hit: bonus damage 4d8 → 6d8 scaling. Successful grapple restrains target until start of next turn.</description>
+            <description>Charge and hit: bonus damage 4d8 → 6d8 scaling. Successful grapple
+                restrains target until start of next turn.</description>
         </sheet>
     </element>
 
-    <element name="Alpha Form" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_ALPHA_FORM">
+    <element name="Alpha Form" type="Archetype Feature" source="Homebrew"
+        id="ID_HOMEBREW_ARCHETYPE_FEATURE_PATH_OF_THE_LYCAN_ALPHA_FORM">
         <description>
-            <p><em>14th-level Path of the Lycan feature</em></p>
+            <p>
+                <em>14th-level Path of the Lycan feature</em>
+            </p>
             <p>While raging:</p>
-            <p class="indent">Your unarmed strikes deal 2d10 damage. At 18th level, they deal 3d10 damage.</p>
-            <p class="indent">You gain three times your barbarian level in temporary hit points at the start of each turn.</p>
-            <p class="indent">When you knock a creature prone with Bestial Fury or Savage Leap, you can immediately make an unarmed strike against it as a free action and have advantage on your next attack against it this turn.</p>
+            <p class="indent">Your unarmed strikes deal 2d10 damage. At 18th level, they deal 3d10
+                damage.</p>
+            <p class="indent">You gain three times your barbarian level in temporary hit points at
+                the start of each turn.</p>
+            <p class="indent">When you knock a creature prone with Bestial Fury or Savage Leap, you
+                can immediately make an unarmed strike against it as a free action and have
+                advantage on your next attack against it this turn.</p>
         </description>
         <sheet>
-            <description>While raging: unarmed strikes 2d10 → 3d10. Tripled temp hp. Knock prone → free unarmed strike and advantage on next attack against that target.</description>
+            <description>While raging: unarmed strikes 2d10 → 3d10. Tripled temp hp. Knock prone →
+                free unarmed strike and advantage on next attack against that target.</description>
         </sheet>
     </element>
 </elements>

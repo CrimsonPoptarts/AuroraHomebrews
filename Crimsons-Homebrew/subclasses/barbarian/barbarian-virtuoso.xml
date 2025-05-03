@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
+	<info>
+		<update version="0.0.1">
+			<file name="barbarian-virtuoso.xml"
+				url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-virtuoso.xml" />
+		</update>
+	</info>
+
 	<element name="Path of the Virtuoso" type="Archetype" source="Homebrew"
 		id="ID_HOMEBREW_ARCHETYPE_BARBARIAN_PATH_OF_THE_VIRTUOSO">
 		<supports>Primal Path</supports>

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <name>Flowmotion Fighter</name>
-        <description>A master of momentum, chaining leaps, dashes, rebounds, and wall-runs into
-            devastating battlefield dominance.</description>
-        <author url="http://homebrew.example/flowmotion">Homebrew: Flowmotion Fighter</author>
-        <update version="0.0.2">
+        <update version="0.0.1">
             <file name="fighter-flowmotion.xml"
-                url="http://homebrew.example/flowmotion/fighter-flowmotion.xml" />
+                url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-flowmotion.xml" />
         </update>
     </info>
+
     <element name="Flowmotion Fighter" type="Archetype" source="Homebrew"
         id="ID_HOMEBREW_ARCHETYPE_FLOWMOTION_FIGHTER">
         <supports>Martial Archetype</supports>
