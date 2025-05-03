@@ -1,1 +1,13 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Fighter</name>
+		<update version="1.0.0">
+			<file name="fighter.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/fighter.index" />
+		</update>
+	</info>
+	<files>
+      <file name="fighter-flowmotion.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-flowmotion.xml" />
+	    <file name="fighter-limitbreaker.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/fighter/fighter-limitbreaker.xml" />
+	</files>
+</index>
