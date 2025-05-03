@@ -2,7 +2,7 @@
 <elements>
     <info>
         <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="items.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/items.xml" />
         </update>
     </info>
@@ -136,7 +136,7 @@
             <set name="weapon">Greatsword</set>
         </setters>
     </element>
-    <element name="M21's Boomerang" stype="Magic Item" ource="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M21_BOOMERANG">
+    <element name="M21's Boomerang" type="Magic Item" source="Crimson's Homebrew" id="ID_HOMEBREWMAGIC_ITEM_M21_BOOMERANG">
         <description>
             <p>Crafted by ascetic masters in a secluded mountain monastery, M21's Boomerang channels the wearer's inner ki into precise, devastating throws. This weapon returns to its wielder's hand, embodying the harmony of motion and discipline.</p>
             <p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon. <em>M21's Boomerang</em> deals 1d6 bludgeoning damage (finesse, thrown range 30/60). When thrown, the boomerang returns to your hand immediately after the attack, even if it misses.</p>
