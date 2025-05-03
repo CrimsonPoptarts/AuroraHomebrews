@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Barbarian</name>
+		<update version="1.0.0">
+			<file name="Barbarian.index" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/barbarian.index" />
+		</update>
+	</info>
+	<files>
+      <file name="barbarian-blackblood.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-blackblood.xml" />
+	    <file name="barbarian-lycanthrope.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-lycanthrope.xml" />
+	    <file name="barbarian-virtuoso.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/barbarian/barbarian-virtuoso.xml" />
+	</files>
+</index>
