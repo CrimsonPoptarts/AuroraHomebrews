@@ -4,7 +4,7 @@
 		<name>Death Knight</name>
 		<description>A homebrew class for those who channel the untamed forces of nature and the elements, embodying the primal magic of the wild.</description>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.5">
+		<update version="0.0.4">
 			<file name="class-deathknight.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes/class-deathknight.xml" />
 		</update>
 	</info>
@@ -184,83 +184,13 @@
             <description level="1">Pull a creature within 30 feet toward you and stun it until the start of your next turn. Usable once per combat, scaling with level.</description>
             </sheet>
         </element>
-        <element name="Control Undead" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_CONTROL_UNDEAD">
-            <description>
-            <p>You can use your action to attempt to control an undead creature within 30 feet. The target must succeed on a Wisdom saving throw or be under your control for 1 minute. You can maintain control by spending 20 Runic Power each turn.</p>
-            <p class="indent">You can use this ability once per long rest.</p>
-            </description>
-            <sheet action="Action">
-            <description level="1">Attempt to control an undead creature within 30 feet. Costs 20 Runic Power each turn to maintain control. Usable once per long rest.</description>
-            </sheet>
-        </element>
-        <element name="Speak with the Dead" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_SPEAK_WITH_THE_DEAD">
-            <description>
-            <p>You can use your action to speak with a corpse within 10 feet of you. The corpse must still have a mouth and cannot be undead. You can ask the corpse up to five questions, which it answers to the best of its knowledge. The answers are usually brief, cryptic, or repetitive.</p>
-            <p class="indent">You can use this ability once per long rest.</p>
-            </description>
-            <sheet action="Action">
-            <description level="1">Speak with a corpse within 10 feet, asking up to five questions. Usable once per long rest.</description>
-            </sheet>
-        </element>
-        <element name="Fighting Style" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE">
-            <description>
-                <p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
-                <h5 class="caption">ARCHERY</h5>
-                <p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
-                <h5 class="caption">DEFENSE</h5>
-                <p>While you are wearing armor, you gain a +1 bonus to AC.</p>
-                <h5 class="caption">DUELING</h5>
-                <p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
-                <h5 class="caption">GREAT WEAPON FIGHTING</h5>
-                <p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
-                <h5 class="caption">PROTECTION</h5>
-                <p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
-                <h5 class="caption">TWO-WEAPON FIGHTING</h5>
-                <p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
-            </description>
-            <rules>
-                <select type="Class Feature" name="Fighting Style" supports="Fighting Style, Fighter" level="1"/>
-            </rules>
-        </element>
-        <element name="Death and Decay" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_AND_DECAY">
-            <description>
-            <p>You can use your action to create a 10-foot radius area of necrotic energy centered on a point within 30 feet. Creatures in the area must make a Constitution saving throw, taking necrotic damage on a failed save or half as much on a success. The area remains for 1 minute.</p>
-            <p class="indent">Corrupts the target ground and turns it into difficult terrain for enemies. Enemies standing in it will suffer damage equal to 5% of their Maximum HP per turn. Additionally, allies standing in the area have undead crawl up from the circle, latching on to form armor, granting them a +1 bonus to AC. At 11th level, this bonus increases to +2. Lasts 10 turns.</p>
-            </description>
-            <sheet action="Action">
-            <description>Create a 10-foot radius area of necrotic energy that deals damage. Costs 20 Runic Power. Corrupts ground into difficult terrain, dealing 5% of enemies' Maximum HP per turn and granting allies a +1 AC bonus (+2 at 11th level) as undead form armor around them.</description>
-            </sheet>
-        </element>
-        <element name="Horn of Winter" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_HORN_OF_WINTER">
-            <description>
-                <p>You can use your bonus action to blow the Horn of Winter, granting all nearby allies within 30 feet a +3 bonus to Strength and Dexterity for 10 turns. This ability requires concentration and can be used once per combat.</p>
-            </description>
-            <sheet action="Bonus Action">
-                <description>Blow the Horn of Winter to grant nearby allies a +3 bonus to Strength and Dexterity for 10 turns. Requires concentration. Usable once per combat.</description>
-            </sheet>
-        </element>
         <element name="Harbinger of the Scourge" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_HARBINGER_OF_THE_SCOURGE">
             <description>
             <p>You are immune to all diseases.</p>
             </description>
             <sheet>
-            <description>You are immune to all diseases.</description>
+            <description level="3">You are immune to all diseases.</description>
             </sheet>
-        </element>
-        <element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_ABILITY_SCORE_IMPROVEMENT">
-            <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_Death Knight_ABILITY_SCORE_IMPROVEMENT</requirements>
-            <compendium display="false" />
-            <description>
-                <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
-            </description>
-            <sheet display="false" />
-            <rules>
-                <select type="Class Feature" name="Improvement Option (Death Knight 4)" supports="Improvement Option,Death Knight,4" level="4" />
-                <select type="Class Feature" name="Improvement Option (Death Knight 8)" supports="Improvement Option,Death Knight,8" level="8" />
-                <select type="Class Feature" name="Improvement Option (Death Knight 12)" supports="Improvement Option,Death Knight,12" level="12" />
-                <select type="Class Feature" name="Improvement Option (Death Knight 16)" supports="Improvement Option,Death Knight,16" level="16" />
-                <select type="Class Feature" name="Improvement Option (Death Knight 19)" supports="Improvement Option,Death Knight,19" level="19" />
-            </rules>
         </element>
         <element name="Raise Dead" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_RAISE_DEAD">
             <description>
@@ -268,7 +198,7 @@
             <p class="indent">Special (Unholy): The Ghoul becomes permanent and can be resummoned with a short rest.</p>
             </description>
             <sheet action="Action">
-            <description>Summon a Ghoul for 6 turns (10 at 13th level). Costs 1 Unholy Rune. Special (Unholy): Ghoul becomes permanent.</description>
+            <description level="4">Summon a Ghoul for 6 turns (10 at 13th level). Costs 1 Unholy Rune. Special (Unholy): Ghoul becomes permanent.</description>
             </sheet>
         </element>
         <element name="Chains of Ice" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_CHAINS_OF_ICE">
@@ -276,7 +206,7 @@
             <p>You can use your action to reduce a target's movement speed by 100% and apply the Chilled condition for 2 turns. At 11th level, you can affect up to 2 targets; at 17th level, you can affect all creatures in a 15-foot radius.</p>
             </description>
             <sheet action="Action">
-            <description>Reduce a target's movement speed by 100% and apply Chilled for 2 turns. Costs 1 Frost Rune. Affects multiple targets at higher levels.</description>
+            <description level="4">Reduce a target's movement speed by 100% and apply Chilled for 2 turns. Costs 1 Frost Rune. Affects multiple targets at higher levels.</description>
             </sheet>
         </element>
         <element name="Death Pact" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_DEATH_PACT">
@@ -284,28 +214,7 @@
             <p>You can use your bonus action to sacrifice a friendly undead within 30 feet to heal yourself for 50% of your maximum HP. At 15th level, this increases to 75% of your maximum HP.</p>
             </description>
             <sheet action="Bonus Action">
-            <description>Sacrifice a friendly undead to heal yourself for 50% of your max HP (75% at 15th level). Costs 1 Blood Rune.</description>
-            </sheet>
-        </element>
-        <element name="Extra Attack" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK">
-            <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WYLDHEART_EXTRA_ATTACK</requirements>
-            <description>
-                <p>At 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
-            </description>
-            <sheet>
-                <description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
-            </sheet>
-            <rules>
-                <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
-            </rules>
-        </element>
-        <element name="Anti-Magic Shell" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_CLASS_FEATURE_DEATH_KNIGHT_ANTI_MAGIC_SHELL">
-            <description>
-            <p>You can use your action to create a 10-foot radius area of anti-magic energy centered on a point within 30 feet. The area remains for 1 minute.</p>
-            <p class="indent">The area is considered difficult terrain for all creatures except you. You can use this ability once per long rest.</p>
-            </description>
-            <sheet action="Action">
-            <description>Create a 10-foot radius area of anti-magic energy. Costs 20 Runic Power. Area is difficult terrain for all except you. Usable once per long rest.</description>
+            <description level="4">Sacrifice a friendly undead to heal yourself for 50% of your max HP (75% at 15th level). Costs 1 Blood Rune.</description>
             </sheet>
         </element>
 </elements>

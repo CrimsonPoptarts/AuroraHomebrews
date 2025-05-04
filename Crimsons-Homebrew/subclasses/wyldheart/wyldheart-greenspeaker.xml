@@ -4,7 +4,7 @@
         <name>Greenspeaker</name>
             <description>A subclass for those who draw power from their bond with nature and the powerful plants of the wild, embodying the mastery over forest guardians and fey.</description>
             <author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-        <update version="0.0.3">
+        <update version="0.0.2">
             <file name="wyldheart-greenspeaker.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/subclasses/wyldheart/wyldheart-greenspeaker.xml" />
         </update>
     </info>
@@ -33,15 +33,15 @@
 			<description>Summon a Wyldheart Companion to aid you in battle.</description>
 		</sheet>
 		<rules>
-            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_THORNLING" level="1" />
-            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_BLOOMSPITTER" level="1" />
-            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GLOOMLING" level="1" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_WISP" level="1" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_BLUE_JAY" level="1" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_PIXIE" level="1" />
             <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_WOOD_WOAD_SAPLING" level="6" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_WOOD_WOAD" level="6" />
             <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_MYCONID" level="6" />
-            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_SHADEBLOOM" level="6" />
-            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_THORNFATHER" level="14" />
-            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_BLOOMMAW" level="14" />
-            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GLOOMLORD" level="14" />            
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_GIANT_EAGLE" level="14" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_DRYAD" level="14" />
+            <grant type="Spell" id="ID_CUSTOM_SPELL_SUMMON_ELDER_DRYAD" level="14" />
 		</rules>
 	</element>
 	<element name="Blessing of the Wyld" type="Class Feature" source="Crimson's Homebrew" id="ID_CUSTOM_ARCHETYPE_FEATURE_WYLDHEART_GREENSPEAKER_BLESSING_OF_THE_WILD">
