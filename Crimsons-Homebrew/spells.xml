@@ -549,6 +549,7 @@
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
+	</element>
 		<element name="Summon Worg Pup" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_WORG_PUP">
 			<supports></supports>
 			<requirements>!ID_CUSTOM_SPELL_SUMMON_BLINK_DOG,!ID_CUSTOM_SPELL_SUMMON_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WHITE_WORG,!ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WORG_ALPHA,!ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG</requirements>
@@ -1747,5 +1748,4 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
 </elements>
