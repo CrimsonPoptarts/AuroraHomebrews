@@ -2,454 +2,477 @@
 <elements>
 	<info>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/spells.xml" />
 		</update>
 	</info>
-	<element name="Summon Wisp" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_WISP">
+	<element name="Summon Thornling" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_THORNLING">
 		<supports></supports>
+		<requirements>!ID_CUSTOM_SPELL_SUMMON_VINEMATRIARCH,!ID_CUSTOM_SPELL_SUMMON_BLOOMTAILWIDOW,!ID_CUSTOM_SPELL_SUMMON_DREADPETALGLOOM,!ID_CUSTOM_SPELL_SUMMON_THORNFATHER,!ID_CUSTOM_SPELL_SUMMON_BLOOMMAW,!ID_CUSTOM_SPELL_SUMMON_GLOOMLORD</requirements>
 		<description>
 			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 13 | HP: 10 (4d4)</p>
+			<p class="indent">AC: 13 | HP: 11 (2d8+2)</p>
+			<p class="indent">Speed: 30 ft., climb 20 ft.</p>
+			<p class="indent">STR 12, DEX 14, CON 12, INT 4, WIS 12, CHA 6</p>
+			<p class="indent">Features: Barbed Form (creatures that hit it with melee take 1 piercing), Tangle Step (enter space causes DC 12 Str save or target’s speed is halved until end of next turn)</p>
+			<p class="indent">Attack: Thorn Jab +4 to hit, 1d6+2 piercing</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Summon</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Summon Bloomspitter" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_BLOOMSPITTER">
+		<supports></supports>
+		<requirements>!ID_CUSTOM_SPELL_SUMMON_VINEMATRIARCH,!ID_CUSTOM_SPELL_SUMMON_BLOOMTAILWIDOW,!ID_CUSTOM_SPELL_SUMMON_DREADPETALGLOOM,!ID_CUSTOM_SPELL_SUMMON_THORNFATHER,!ID_CUSTOM_SPELL_SUMMON_BLOOMMAW,!ID_CUSTOM_SPELL_SUMMON_GLOOMLORD</requirements>
+		<description>
+			<p>Summon a Greenspeaker Companion.</p>
+			<p class="indent">AC: 12 | HP: 9 (2d6+2)</p>
+			<p class="indent">Speed: 20 ft., climb 20 ft.</p>
+			<p class="indent">STR 8, DEX 12, CON 12, INT 2, WIS 14, CHA 6</p>
+			<p class="indent">Features: Floral Burst (1/rest, 10-ft. cone of pollen; creatures must succeed on a DC 12 Con save or be blinded until end of next turn), Verdant Camouflage (advantage on Stealth in natural environments)</p>
+			<p class="indent">Attack: Spit Pod +4 to hit, 1d8 poison</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Summon</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Summon Gloomling" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_GLOOMLING">
+		<supports></supports>
+		<requirements>!ID_CUSTOM_SPELL_SUMMON_VINEMATRIARCH,!ID_CUSTOM_SPELL_SUMMON_BLOOMTAILWIDOW,!ID_CUSTOM_SPELL_SUMMON_DREADPETALGLOOM,!ID_CUSTOM_SPELL_SUMMON_THORNFATHER,!ID_CUSTOM_SPELL_SUMMON_BLOOMMAW,!ID_CUSTOM_SPELL_SUMMON_GLOOMLORD</requirements>
+		<description>
+			<p>Summon a Greenspeaker Companion.</p>
+			<p class="indent">AC: 13 | HP: 10 (3d6)</p>
 			<p class="indent">Speed: 30 ft., fly 30 ft. (hover)</p>
-			<p class="indent">STR 1, DEX 17, CON 10, INT 10, WIS 14, CHA 12</p>
-			<p class="indent">Features: Invisibility (1/rest), Guiding Glow (grant advantage on next
-				attack within 10 ft.)</p>
-			<p class="indent">Attack: Glow Zap +5 to hit, 1d4 radiant</p>
+			<p class="indent">STR 6, DEX 14, CON 10, INT 6, WIS 14, CHA 10</p>
+			<p class="indent">Features: Shade Flicker (can teleport 15 ft. as bonus action if in dim light or darkness), Aura of Dread (5-ft. aura: enemies have -1 to attack rolls)</p>
+			<p class="indent">Attack: Gloom Zap +4 to hit, 1d6 necrotic</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
 			<set name="school">Summon</set>
 			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">30 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
 			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
+			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+	<element name="Summon Vinebound Matriarch" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_VINEMATRIARCH">
+		<supports></supports>
+		<requirements>!ID_CUSTOM_SPELL_SUMMON_THORNFATHER,!ID_CUSTOM_SPELL_SUMMON_BLOOMMAW,!ID_CUSTOM_SPELL_SUMMON_GLOOMLORD</requirements>
+		<description>
+			<p>Summon a Greenspeaker Companion.</p>
+			<p class="indent">AC: 14 | HP: 68 (8d10+24)</p>
+			<p class="indent">Speed: 30 ft., climb 20 ft.</p>
+			<p class="indent">STR 18, DEX 12, CON 16, INT 3, WIS 14, CHA 8</p>
+			<p class="indent">Features: Overgrowth Aura (10 ft. difficult terrain for enemies), Entangling Roots (15 ft. radius, DC 14 Str or restrained, recharge 5–6)</p>
+			<p class="indent">Attack: Vine Lash +6 to hit, reach 10 ft., 2d6+5 slashing (x2 with Multiattack)</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Summon</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Summon Bloomtail Widow" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_BLOOMTAILWIDOW">
+		<supports></supports>
+		<requirements>!ID_CUSTOM_SPELL_SUMMON_THORNFATHER,!ID_CUSTOM_SPELL_SUMMON_BLOOMMAW,!ID_CUSTOM_SPELL_SUMMON_GLOOMLORD</requirements>
+		<description>
+			<p>Summon a Greenspeaker Companion.</p>
+			<p class="indent">AC: 15 | HP: 55 (10d8+10)</p>
+			<p class="indent">Speed: 40 ft., climb 40 ft.</p>
+			<p class="indent">STR 14, DEX 16, CON 12, INT 2, WIS 14, CHA 6</p>
+			<p class="indent">Features: Toxic Web (Restrains on failed DC 13 Dex, once per short rest), Floral Camouflage (advantage on Stealth in foliage)</p>
+			<p class="indent">Attack: Bloom Fang +6 to hit, 2d6+3 piercing + 1d6 poison</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Summon</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Summon Dreadpetal Gloom" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_DREADPETALGLOOM">
+		<supports></supports>
+		<requirements>!ID_CUSTOM_SPELL_SUMMON_THORNFATHER,!ID_CUSTOM_SPELL_SUMMON_BLOOMMAW,!ID_CUSTOM_SPELL_SUMMON_GLOOMLORD</requirements>
+		<description>
+			<p>Summon a Greenspeaker Companion.</p>
+			<p class="indent">AC: 13 | HP: 60 (8d8+24)</p>
+			<p class="indent">Speed: 30 ft., fly 30 ft. (hover)</p>
+			<p class="indent">STR 8, DEX 16, CON 16, INT 10, WIS 16, CHA 12</p>
+			<p class="indent">Features: Shadow Bloom (15 ft. aura: enemies start turn in dim light, DC 15 Wis or have disadvantage on attacks), Terror Shroud (1/rest: invisibility + fear effect for 1 turn)</p>
+			<p class="indent">Attack: Gloombeam +6 to hit, 3d6 necrotic</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Summon</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	
+	<element name="Summon Thornfather" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_THORNFATHER">
+	<supports></supports>
+	<description>
+		<p>Summon a Greenspeaker Companion.</p>
+		<p class="indent">AC: 16 | HP: 90 (12d10+24)</p>
+		<p class="indent">Speed: 30 ft., climb 30 ft.</p>
+		<p class="indent">STR 20, DEX 14, CON 14, INT 6, WIS 14, CHA 8</p>
+		<p class="indent">Features: Thornburst Aura (creatures within 5 ft. at end of their turn take 2 piercing), Entangling Slam (on hit, target must succeed DC 15 Str save or be restrained until end of next turn)</p>
+		<p class="indent">Attack: Thorn Slam +8 to hit, 2d8+5 piercing</p>
+	</description>
+	<setters>
+		<set name="keywords">Greenspeaker</set>
+		<set name="level">14</set>
+		<set name="school">Summon</set>
+		<set name="time">1 action</set>
+		<set name="duration">Concentration, up to 1 hour</set>
+		<set name="range">60 feet</set>
+		<set name="hasVerbalComponent">true</set>
+		<set name="hasSomaticComponent">true</set>
+		<set name="hasMaterialComponent">false</set>
+		<set name="materialComponent" />
+		<set name="isConcentration">true</set>
+		<set name="isRitual">false</set>
+	</setters>
+</element>
 
-	<element name="Summon Blue Jay" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_BLUE_JAY">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 13 | HP: 7</p>
-			<p class="indent">Speed: 10 ft., fly 60 ft.</p>
-			<p class="indent">Features: Keen Sight, Mimicry, Alert Cry (ally gains +1 AC for 1 turn)</p>
-			<p class="indent">Attack: Peck +4 to hit, 1d4 piercing</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">1</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon Bloommaw" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_BLOOMMAW">
+	<supports></supports>
+	<description>
+		<p>Summon a Greenspeaker Companion.</p>
+		<p class="indent">AC: 15 | HP: 75 (10d10+20)</p>
+		<p class="indent">Speed: 30 ft., climb 30 ft.</p>
+		<p class="indent">STR 14, DEX 16, CON 14, INT 4, WIS 16, CHA 8</p>
+		<p class="indent">Features: Spore Cloud (1/rest, 10-ft. radius, DC 15 Con save or poisoned and blinded until end of their next turn), Blend Into Bloom (bonus action: become invisible until it moves or attacks)</p>
+		<p class="indent">Attack: Toxic Bloom +7 to hit, 2d6+4 poison</p>
+	</description>
+	<setters>
+		<set name="keywords">Greenspeaker</set>
+		<set name="level">14</set>
+		<set name="school">Summon</set>
+		<set name="time">1 action</set>
+		<set name="duration">Concentration, up to 1 hour</set>
+		<set name="range">60 feet</set>
+		<set name="hasVerbalComponent">true</set>
+		<set name="hasSomaticComponent">true</set>
+		<set name="hasMaterialComponent">false</set>
+		<set name="materialComponent" />
+		<set name="isConcentration">true</set>
+		<set name="isRitual">false</set>
+	</setters>
+</element>
 
-	<element name="Summon Pixie" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_PIXIE">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 15 | HP: 12</p>
-			<p class="indent">Speed: fly 30 ft.</p>
-			<p class="indent">Features: Spellcasting (Charisma-based, spells like druidcraft,
-				entangle, invisibility)</p>
-			<p class="indent">Fey Trickery: Cast Faerie Fire 1/day</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">1</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon Gloomlord" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_GLOOMLORD">
+	<supports></supports>
+	<description>
+		<p>Summon a Greenspeaker Companion.</p>
+		<p class="indent">AC: 15 | HP: 82 (11d8+33)</p>
+		<p class="indent">Speed: 30 ft., fly 40 ft. (hover)</p>
+		<p class="indent">STR 8, DEX 18, CON 16, INT 10, WIS 18, CHA 14</p>
+		<p class="indent">Features: Umbral Step (can teleport 30 ft. in dim light as bonus action), Dread Veil (10-ft. aura: enemies have disadvantage on Wisdom saves), Shadow Cloak (1/rest, reaction to become invisible when hit)</p>
+		<p class="indent">Attack: Gloomray +8 to hit, 3d6 necrotic</p>
+	</description>
+	<setters>
+		<set name="keywords">Greenspeaker</set>
+		<set name="level">14</set>
+		<set name="school">Summon</set>
+		<set name="time">1 action</set>
+		<set name="duration">Concentration, up to 1 hour</set>
+		<set name="range">60 feet</set>
+		<set name="hasVerbalComponent">true</set>
+		<set name="hasSomaticComponent">true</set>
+		<set name="hasMaterialComponent">false</set>
+		<set name="materialComponent" />
+		<set name="isConcentration">true</set>
+		<set name="isRitual">false</set>
+	</setters>
+</element>
 
-	<element name="Summon Wood Woad Sapling" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_WOOD_WOAD_SAPLING">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 14 | HP: 20</p>
-			<p class="indent">Speed: 20 ft.</p>
-			<p class="indent">Attack: Slam +4 to hit, 1d6+2 bludgeoning</p>
-			<p class="indent">Root Bind: Grasp a creature (DC 12 Strength save or restrained for 1
-				round)</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">1</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-	<element name="Summon Wood Woad" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_WOOD_WOAD">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 16 | HP: 50</p>
-			<p class="indent">Speed: 30 ft.</p>
-			<p class="indent">Attack: Slam +6 to hit, 2d6+4 bludgeoning</p>
-			<p class="indent">Regeneration: Recovers 5 HP at the start of each turn unless it took
-				fire damage</p>
-			<p class="indent">Protective Roots: Nearby allies gain +1 AC</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">6</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon Thornfather" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_THORNFATHER">
+    <supports></supports>
+    <description>
+        <p>Summon a Greenspeaker Companion.</p>
+        <p class="indent">AC: 16 | HP: 90 (12d10+24)</p>
+        <p class="indent">Speed: 30 ft., climb 30 ft.</p>
+        <p class="indent">STR 20, DEX 14, CON 14, INT 6, WIS 14, CHA 8</p>
+        <p class="indent">Features: Thornburst Aura (creatures within 5 ft. at end of their turn take 2 piercing), Entangling Slam (on hit, target must succeed DC 15 Str save or be restrained until end of next turn)</p>
+        <p class="indent">Attack: Thorn Slam +8 to hit, 2d8+5 piercing</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">3</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">60 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
 
-	<element name="Summon Myconid" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_MYCONID">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 13 | HP: 45</p>
-			<p class="indent">Speed: 20 ft.</p>
-			<p class="indent">Features: Spore Cloud (DC 13 Con save or poisoned)</p>
-			<p class="indent">Pacify Spore (1/day): Target must make a DC 13 Wisdom save or be
-				Charmed</p>
-			<p class="indent">Attack: Slam +5 to hit</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">6</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-	<element name="Summon Giant Eagle" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_GIANT_EAGLE">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 13 | HP: 52</p>
-			<p class="indent">Speed: fly 80 ft.</p>
-			<p class="indent">Features: Keen Sight, Dive Bomb (add 1d6 damage when attacking from
-				above)</p>
-			<p class="indent">Attack: Multiattack – 2 Talons (2d6+3), 1 Beak (2d8+3)</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">6</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon Bloommaw" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_BLOOMMAW">
+    <supports></supports>
+    <description>
+        <p>Summon a Greenspeaker Companion.</p>
+        <p class="indent">AC: 15 | HP: 75 (10d10+20)</p>
+        <p class="indent">Speed: 30 ft., climb 30 ft.</p>
+        <p class="indent">STR 14, DEX 16, CON 14, INT 4, WIS 16, CHA 8</p>
+        <p class="indent">Features: Spore Cloud (1/rest, 10-ft. radius, DC 15 Con save or poisoned and blinded until end of their next turn), Blend Into Bloom (bonus action: become invisible until it moves or attacks)</p>
+        <p class="indent">Attack: Toxic Bloom +7 to hit, 2d6+4 poison</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">3</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">60 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
 
-	<element name="Summon Dryad" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_DRYAD">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 16 | HP: 40</p>
-			<p class="indent">Speed: 30 ft.</p>
-			<p class="indent">Features: Teleport (tree to tree), Fey Charm (DC 14), Entangle (1/day)</p>
-			<p class="indent">Spellcasting: Can cast Barkskin, Goodberry, and Druidcraft</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">6</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-	<element name="Summon Elder Dryad" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_ELDER_DRYAD">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 17 | HP: 75</p>
-			<p class="indent">Speed: 30 ft.</p>
-			<p class="indent">Features: Tree Stride, Charm Aura (DC 16), Greater Entangle</p>
-			<p class="indent">Spellcasting: Can cast Barkskin, Goodberry, Druidcraft</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">14</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-	<element name="Summon Warden of the Wood" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_WARDEN_OF_THE_WOOD">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 17 | HP: 90</p>
-			<p class="indent">Speed: 30 ft.</p>
-			<p class="indent">Attack: 2x Slam +8 to hit, 2d6+5 each</p>
-			<p class="indent">Regeneration: Recovers 10 HP at the start of each turn unless it took
-				fire damage</p>
-			<p class="indent">Aura: Nearby allies gain +1 AC</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">14</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-	<element name="Summon Ancient Myconid" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_ANCIENT_MYCONID">
-		<supports></supports>
-		<description>
-			<p>Summon a Greenspeaker Companion.</p>
-			<p class="indent">AC: 15 | HP: 80</p>
-			<p class="indent">Speed: 20 ft.</p>
-			<p class="indent">Features: Spore Cloud (3d6 poison, DC 15 Con), Confusion Aura (DC 15)</p>
-			<p class="indent">Attack: Slam +7 to hit</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">14</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-	<element name="Summon Raven" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_RAVEN">
-		<supports></supports>
-		<description>
-			<p>Summon a Ravensong Companion.</p>
-			<p class="indent">AC: 12 | HP: 5</p>
-			<p class="indent">Speed: fly 50 ft.</p>
-			<p class="indent">Features: Mimicry, Stealthy, Distracting Caw (impose disadvantage on
-				enemy attack roll)</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">1</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon Gloomlord" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_GLOOMLORD">
+    <supports></supports>
+    <description>
+        <p>Summon a Greenspeaker Companion.</p>
+        <p class="indent">AC: 15 | HP: 82 (11d8+33)</p>
+        <p class="indent">Speed: 30 ft., fly 40 ft. (hover)</p>
+        <p class="indent">STR 8, DEX 18, CON 16, INT 10, WIS 18, CHA 14</p>
+        <p class="indent">Features: Umbral Step (can teleport 30 ft. in dim light as bonus action), Dread Veil (10-ft. aura: enemies have disadvantage on Wisdom saves), Shadow Cloak (1/rest, reaction to become invisible when hit)</p>
+        <p class="indent">Attack: Gloomray +8 to hit, 3d6 necrotic</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">3</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">60 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
+<element name="Summon Raven" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_RAVEN">
+    <supports></supports>
+    <requirements>!ID_CUSTOM_SPELL_SUMMON_DIRE_RAVEN,!ID_CUSTOM_SPELL_SUMMON_WHITE_RAVEN,!ID_CUSTOM_SPELL_SUMMON_STORMWING_RAVEN,!ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN,!ID_CUSTOM_SPELL_SUMMON_HIGHSTORM_RAVEN,!ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN</requirements>
+    <description>
+        <p>Summon a Ravensong Companion.</p>
+        <p class="indent">AC: 12 | HP: 5</p>
+        <p class="indent">Speed: fly 50 ft.</p>
+        <p class="indent">Features: Mimicry, Stealthy, Distracting Caw (impose disadvantage on enemy attack roll)</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">1</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">30 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
 
-	<element name="Summon Ashen Raven" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_ASHEN_RAVEN">
-		<supports></supports>
-		<description>
-			<p>Summon a Ravensong Companion.</p>
-			<p class="indent">AC: 13 | HP: 6</p>
-			<p class="indent">Speed: fly 40 ft.</p>
-			<p class="indent">Features: Smoke Trail (obscures vision in a 5-ft line), Ember Peck +4
-				to hit, 1d4 fire</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">1</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon Ashen Raven" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_ASHEN_RAVEN">
+    <supports></supports>
+    <requirements>!ID_CUSTOM_SPELL_SUMMON_DIRE_RAVEN,!ID_CUSTOM_SPELL_SUMMON_WHITE_RAVEN,!ID_CUSTOM_SPELL_SUMMON_STORMWING_RAVEN,!ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN,!ID_CUSTOM_SPELL_SUMMON_HIGHSTORM_RAVEN,!ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN</requirements>
+    <description>
+        <p>Summon a Ravensong Companion.</p>
+        <p class="indent">AC: 13 | HP: 6</p>
+        <p class="indent">Speed: fly 40 ft.</p>
+        <p class="indent">Features: Smoke Trail (obscures vision in a 5-ft line), Ember Peck +4 to hit, 1d4 fire</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">1</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">30 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
 
-	<element name="Summon Shade Raven" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_SHADE_RAVEN">
-		<supports></supports>
-		<description>
-			<p>Summon a Ravensong Companion.</p>
-			<p class="indent">AC: 12 | HP: 6</p>
-			<p class="indent">Speed: fly 60 ft.</p>
-			<p class="indent">Features: Dimlight Glide (ignore opportunity attacks in dim light),
-				Shadow Peck +4 to hit, 1d4 necrotic</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">1</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-	<element name="Summon Dire Raven" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_DIRE_RAVEN">
-		<supports></supports>
-		<description>
-			<p>Summon a Ravensong Companion.</p>
-			<p class="indent">AC: 15 | HP: 40</p>
-			<p class="indent">Speed: fly 60 ft.</p>
-			<p class="indent">Attack: Peck +6</p>
-			<p class="indent">Features: Shadow Dive (teleport 30 ft. in dim light), Flock
-				Distraction (enemies within 5 ft. have disadvantage on Perception checks)</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">6</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon Shade Raven" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_SHADE_RAVEN">
+    <supports></supports>
+    <requirements>!ID_CUSTOM_SPELL_SUMMON_DIRE_RAVEN,!ID_CUSTOM_SPELL_SUMMON_WHITE_RAVEN,!ID_CUSTOM_SPELL_SUMMON_STORMWING_RAVEN,!ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN,!ID_CUSTOM_SPELL_SUMMON_HIGHSTORM_RAVEN,!ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN</requirements>
+    <description>
+        <p>Summon a Ravensong Companion.</p>
+        <p class="indent">AC: 12 | HP: 6</p>
+        <p class="indent">Speed: fly 60 ft.</p>
+        <p class="indent">Features: Dimlight Glide (ignore opportunity attacks in dim light), Shadow Peck +4 to hit, 1d4 necrotic</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">1</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">30 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
+<element name="Summon Dire Raven" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_DIRE_RAVEN">
+    <supports></supports>
+    <requirements>!ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN,!ID_CUSTOM_SPELL_SUMMON_HIGHSTORM_RAVEN,!ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN</requirements>
+    <description>
+        <p>Summon a Ravensong Companion.</p>
+        <p class="indent">AC: 15 | HP: 40</p>
+        <p class="indent">Speed: fly 60 ft.</p>
+        <p class="indent">Features: Shadow Dive (teleport 30 ft. in dim light), Flock Distraction (enemies within 5 ft. have disadvantage on Perception checks)</p>
+        <p class="indent">Attack: Peck +6 to hit, 2d6 piercing</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">6</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">30 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
 
-	<element name="Summon White Raven" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_WHITE_RAVEN">
-		<supports></supports>
-		<description>
-			<p>Summon a Ravensong Companion.</p>
-			<p class="indent">AC: 16 | HP: 48</p>
-			<p class="indent">Speed: fly 60 ft.</p>
-			<p class="indent">Attack: Talons +6</p>
-			<p class="indent">Features: Healing Aura (1d4 HP to allies within 5 ft. each round),
-				Cure Wounds (1/day)</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">6</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon White Raven" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_WHITE_RAVEN">
+    <supports></supports>
+    <requirements>!ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN,!ID_CUSTOM_SPELL_SUMMON_HIGHSTORM_RAVEN,!ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN</requirements>
+    <description>
+        <p>Summon a Ravensong Companion.</p>
+        <p class="indent">AC: 16 | HP: 48</p>
+        <p class="indent">Speed: fly 60 ft.</p>
+        <p class="indent">Features: Healing Aura (1d4 HP to allies within 5 ft. each round), Cure Wounds (1/day)</p>
+        <p class="indent">Attack: Talons +6 to hit, 1d6+3 slashing</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">6</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">30 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
 
-	<element name="Summon Stormwing Raven" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_STORMWING_RAVEN">
-		<supports></supports>
-		<description>
-			<p>Summon a Ravensong Companion.</p>
-			<p class="indent">AC: 15 | HP: 42</p>
-			<p class="indent">Speed: fly 70 ft.</p>
-			<p class="indent">Features: Static Charge (1d6 lightning once per turn), Wing Buffet
-				(push target 5 ft., DC 13 Strength)</p>
-			<p class="indent">Attack: Talons +6 to hit, 1d6+3 slashing</p>
-		</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level">6</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="materialComponent" />
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+<element name="Summon Stormwing Raven" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_STORMWING_RAVEN">
+    <supports></supports>
+    <requirements>!ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN,!ID_CUSTOM_SPELL_SUMMON_HIGHSTORM_RAVEN,!ID_CUSTOM_SPELL_SUMMON_ECLIPSE_RAVEN</requirements>
+    <description>
+        <p>Summon a Ravensong Companion.</p>
+        <p class="indent">AC: 15 | HP: 42</p>
+        <p class="indent">Speed: fly 70 ft.</p>
+        <p class="indent">Features: Static Charge (1d6 lightning once per turn), Wing Buffet (push target 5 ft., DC 13 Strength)</p>
+        <p class="indent">Attack: Talons +6 to hit, 1d6+3 slashing</p>
+    </description>
+    <setters>
+        <set name="keywords"></set>
+        <set name="level">6</set>
+        <set name="school">Summon</set>
+        <set name="time">1 action</set>
+        <set name="duration">Concentration, up to 1 hour</set>
+        <set name="range">30 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">false</set>
+        <set name="materialComponent" />
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+    </setters>
+</element>
 	<element name="Summon Ghost Raven" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_GHOST_RAVEN">
 		<supports></supports>
@@ -526,161 +549,167 @@
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
-	</element>
-	<element name="Summon Worg Pup" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_WORG_PUP">
-		<supports></supports>
-		<description>
-			<p>Summon a Worgborn Companion.</p>
-			<p class="indent">AC: 13 | HP: 11</p>
-			<p class="indent">Speed: 40 ft.</p>
-			<p class="indent">STR 14, DEX 15, CON 12, INT 3, WIS 12, CHA 6</p>
-			<p class="indent">Features: Pack Tactics, Keen Hearing and Smell</p>
-			<p class="indent">Attack: Bite +4 to hit, 1d6+2 piercing</p>
-		</description>
-		<setters>
-			<set name="level">0</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
+		<element name="Summon Worg Pup" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_WORG_PUP">
+			<supports></supports>
+			<requirements>!ID_CUSTOM_SPELL_SUMMON_BLINK_DOG,!ID_CUSTOM_SPELL_SUMMON_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WHITE_WORG,!ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WORG_ALPHA,!ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG</requirements>
+			<description>
+				<p>Summon a Worgborn Companion.</p>
+				<p class="indent">AC: 13 | HP: 11</p>
+				<p class="indent">Speed: 40 ft.</p>
+				<p class="indent">STR 14, DEX 15, CON 12, INT 3, WIS 12, CHA 6</p>
+				<p class="indent">Features: Pack Tactics, Keen Hearing and Smell</p>
+				<p class="indent">Attack: Bite +4 to hit, 1d6+2 piercing</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="level">1</set>
+				<set name="school">Summon</set>
+				<set name="time">1 action</set>
+				<set name="duration">Concentration, up to 1 hour</set>
+				<set name="range">30 feet</set>
+				<set name="hasVerbalComponent">true</set>
+				<set name="hasSomaticComponent">true</set>
+				<set name="hasMaterialComponent">false</set>
+				<set name="materialComponent" />
+				<set name="isConcentration">true</set>
+				<set name="isRitual">false</set>
+			</setters>
+		</element>
+		
+		<element name="Summon Pack Hound" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_PACK_HOUND">
+			<supports></supports>
+			<requirements>!ID_CUSTOM_SPELL_SUMMON_BLINK_DOG,!ID_CUSTOM_SPELL_SUMMON_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WHITE_WORG,!ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WORG_ALPHA,!ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG</requirements>
+			<description>
+				<p>Summon a Worgborn Companion.</p>
+				<p class="indent">AC: 12 | HP: 9</p>
+				<p class="indent">Speed: 30 ft.</p>
+				<p class="indent">STR 12, DEX 14, CON 11, INT 2, WIS 12, CHA 5</p>
+				<p class="indent">Features: Loyal Bond (ally within 5 ft. gets +1 AC if hound is adjacent), Keen Hearing</p>
+				<p class="indent">Attack: Bite +3 to hit, 1d6 piercing</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="level">1</set>
+				<set name="school">Summon</set>
+				<set name="time">1 action</set>
+				<set name="duration">Concentration, up to 1 hour</set>
+				<set name="range">30 feet</set>
+				<set name="hasVerbalComponent">true</set>
+				<set name="hasSomaticComponent">true</set>
+				<set name="hasMaterialComponent">false</set>
+				<set name="materialComponent" />
+				<set name="isConcentration">true</set>
+				<set name="isRitual">false</set>
+			</setters>
+		</element>
+		
+		<element name="Summon Frostfang Pup" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_FROSTFANG_PUP">
+			<supports></supports>
+			<requirements>!ID_CUSTOM_SPELL_SUMMON_BLINK_DOG,!ID_CUSTOM_SPELL_SUMMON_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WHITE_WORG,!ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WORG_ALPHA,!ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG</requirements>
+			<description>
+				<p>Summon a Worgborn Companion.</p>
+				<p class="indent">AC: 14 | HP: 10</p>
+				<p class="indent">Speed: 30 ft.</p>
+				<p class="indent">STR 12, DEX 16, CON 10, INT 3, WIS 11, CHA 7</p>
+				<p class="indent">Features: Cold Resistance, Pack Howl (allies gain +1 to attack rolls while adjacent)</p>
+				<p class="indent">Attack: Bite +4 to hit, 1d4+2 cold damage</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="level">1</set>
+				<set name="school">Summon</set>
+				<set name="time">1 action</set>
+				<set name="duration">Concentration, up to 1 hour</set>
+				<set name="range">30 feet</set>
+				<set name="hasVerbalComponent">true</set>
+				<set name="hasSomaticComponent">true</set>
+				<set name="hasMaterialComponent">false</set>
+				<set name="materialComponent" />
+				<set name="isConcentration">true</set>
+				<set name="isRitual">false</set>
+			</setters>
+		</element>
 
-	<element name="Summon Pack Hound" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_PACK_HOUND">
-		<supports></supports>
-		<description>
-			<p>Summon a Worgborn Companion.</p>
-			<p class="indent">AC: 12 | HP: 9</p>
-			<p class="indent">Speed: 30 ft.</p>
-			<p class="indent">STR 12, DEX 14, CON 11, INT 2, WIS 12, CHA 5</p>
-			<p class="indent">Features: Loyal Bond (ally within 5 ft. gets +1 AC if hound is
-				adjacent), Keen Hearing</p>
-			<p class="indent">Attack: Bite +3 to hit, 1d6 piercing</p>
-		</description>
-		<setters>
-			<set name="level">0</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="Summon Frostfang Pup" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_FROSTFANG_PUP">
-		<supports></supports>
-		<description>
-			<p>Summon a Worgborn Companion.</p>
-			<p class="indent">AC: 14 | HP: 10</p>
-			<p class="indent">Speed: 30 ft.</p>
-			<p class="indent">STR 12, DEX 16, CON 10, INT 3, WIS 11, CHA 7</p>
-			<p class="indent">Features: Cold Resistance, Pack Howl (allies gain +1 to attack rolls
-				while adjacent)</p>
-			<p class="indent">Attack: Bite +4 to hit, 1d4+2 cold damage</p>
-		</description>
-		<setters>
-			<set name="level">0</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="Summon Blink Dog" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_BLINK_DOG">
-		<supports></supports>
-		<description>
-			<p>Summon a Worgborn Companion.</p>
-			<p class="indent">AC: 15 | HP: 40</p>
-			<p class="indent">Speed: 40 ft.</p>
-			<p class="indent">STR 15, DEX 17, CON 14, INT 6, WIS 12, CHA 8</p>
-			<p class="indent">Features: Blink Step (teleport 40 ft. as bonus action), Ally Evasion
-				(+1 to saves for adjacent allies)</p>
-			<p class="indent">Attack: Bite +6 to hit, 2d6+3 piercing</p>
-		</description>
-		<setters>
-			<set name="level">3</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="Summon Shadow Mastiff" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_SHADOW_MASTIFF">
-		<supports></supports>
-		<description>
-			<p>Summon a Worgborn Companion.</p>
-			<p class="indent">AC: 14 | HP: 50</p>
-			<p class="indent">Speed: 40 ft.</p>
-			<p class="indent">STR 17, DEX 15, CON 14, INT 5, WIS 12, CHA 6</p>
-			<p class="indent">Features: Dimlight Stealth, Frightening Howl (DC 13 Wis)</p>
-			<p class="indent">Attack: Bite +6 to hit, 2d6+3 piercing</p>
-		</description>
-		<setters>
-			<set name="level">3</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="Summon White Worg" type="Spell" source="Crimson's Homebrew"
-		id="ID_CUSTOM_SPELL_SUMMON_WHITE_WORG">
-		<supports></supports>
-		<description>
-			<p>Summon a Worgborn Companion.</p>
-			<p class="indent">AC: 15 | HP: 55</p>
-			<p class="indent">Speed: 40 ft.</p>
-			<p class="indent">STR 18, DEX 16, CON 15, INT 6, WIS 13, CHA 8</p>
-			<p class="indent">Features: Cold Bite (1d8+4 cold), War Roar (allies within 10 ft. gain
-				5 temp HP)</p>
-			<p class="indent">Attack: Bite +7 to hit, 1d8+4 cold damage</p>
-		</description>
-		<setters>
-			<set name="level">3</set>
-			<set name="school">Summon</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">false</set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
+		<element name="Summon Blink Dog" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_BLINK_DOG">
+			<supports></supports>
+			<requirements>!ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WORG_ALPHA,!ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG</requirements>
+			<description>
+				<p>Summon a Worgborn Companion.</p>
+				<p class="indent">AC: 15 | HP: 40</p>
+				<p class="indent">Speed: 40 ft.</p>
+				<p class="indent">STR 15, DEX 17, CON 14, INT 6, WIS 12, CHA 8</p>
+				<p class="indent">Features: Blink Step (teleport 40 ft. as bonus action), Ally Evasion (+1 to saves for adjacent allies)</p>
+				<p class="indent">Attack: Bite +6 to hit, 2d6+3 piercing</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="level">6</set>
+				<set name="school">Summon</set>
+				<set name="time">1 action</set>
+				<set name="duration">Concentration, up to 1 hour</set>
+				<set name="range">30 feet</set>
+				<set name="hasVerbalComponent">true</set>
+				<set name="hasSomaticComponent">true</set>
+				<set name="hasMaterialComponent">false</set>
+				<set name="materialComponent" />
+				<set name="isConcentration">true</set>
+				<set name="isRitual">false</set>
+			</setters>
+		</element>
+		
+		<element name="Summon Shadow Mastiff" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_SHADOW_MASTIFF">
+			<supports></supports>
+			<requirements>!ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WORG_ALPHA,!ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG</requirements>
+			<description>
+				<p>Summon a Worgborn Companion.</p>
+				<p class="indent">AC: 14 | HP: 50</p>
+				<p class="indent">Speed: 40 ft.</p>
+				<p class="indent">STR 17, DEX 15, CON 14, INT 5, WIS 12, CHA 6</p>
+				<p class="indent">Features: Dimlight Stealth, Frightening Howl (DC 13 Wis)</p>
+				<p class="indent">Attack: Bite +6 to hit, 2d6+3 piercing</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="level">6</set>
+				<set name="school">Summon</set>
+				<set name="time">1 action</set>
+				<set name="duration">Concentration, up to 1 hour</set>
+				<set name="range">30 feet</set>
+				<set name="hasVerbalComponent">true</set>
+				<set name="hasSomaticComponent">true</set>
+				<set name="hasMaterialComponent">false</set>
+				<set name="materialComponent" />
+				<set name="isConcentration">true</set>
+				<set name="isRitual">false</set>
+			</setters>
+		</element>
+		
+		<element name="Summon White Worg" type="Spell" source="Crimson's Homebrew" id="ID_CUSTOM_SPELL_SUMMON_WHITE_WORG">
+			<supports></supports>
+			<requirements>!ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF,!ID_CUSTOM_SPELL_SUMMON_WORG_ALPHA,!ID_CUSTOM_SPELL_SUMMON_GLACIAL_WORG</requirements>
+			<description>
+				<p>Summon a Worgborn Companion.</p>
+				<p class="indent">AC: 15 | HP: 55</p>
+				<p class="indent">Speed: 40 ft.</p>
+				<p class="indent">STR 18, DEX 16, CON 15, INT 6, WIS 13, CHA 8</p>
+				<p class="indent">Features: Cold Bite (1d8+4 cold), War Roar (allies within 10 ft. gain 5 temp HP)</p>
+				<p class="indent">Attack: Bite +7 to hit, 1d8+4 cold damage</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="level">6</set>
+				<set name="school">Summon</set>
+				<set name="time">1 action</set>
+				<set name="duration">Concentration, up to 1 hour</set>
+				<set name="range">30 feet</set>
+				<set name="hasVerbalComponent">true</set>
+				<set name="hasSomaticComponent">true</set>
+				<set name="hasMaterialComponent">false</set>
+				<set name="materialComponent" />
+				<set name="isConcentration">true</set>
+				<set name="isRitual">false</set>
+			</setters>
+		</element>
 	<element name="Summon Dire Shadow Mastiff" type="Spell" source="Crimson's Homebrew"
 		id="ID_CUSTOM_SPELL_SUMMON_DIRE_SHADOW_MASTIFF">
 		<supports></supports>
@@ -1356,7 +1385,7 @@
 	</element>
 	<element name="Fire" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_FIRE">
 		<supports>Fighter, Limitbreaker</supports>
-		<requirements>!ID_HOMEBREW_SPELL_FIRA</requirements>
+		<requirements>!ID_HOMEBREW_SPELL_FIRA,!ID_HOMEBREW_SPELL_FIRAGA,!ID_HOMEBREW_SPELL_ZETAFLARE</requirements>
 		<description>
 			<p>You hurl a bolt of flame at a creature within range. Make a ranged spell attack
 				against the target. On a hit, the target takes 2d8 fire damage.</p>
@@ -1376,11 +1405,10 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
-	<!-- Blizzard -->
+	
 	<element name="Blizzard" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_BLIZZARD">
 		<supports>Fighter, Limitbreaker</supports>
-		<requirements>!ID_HOMEBREW_SPELL_BLIZZARA</requirements>
+		<requirements>!ID_HOMEBREW_SPELL_BLIZZARA,!ID_HOMEBREW_SPELL_BLIZZAGA,!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO</requirements>
 		<description>
 			<p>A shard of ice streaks toward a target. Make a ranged spell attack. On a hit, the
 				target takes 2d8 cold damage and must succeed a Constitution saving throw or have
@@ -1400,11 +1428,10 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
-	<!-- Thunder -->
+	
 	<element name="Thunder" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_THUNDER">
 		<supports>Fighter, Limitbreaker</supports>
-		<requirements>!ID_HOMEBREW_SPELL_THUNDARA</requirements>
+		<requirements>!ID_HOMEBREW_SPELL_THUNDARA,!ID_HOMEBREW_SPELL_THUNDAGA,!ID_HOMEBREW_SPELL_JUDGMENT_BOLT</requirements>
 		<description>
 			<p>A burst of thunderous force erupts from a point you choose within range. Each
 				creature in a 10-foot-radius sphere must make a Constitution saving throw, taking
@@ -1425,11 +1452,10 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
-	<!-- Cure -->
+	
 	<element name="Cure" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_CURE">
 		<supports>Fighter, Limitbreaker</supports>
-		<requirements>!ID_HOMEBREW_SPELL_CURA</requirements>
+		<requirements>!ID_HOMEBREW_SPELL_CURA,!ID_HOMEBREW_SPELL_CURAGA,!ID_HOMEBREW_SPELL_FULL_HEAL</requirements>
 		<description>
 			<p>A surge of revitalizing energy restores hit points to a creature you can see within
 				range. The target regains hit points equal to 1d8 + your Constitution modifier.</p>
@@ -1451,7 +1477,7 @@
 	</element>
 	<element name="Fira" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_FIRA">
 		<supports>Fighter, Limitbreaker</supports>
-		<requirements>!ID_HOMEBREW_SPELL_FIRAGA</requirements>
+		<requirements>!ID_HOMEBREW_SPELL_FIRAGA,!ID_HOMEBREW_SPELL_ZETAFLARE</requirements>
 		<description>
 			<p>You conjure a more powerful bolt of flame. Make a ranged spell attack. On a hit, the
 				target takes 4d8 fire damage.</p>
@@ -1470,11 +1496,10 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
-	<!-- Blizzara -->
+	
 	<element name="Blizzara" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_BLIZZARA">
 		<supports>Fighter, Limitbreaker</supports>
-		<requirements>!ID_HOMEBREW_SPELL_BLIZZAGA</requirements>
+		<requirements>!ID_HOMEBREW_SPELL_BLIZZAGA,!ID_HOMEBREW_SPELL_ABSOLUTE_ZERO</requirements>
 		<description>
 			<p>A wave of chilling ice strikes a target. Make a ranged spell attack. On a hit, the
 				target takes 4d8 cold damage and must make a Constitution saving throw or be slowed
@@ -1494,11 +1519,10 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
-	<!-- Thundara -->
+	
 	<element name="Thundara" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_THUNDARA">
 		<supports>Fighter, Limitbreaker</supports>
-		<requirements>!ID_HOMEBREW_SPELL_THUNDAGA</requirements>
+		<requirements>!ID_HOMEBREW_SPELL_THUNDAGA,!ID_HOMEBREW_SPELL_JUDGMENT_BOLT</requirements>
 		<description>
 			<p>A crackling bolt of lightning strikes a creature you choose within range. The target
 				must make a Dexterity saving throw, taking 4d8 lightning damage on a failed save, or
@@ -1518,11 +1542,10 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
-	<!-- Cura -->
+	
 	<element name="Cura" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_CURA">
 		<supports>Fighter, Limitbreaker</supports>
-		<requirements>!ID_HOMEBREW_SPELL_CURAGA</requirements>
+		<requirements>!ID_HOMEBREW_SPELL_CURAGA,!ID_HOMEBREW_SPELL_FULL_HEAL</requirements>
 		<description>
 			<p>A potent wave of healing restores vitality to a creature within range. The target
 				regains hit points equal to 3d8 + your Constitution modifier.</p>
@@ -1541,7 +1564,6 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-
 	<element name="Firaga" type="Spell" source="Crimson's Homebrew" id="ID_HOMEBREW_SPELL_FIRAGA">
 		<supports>Fighter, Limitbreaker</supports>
 		<requirements>!ID_HOMEBREW_SPELL_ZETAFLARE</requirements>
