@@ -4,7 +4,7 @@
 		<name>Wyldheart</name>
 		<description>A homebrew class for those who channel the untamed forces of nature and the elements, embodying the primal magic of the wild.</description>
 		<author url="https://github.com/CrimsonPoptarts/AuroraHomebrews">Crimson's Homebrew</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="class-wyldheart.xml" url="https://raw.githubusercontent.com/CrimsonPoptarts/AuroraHomebrews/master/Crimsons-Homebrew/classes/class-wyldheart.xml" />
 		</update>
 	</info>
@@ -243,7 +243,11 @@
 			<p class="indent">Verdant Revival: Once per long rest, when you or your companion is reduced to 0 hit points, you can choose to have them immediately regain hit points equal to half their maximum hit points.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description>You can invoke the primal forces of nature to enhance your companion. Grant companion HP equal to 6*(Invocation Level).</description>
+			<description level="1">You can invoke the primal forces of nature to enhance your companion. Grant companion 6 HP. Healing Pulse: Grant yourself or your companion temporary hit points equal to your Wyldheart level + your Blessing of the Wyld modifier. Usable a number of times equal to your proficiency bonus per long rest.</description>
+			<description level="6">You can invoke the primal forces of nature to enhance your companion. Grant companion 12 HP. Burst of Energy: Release a burst of energy in a 15-foot cone. Enemies must succeed on a Strength saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be knocked prone and pushed 10 feet away. Summoned creatures within 60 feet gain advantage on their next attack roll or saving throw.</description>
+			<description level="11">You can invoke the primal forces of nature to enhance your companion. Grant companion 18 HP. Resilient Growth: When you or your companion drops to 0 hit points but isn't killed outright, you can cause them to drop to 1 hit point instead. Additionally, they gain temporary hit points equal to your Wyldheart level + your Blessing of the Wyld modifier. Usable once per long rest.</description>
+			<description level="14">You can invoke the primal forces of nature to enhance your companion. Grant companion 24 HP. Empowered Strikes: Your companion's weapon attacks count as magical for overcoming resistance and immunity to nonmagical attacks. They also gain a bonus to damage rolls equal to your Blessing of the Wyld modifier.</description>
+			<description level="18">You can invoke the primal forces of nature to enhance your companion. Grant companion 30 HP. Nature's Ascendancy: You and your companion gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks. Verdant Revival: Once per long rest, when reduced to 0 hit points, regain hit points equal to half your maximum hit points.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_CUSTOM_SPELL_NATURES_INVOCATION_I" level="1" />
